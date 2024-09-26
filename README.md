@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,26 +27,6 @@
             max-width: 1200px;
             margin: 0 auto;
         }
-        .about {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .about img {
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            margin-right: 20px;
-        }
-        .about div {
-            max-width: 800px;
-        }
-        .experience {
-            margin-top: 40px;
-        }
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -76,11 +55,9 @@
             margin-top: 20px;
         }
         @media (max-width: 768px) {
-            .about {
+            .container {
                 flex-direction: column;
-            }
-            .about img {
-                margin: 0 0 20px 0;
+                align-items: center;
             }
         }
     </style>
@@ -91,24 +68,9 @@
     <h1>Portfólio de Sérgio Santos</h1>
 </header>
 
-<section class="about">
-    <img src="sua-foto.jpg" alt="Foto de Sérgio Santos">
-    <div>
-        <h2>Sobre Mim</h2>
-        <p>Sou um profissional com sólida carreira na área de Tecnologia da Informação, e também tenho experiência no campo do Direito. Possuo ampla vivência em análise, programação e desenvolvimento de sistemas, com destacada atuação em projetos de tecnologia voltados para o setor bancário. Competente na instalação, configuração e manutenção de sistemas operacionais Windows e dispositivos de rede. Retornando ao mercado após um período afastado, estou com disposição para enfrentar novos desafios, aprimorar conhecimentos e aplicar soluções inovadoras.</p>
-    </div>
-</section>
-
-<section class="experience">
-    <h2>Experiência Profissional</h2>
-    <p>Tenho vasta experiência na área de Tecnologia da Informação, com um histórico de sucesso em:</p>
-    <ul>
-        <li>Desenvolvimento de soluções para processamento bancário.</li>
-        <li>Administração e configuração de redes de computadores com mais de 500 usuários.</li>
-        <li>Instalação e manutenção de sistemas operacionais Windows NT/2000.</li>
-        <li>Elaboração de documentação técnica e manuais de sistemas.</li>
-        <li>Trabalho com normas de segurança em servidores Windows.</li>
-    </ul>
+<section>
+    <h2>Sobre Mim</h2>
+    <p>Sou um profissional com sólida carreira na área de Tecnologia da Informação, e também tenho experiência no campo do Direito. Possuo ampla vivência em análise, programação e desenvolvimento de sistemas, com destacada atuação em projetos de tecnologia voltados para o setor bancário. Competente na instalação, configuração e manutenção de sistemas operacionais Windows e dispositivos de rede. Retornando ao mercado após um período afastado, estou com disposição para enfrentar novos desafios, aprimorar conhecimentos e aplicar soluções inovadoras.</p>
 </section>
 
 <section>
@@ -127,20 +89,6 @@
             <p>Instalação, configuração e manutenção de sistemas operacionais Windows NT/2000 PRO e servidores.</p>
         </div>
     </div>
-</section>
-
-<section>
-    <h2>Qualificações Técnicas</h2>
-    <ul>
-        <li>Microsoft Visual Basic 6.0</li>
-        <li>Sistemas Operacionais Windows (instalação, configuração e suporte)</li>
-        <li>Instalação e configuração de dispositivos de rede e periféricos</li>
-        <li>Desenvolvimento de sistemas para o setor bancário</li>
-        <li>Elaboração de documentação técnica e manuais de usuário</li>
-        <li>Administração de servidores Windows e gerenciamento de permissões de rede</li>
-        <li>Suporte técnico a usuários finais e clientes internos</li>
-        <li>Resolução de problemas de hardware e software</li>
-    </ul>
 </section>
 
 <footer>
