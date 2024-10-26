@@ -2,7 +2,10 @@
 
 ![Screenshot_20241026-013509](https://github.com/user-attachments/assets/c49a7190-3c40-420f-8300-18daaab72dcf)
 
-Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do laboratório da DIO
+Este repositório contém o resumo das lições aprendidas durante o Bootcamp da Dio, referente a Tecnologia Microsoft Azure.
+O curso proporcionou um amplo conhecimento sobre a tecnologia em nuvem: Microsoft Azure.
+Com a brilhante orientação das professoras Valeria Baptista e Elidiana Andrade, adquiri um valioso conhecimento.
+
 
 Localizando Serviços por Categoria no Portal do Azure
 
