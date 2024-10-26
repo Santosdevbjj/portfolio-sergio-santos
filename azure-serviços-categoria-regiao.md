@@ -1,5 +1,4 @@
-Azure: Serviços disponíveis por categorias e
-tipos de região
+## Azure: Serviços disponíveis por categorias e tipos de região
 
 A disponibilidade de serviços em regiões do 
 Azure depende do tipo de uma região.
