@@ -14,7 +14,7 @@ O portal organiza os serviços em categorias, facilitando a navegação e a busc
 
 
 
-## Percurso
+## Trilha do Aprendizado
 <table>
   <thead>
     <tr align="left">
