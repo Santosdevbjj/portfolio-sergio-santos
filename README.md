@@ -14,6 +14,40 @@ O portal organiza os serviços em categorias, facilitando a navegação e a busc
 
 
 
+## Percurso
+<table>
+  <thead>
+    <tr align="left">
+      <th>Número</th>
+      <th>Etapas</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>01</td>
+      <td> Introdução ao Azure Essentials com a Microsoft</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Introdução a Computação em Nuvem</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Versionamento de Código com Git e GitHub</td>  
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>Desafios de Projetos: Crie um Portfólio Vencedor</td> 
+<td>05</td>
+      <td>Contribuindo em um Projeto OPEN SOURCE no Github</td> 
+<td>06</td>
+      <td>Criando Aplicações Serveless com Azure Functions Apps</td> 
+    </tr>
+  </tbody>
+</table> 
+
+
+
 
 
 ## Ferramentas
