@@ -1,5 +1,7 @@
 ## MICROSOFT AZURE
 
+![Screenshot_20241025-182755](https://github.com/user-attachments/assets/602cabb6-fe2d-4f2a-9497-3efa52be70fc)
+
 O Microsoft Azure é uma plataforma de computação em nuvem com um conjunto de serviços em constante 
 expansão para ajudar você a criar soluções para atingir suas metas de negócios. 
 Os serviços do Azure dão suporte a tudo, do simples ao complexo.
