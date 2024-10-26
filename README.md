@@ -1,3 +1,8 @@
+
+/ Default values
+$main-color: #02aab0;
+$secondary-color: #00cdac; 
+
 ## Azure laboratório 
 
 ![Screenshot_20241026-013509](https://github.com/user-attachments/assets/c49a7190-3c40-420f-8300-18daaab72dcf)
