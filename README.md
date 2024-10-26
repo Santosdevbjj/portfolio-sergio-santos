@@ -37,9 +37,13 @@ O portal organiza os serviços em categorias, facilitando a navegação e a busc
     </tr>
     <tr>
       <td>04</td>
-      <td>Desafios de Projetos: Crie um Portfólio Vencedor</td> 
+      <td>Desafios de Projetos: Crie um Portfólio Vencedor</td>
+      </tr>
+    <tr>
 <td>05</td>
-      <td>Contribuindo em um Projeto OPEN SOURCE no Github</td> 
+      <td>Contribuindo em um Projeto OPEN SOURCE no Github</td>
+      </tr>
+    <tr>
 <td>06</td>
       <td>Criando Aplicações Serveless com Azure Functions Apps</td> 
     </tr>
