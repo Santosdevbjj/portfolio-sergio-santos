@@ -1,5 +1,5 @@
-Tipos de serviços de nuvem: 
-IaaS, PaaS, sem servidor e SaaS
+## Tipos de serviços de nuvem: 
+## IaaS, PaaS, sem servidor e SaaS
 
 A maioria dos serviços de computação em nuvem
 se enquadra em quatro categorias amplas:
