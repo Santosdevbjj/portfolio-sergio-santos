@@ -1,4 +1,4 @@
-Versionamento de código
+## Versionamento de código
 
 Um conhecimento paralelo às linguagens de programação, mas muito importante para o trabalho do desenvolvedor, é o versionamento de código. Como o nome sugere, é o conhecimento em versionar e salvar versões de uma aplicação. 
 
@@ -6,7 +6,7 @@ Resumindo dessa maneira, parece algo comum, como salvar vários arquivos com ver
 
 Veja tudo o que você precisa saber sobre o versionamento de código e quais ferramentas são as mais importantes para isso! 
 
-O que é versionamento de código?
+## O que é versionamento de código?
 
 O versionamento é o processo de criar novas versões de um código toda vez que existir uma mudança significativa nele.
 
@@ -20,7 +20,7 @@ Assim, enquanto o código está sendo desenvolvido, o programador vai criando as
 
 Por conta disso, o versionamento de código faz parte das boas práticas de programação e se torna importante para a organização do projeto, consegue contribuir com o trabalho em equipe e também criar um “backup” de todas as mudanças. 
 
-Como fazer o versionamento?
+## Como fazer o versionamento?
 
 O versionamento de código é feito durante o processo de construção de código, utilizando o terminal da IDE (ambiente de desenvolvimento integrado, onde se escreve o código) escolhida ou o terminal da própria máquina, dependendo da necessidade e da etapa do processo. 
 
@@ -32,7 +32,7 @@ Assim, para conseguir fazer o versionamento de código é preciso conhecer os co
 
 Além disso, o próprio versionamento também é feito em etapas, pois considera tanto o repositório local quanto um remoto. Assim, o Git tem a função de contribuir com a organização do código e também por enviá-lo para um repositório remoto.  
 
-O que é Git?
+## O que é Git?
 
 Como vimos, o Git é a ferramenta de controle de versões mais completa, popular e utilizada no mundo da programação. Com ela, é possível criar versões detalhadas, além de outras funções presentes que são úteis no dia a dia. 
 
@@ -42,7 +42,7 @@ O Git funciona localmente, ou seja, na máquina do programador e organiza o cód
 
 Depois, é possível subir toda essa organização para um repositório remoto, o que é bastante comum no dia a dia empresarial. Isso porque, na prática, são vários programadores mexendo no mesmo código, cada um em sua máquina. Depois, reúne-se tudo remotamente. 
 
-O que é Github?
+## O que é Github?
 
 Muita gente acha que Git e Github são a mesma coisa, mas não são. O Github é uma ferramenta para reunir repositórios de forma remota. A partir do Git é possível enviar as alterações do código direto para o Github. 
 
