@@ -1,6 +1,9 @@
 ## Criar uma aplicação Serverless com Azure
 ## Functions
 
+![Screenshot_20241029-004051](https://github.com/user-attachments/assets/2acfd8da-f5c5-4832-b3cd-128fd412b60f)
+
+
 É uma ótima opção para construir soluções que respondem a eventos em tempo real, sem a necessidade de gerenciar infraestrutura. No modelo Serverless, o Azure se encarrega de toda a infraestrutura, permitindo que você foque apenas no desenvolvimento do código.
 
 Vamos abordar os passos principais para criar uma aplicação com Azure Functions, seguido de um exemplo prático.
