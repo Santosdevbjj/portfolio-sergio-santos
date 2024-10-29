@@ -1,5 +1,8 @@
 ## Versionamento de código
 
+![Screenshot_20241029-001305](https://github.com/user-attachments/assets/2de0e887-e30c-444c-a6b2-c80cc8f4933a)
+
+
 Um conhecimento paralelo às linguagens de programação, mas muito importante para o trabalho do desenvolvedor, é o versionamento de código. Como o nome sugere, é o conhecimento em versionar e salvar versões de uma aplicação. 
 
 Resumindo dessa maneira, parece algo comum, como salvar vários arquivos com versões diferentes. Porém, na prática, o versionamento de código é algo ainda mais organizado e ágil 一 e um pouco mais complexo de ser feito. 
