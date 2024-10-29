@@ -1,5 +1,7 @@
 Criar uma máquina virtual
 
+
+
 As máquinas virtuais (VM) do Azure podem ser criadas por meio do Portal do Azure. Esse método fornece uma interface de usuário baseada em navegador para criar as VMS seus recursos relacionados. Esse início rápido mostra como usar o portal do Azure para implantar uma máquina virtual (VM) no Azure que executa o Windows Server 2022 Datacenter. Para ver a VM em ação, você habilita o protocolo RDP na VM e instala o servidor Web do IIS. 
 
 Se você não tiver uma assinatura do Azure, crie uma conta gratuita antes de começar. 
