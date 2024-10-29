@@ -1,15 +1,14 @@
-Criando uma instância de banco de dados no Azure
+## Configurando uma instância de banco de dados no Azure
 
-Pré-requisitos
+## Pré-requisitos
 
 Uma assinatura do Azure. Se você não tem uma assinatura do Azure, crie uma conta gratuita
 
 O módulo Az.SQL mais recente para a versão atual do PowerShell ou a versão mais recente da CLI do Azure.
 
-
 Você pode criar uma implantação de Instância Gerenciada de SQL do Azure usando o portal do Azure, o PowerShell ou a CLI do Azure.
 
-Considere o seguinte:
+## Considere o seguinte:
 
 Cancele o processo de provisionamento por meio do portal do Azure, do PowerShell, da CLI do Azure ou de outras ferramentas usando a API REST.
 
@@ -17,16 +16,15 @@ A implantação da instância será atrasada se for afetada por outras operaçõ
 
 As permissões de leitura para o grupo de recursos são necessárias para ver a instância gerenciada no grupo de recursos.
 
-
-Importante
+## Importante
 
 A implantação de uma instância gerenciada é uma operação de longa duração. A implantação da primeira instância na sub-rede normalmente demora muito mais do que a implantação em uma sub-rede com instâncias existentes. 
 
-Entre no Portal do Azure
+## Entre no Portal do Azure
 
 Para criar sua instância no portal do Azure, primeiro você precisará entrar no portal do Azure e preencher as informações na página Criar Instância Gerenciada de SQL do Azure.
 
-Para sua instância, siga estas etapas:
+## Para sua instância, siga estas etapas:
 
 1. Entre no portal do Azure.
 
@@ -36,13 +34,11 @@ Para sua instância, siga estas etapas:
 
 4. Escolha Instância única na lista suspensa e depois selecione Criar para abrir a página Criar instância Gerenciada de SQL do Azure. 
 
-
-
-Guia Básico
+## Guia Básico
 
 Preencha as informações obrigatórias exigidas na guia Básico, que é o requisito mínimo para provisionar uma Instância Gerenciada de SQL.
 
-A tabela a seguir fornece detalhes para as informações necessárias na guia Básico: 
+## A tabela a seguir fornece detalhes para as informações necessárias na guia Básico: 
 
 <table border="1" style="width: 70%; table-layout: fixed;">
   <tr>
