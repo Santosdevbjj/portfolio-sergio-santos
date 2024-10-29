@@ -55,4 +55,92 @@ Também é visto como uma interface visual do Git, já que mostra as branches e 
 Por reunir os repositórios de um programador, o Github se tornou também uma rede social e um portfólio, já que os repositórios públicos podem ser acessados pelas pessoas. Por isso, é interessante que todo programador tenha um Github e treine o versionamento do código com ele. 
 
 No mercado, nem sempre a empresa utiliza o Github como repositório remoto, já que existem outras ferramentas focadas em empresas, que não podem colocar seus códigos de maneira pública ou precisam de alguma proteção a mais. Alguns exemplos são GitLab, BitBucket, SourceForge, Launchpad e Apache Allura. Porém, a lógica do funcionamento é a mesma.   
+
+ ## Conheça os principais comandos Git
  
+No dia a dia do trabalho do programador os comandos são utilizados com muito frequência. Veja, a seguir, os principais comandos do Git para fazer seu versionamento. 
+
+## Git init 
+Se você deseja começar um novo projeto e repositório, o comando é o de iniciar, em que você cria um projeto em sua máquina e, posteriormente, se quiser, envia para um repositório remoto. 
+
+## git init nome do repositório 
+
+## Git clone
+É um comando feito no terminal e que clona um repositório remoto para sua máquina. Por exemplo, você tem um repositório no Github e deseja alterar algo nele. Para isso, você o clona em alguma pasta do seu computador. 
+
+## git clone link do repositório 
+## Git pull
+Quando você tem um repositório remoto e deseja alterá-lo, é preciso primeiro trazer as alterações mais recentes para sua máquina. 
+
+É diferente do Git Clone, pois é utilizado quando o repositório remoto já está clonado na máquina e você irá continuar trabalhando nele. Ou seja, depois dos momentos iniciais do projeto. 
+
+Ao escrever o comando Git Pull no terminal (Bash), você “puxa” todas as alterações feitas no repositório remoto e suas branches, considerando todos que trabalharam no código. 
+
+## git pull nome do repositório remoto 
+## Git branch
+As branches são ramificações de um código principal, que podem ser criadas pelos desenvolvedores que irão mexer naquele projeto. Utilizar as branches permite que mais de uma pessoa trabalhe em paralelo em um mesmo projeto. 
+
+Depois, o que foi feito é verificado e aceito pela pessoa responsável, geralmente o líder do projeto. O próprio Git consegue organizar e mostrar as mudanças feitas. No próximo tópico, você irá entender como entrar no repositório antes de criar a branch. 
+
+## git branch nome da branch (cria a branch)
+
+## git branch -d nome da branch (deleta a branch) 
+
+## git push -u local remoto nome da branch (manda a branch para o repositório remoto)
+
+## git branch –list (para ver as branches)
+
+## Git checkout
+É o comando utilizado para entrar na branch que você quer trabalhar e atualizar. Muito útil tanto para entrar em sua branch quanto para trocar de branch no meio do processo.
+
+Antes de mudar de branch, dê o commit (veremos a seguir) para salvar as alterações. Depois faça a troca. 
+
+## git checkout nome-da-branch 
+
+## Git status
+Mostra os status dos arquivos, ou seja, quais foram modificados, quais não foram, o que foi criado ou deletado. 
+
+Também mostra seu estágio, por exemplo, se já foi feito commit, se está salvo no local, entre outras informações. É muito utilizado no dia a dia.  
+
+## Git add
+Adiciona as alterações que foram feitas para ser feito o commit (salvamento). Basicamente, as alterações, quando feitas, não estão sendo “acompanhadas” pelo Git (o que pode ser visto pelo Git Status, as alterações não acompanhadas ficam em vermelho). 
+
+Para que o Git “perceba” essas alterações, é preciso adicioná-las e, só depois, fazer o commit. Aqui, você consegue adicionar e “commitar” todas as alterações de uma só vez ou separadamente, adicionando arquivo por arquivo. 
+
+## git add nome do arquivo
+
+## git add . (todas as alterações)
+
+## Git commit
+É o comando mais utilizado e também um dos mais importantes. É o commit que salva as alterações feitas, ou seja, cria uma versão daquele código.
+
+O ideal é que o commit seja utilizado durante a produção do código. Toda vez que você fizer uma mudança significativa no código, que esteja dando certo, dê um commit. 
+
+Assim, você pode mexer no código com mais tranquilidade pois, mesmo se der algo errado, alguma versão anterior estará correta. É só voltar para ela, seja qual for o qualquer motivo. 
+
+Na hora de fazer o commit, também é preciso escrever um comentário, falando o que foi feito naquela alteração. Precisa ser algo direto e específico, pois é com essa mensagem que você consegue reconhecer os commits depois. 
+
+## git commit -m “mensagem do commit“ 
+
+## Git revert
+É o comando utilizado para voltar a versões antigas ou desfazer uma alteração, ou seja, voltar para a versão anterior. 
+
+Por isso, também é um dos mais importantes do Git. Afinal, é por essa possibilidade que o versionamento existe. É um comando que exige atenção, pois mexe diretamente com todas as versões, podendo levar a exclusão caso seja colocado o código errado.  
+
+Antes de tudo é preciso ver o histórico de versões de commits daquele código. 
+
+## git log – oneline
+
+Depois, é só colocar o número da versão que deseja desfazer.
+
+## git revert XxXxXxX 
+
+## Git push
+Até o momento, tudo isso foi feito em seu repositório local, ou seja, na máquina. Para salvar tudo o que foi feito em um repositório remoto, é preciso utilizar o Git Push. 
+
+Este comando envia, “empurra”, as alterações para o repositório remoto configurado no seu Git. Um dos mais utilizados, sem dúvida, é o GitHub, mas existem outras opções também, como GitLab, BitBucket, entre outros.
+
+## git push nome do repositório nome da branch 
+
+
+
