@@ -54,15 +54,15 @@ Esse comando cria uma função que é ativada por requisições HTTP.
 
 Esse arquivo contém configurações locais da aplicação. Para desenvolvimentos iniciais, a configuração padrão costuma funcionar bem.
 
-## Exemplo de conteúdo:
+ Exemplo de conteúdo:
 
-## {
-  ## "IsEncrypted": false,
- ##  "Values": {
-   ##  "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-  ##   "FUNCTIONS_WORKER_RUNTIME": "node"
- ##  }
-## }
+ {
+   "IsEncrypted": false,
+   "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node"
+   }
+  }
 
 
 
@@ -70,13 +70,13 @@ Esse arquivo contém configurações locais da aplicação. Para desenvolvimento
 
 A função gerada estará no diretório MeuProjetoFunc/MinhaFuncaoHttp. Abaixo, um exemplo em JavaScript de uma função HTTP que responde com uma mensagem personalizada:
 
-## module.exports = async function (context, req) {
-   ##  const name = req.query.name || (req.body && req.body.name);
-   ##  context.res = {
+ module.exports = async function (context, req) {
+    const name = req.query.name || (req.body && req.body.name);
+    context.res = {
         status: 200,
         body: `Hello, ${name || 'World'}!`
-   ## };
-## };
+    };
+ };
 
 Essa função lê o nome de uma query string ou do corpo da requisição HTTP e responde com uma saudação.
 
@@ -96,17 +96,17 @@ Você pode acessar essa URL no navegador ou por ferramentas como o Postman para 
 
 No terminal, execute o comando para criar um grupo de recursos:
 
-## az group create --name MeuGrupoFunc --location eastus
+az group create --name MeuGrupoFunc --location eastus
 
 ## Crie um Plano de Funções no Azure:
 
-## az functionapp plan create --name MeuPlanoFunc --resource-group MeuGrupoFunc --location eastus --consumption-plan-location eastus --sku Dynamic
+az functionapp plan create --name MeuPlanoFunc --resource-group MeuGrupoFunc --location eastus --consumption-plan-location eastus --sku Dynamic
 
 ## 2. Criar o Function App no Azure:
 
 Execute o comando abaixo para criar o Function App, onde as funções serão hospedadas:
 
-## az functionapp create --resource-group MeuGrupoFunc --consumption-plan-location eastus --runtime node --runtime-version 16 --functions-version 4 --name MeuFunctionApp --storage-account NomeDaSuaContaDeStorage
+az functionapp create --resource-group MeuGrupoFunc --consumption-plan-location eastus --runtime node --runtime-version 16 --functions-version 4 --name MeuFunctionApp --storage-account NomeDaSuaContaDeStorage
 
 
 ## 3. Publicar a Função no Azure:
@@ -121,17 +121,17 @@ Após a publicação, o Azure gera uma URL para a função. Você pode acessar e
 
 Além de funções HTTP, você pode criar funções que respondem a outros tipos de eventos, como cron jobs. Um exemplo de função que roda a cada 5 minutos:
 
-## module.exports = async function (context, myTimer) {
-  ##  var timeStamp = new Date().toISOString();
+ module.exports = async function (context, myTimer) {
+   var timeStamp = new Date().toISOString();
     if (myTimer.isPastDue) {
         context.log('A execução está atrasada!');
     }
-  ##  context.log('Funcão Timer disparada!', timeStamp);
-## };
+   context.log('Funcão Timer disparada!', timeStamp);
+ };
 
 ## Para criar uma função Timer, use:
 
-## func new --name FuncaoTimer --template "Timer trigger"
+func new --name FuncaoTimer --template "Timer trigger"
 
 Esse exemplo é configurado para disparar a cada 5 minutos, e o código registra o timestamp cada vez que é executado.
 
