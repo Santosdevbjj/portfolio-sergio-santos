@@ -1,5 +1,8 @@
 ## Configurando uma instância de banco de dados no Azure
 
+![Screenshot_20241029-142632](https://github.com/user-attachments/assets/a405178b-ba4c-4f3a-a120-f2af7a837f3f)
+
+
 ## Pré-requisitos
 
 Uma assinatura do Azure. Se você não tem uma assinatura do Azure, crie uma conta gratuita
