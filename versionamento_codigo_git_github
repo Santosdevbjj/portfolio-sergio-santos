@@ -1,0 +1,57 @@
+## Versionamento de código:
+
+Um conhecimento paralelo às linguagens de programação, mas muito importante para o trabalho do desenvolvedor, é o versionamento de código. Como o nome sugere, é o conhecimento em versionar e salvar versões de uma aplicação. 
+
+Resumindo dessa maneira, parece algo comum, como salvar vários arquivos com versões diferentes. Porém, na prática, o versionamento de código é algo ainda mais organizado e ágil 一 e um pouco mais complexo de ser feito. 
+
+Veja tudo o que você precisa saber sobre o versionamento de código e quais ferramentas são as mais importantes para isso! 
+
+O que é versionamento de código?
+O versionamento é o processo de criar novas versões de um código toda vez que existir uma mudança significativa nele.
+
+De maneira geral, todo projeto de desenvolvimento é feito por etapas, sendo que as funcionalidades são incrementadas aos poucos. Por isso, é preciso criar versões que possam ser retomadas sempre que necessário. 
+
+Em outras palavras, o versionamento de código é como ter vários arquivos, sendo que cada um conta com melhorias em comparação com o anterior. 
+
+Porém, em vez de ter que salvar muitos arquivos (o que é inviável para a computação e para a organização), são feitas essas versões, direto no código.  
+
+Assim, enquanto o código está sendo desenvolvido, o programador vai criando as versões conforme melhora, muda ou implementa algo. Depois, é possível voltar às versões anteriores caso seja necessário. 
+
+Por conta disso, o versionamento de código faz parte das boas práticas de programação e se torna importante para a organização do projeto, consegue contribuir com o trabalho em equipe e também criar um “backup” de todas as mudanças. 
+
+## Como fazer o versionamento?
+
+O versionamento de código é feito durante o processo de construção de código, utilizando o terminal da IDE (ambiente de desenvolvimento integrado, onde se escreve o código) escolhida ou o terminal da própria máquina, dependendo da necessidade e da etapa do processo. 
+
+Para fazer o versionamento, são utilizadas ferramentas específicas para isso, chamadas de sistema de controle de versão. O Git é a mais conhecida, contando com várias funcionalidades que auxiliam nessa organização. Mas também existem outras, como SVN e CVS.  
+
+No caso do Git, ele precisa ser instalado e configurado na sua máquina para funcionar localmente. Não tem uma interface visual, originalmente, por isso a necessidade de utilizar o terminal para criar suas versões.  
+
+Assim, para conseguir fazer o versionamento de código é preciso conhecer os comandos do terminal, que criam os repositórios, os commits e revertem as versões. Nos próximos tópicos você confere os principais comandos do Git e como utilizá-los.  
+
+Além disso, o próprio versionamento também é feito em etapas, pois considera tanto o repositório local quanto um remoto. Assim, o Git tem a função de contribuir com a organização do código e também por enviá-lo para um repositório remoto.  
+
+## O que é Git?
+
+Como vimos, o Git é a ferramenta de controle de versões mais completa, popular e utilizada no mundo da programação. Com ela, é possível criar versões detalhadas, além de outras funções presentes que são úteis no dia a dia. 
+
+É uma ferramenta tão importante que muitas empresas incluem o conhecimento em Git e versionamento de código como pré-requisito para vagas em desenvolvimento. 
+
+O Git funciona localmente, ou seja, na máquina do programador e organiza o código e suas versões enquanto o desenvolvimento está sendo feito. Assim, oferece diferentes ferramentas e ações que o programador utiliza para tornar suas versões mais organizadas.   
+
+Depois, é possível subir toda essa organização para um repositório remoto, o que é bastante comum no dia a dia empresarial. Isso porque, na prática, são vários programadores mexendo no mesmo código, cada um em sua máquina. Depois, reúne-se tudo remotamente. 
+
+## O que é Github?
+
+Muita gente acha que Git e Github são a mesma coisa, mas não são. O Github é uma ferramenta para reunir repositórios de forma remota. A partir do Git é possível enviar as alterações do código direto para o Github. 
+
+Ou seja, o Github funciona como um local remoto para armazenar o código e suas versões. Assim, é muito utilizado em equipes, já que todos conseguem enviar o que for feito remotamente e reunir tudo em um mesmo repositório remoto do Github. 
+
+É uma ferramenta muito utilizada pois sua organização é igual ao do Git. Ou seja, também mostra o código principal, as branches (entenda a seguir o que são), as versões numeradas conforme o Git, entre outras funções.  
+
+Também é visto como uma interface visual do Git, já que mostra as branches e outros detalhes de maneira mais simplificada do que no terminal. Na prática, é como “salvar” sua versão na nuvem. 
+
+Por reunir os repositórios de um programador, o Github se tornou também uma rede social e um portfólio, já que os repositórios públicos podem ser acessados pelas pessoas. Por isso, é interessante que todo programador tenha um Github e treine o versionamento do código com ele. 
+
+No mercado, nem sempre a empresa utiliza o Github como repositório remoto, já que existem outras ferramentas focadas em empresas, que não podem colocar seus códigos de maneira pública ou precisam de alguma proteção a mais. Alguns exemplos são GitLab, BitBucket, SourceForge, Launchpad e Apache Allura. Porém, a lógica do funcionamento é a mesma.   
+
