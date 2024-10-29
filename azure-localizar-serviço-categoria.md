@@ -1,5 +1,8 @@
 ## Serviços disponíveis por categorias e tipos de região
 
+![Screenshot_20241029-012235](https://github.com/user-attachments/assets/71e65cc6-0ee0-48d0-9852-387839f3ff00)
+
+
 A disponibilidade de serviços em regiões do Azure depende do tipo de uma região. Há dois tipos de regiões no Azure: recomendado e alternativo.
 
 Recomendado: essas regiões fornecem a mais ampla variedade de recursos de serviço e atualmente dão suporte a zonas de disponibilidade. Designadas no portal do Azure como Recomendado.
