@@ -45,4 +45,42 @@ O FinOps visa ajudar as organizações a obter o máximo valor de seus investime
 
 
 
+<p>A tabela abaixo contém uma coleção de ferramentas nativas relacionadas ao FinOps no Azure:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome da ferramenta</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Calculadora de preços do Azure</td>
+                <td>Permite que você misture e combine diferentes combinações de serviços do Azure para ver uma estimativa dos custos.</td>
+            </tr>
+            <tr>
+                <td>Gerenciamento de Custos do Azure</td>
+                <td>Um conjunto de ferramentas que ajuda organizações a monitorar, alocar e otimizar o custo de suas cargas de trabalho do Microsoft Cloud.</td>
+            </tr>
+            <tr>
+                <td>Consultor do Azure</td>
+                <td>Analisa configurações e telemetria de uso e oferece recomendações personalizadas e acionáveis para ajudar a otimizar recursos para confiabilidade, segurança, excelência operacional, desempenho e custo.</td>
+            </tr>
+            <tr>
+                <td>Calculadora de TCO</td>
+                <td>TCO = Custo Total de Propriedade. Estime a economia de custos que você pode obter migrando suas cargas de trabalho para o Azure.</td>
+            </tr>
+            <tr>
+                <td>Calculadora de economia de benefícios híbridos do Azure</td>
+                <td>Estima o preço, a economia e as instâncias qualificadas que você pode usar no Azure com base em suas licenças atuais do Software Assurance. (VMs do Windows, VMs do SQL Server, SQL Managed Instance e SQL Database)</td>
+            </tr>
+            <tr>
+                <td>Kit de ferramentas FinOps</td>
+                <td>Kits iniciais, scripts e soluções avançadas para acelerar sua jornada FinOps na Microsoft Cloud.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html> 
+
 
