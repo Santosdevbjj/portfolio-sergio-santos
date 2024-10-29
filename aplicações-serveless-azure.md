@@ -1,5 +1,4 @@
-## Criar uma aplicação Serverless com Azure
-## Functions
+## Criar uma aplicação Serverless com Azure Functions
 
 ![Screenshot_20241029-004051](https://github.com/user-attachments/assets/2acfd8da-f5c5-4832-b3cd-128fd412b60f)
 
