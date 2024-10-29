@@ -1,9 +1,8 @@
-Alguns usuários agora verão a opção de criar VMs em várias zonas.
+## Criar máquinas virtuais em uma zona de disponibilidade do Azure.
 
-Criar máquinas virtuais em uma zona de disponibilidade do Azure.
+![Screenshot_20241029-133052](https://github.com/user-attachments/assets/fa08576b-1abb-4110-a059-06dede61ce9e)
 
 Uso do portal do Azure para criar máquinas virtuais altamente resilientes em zonas de disponibilidade. As zonas de disponibilidade do Azure são locais fisicamente separados em cada região do Azure que são tolerantes a falhas locais. Use zonas de disponibilidade para proteger seus aplicativos e dados contra falhas improváveis do datacenter.
-
 
 Para usar zonas de disponibilidade, crie as máquinas virtuais em uma região do Azure com suporte.
 
@@ -23,7 +22,7 @@ Para usar zonas de disponibilidade, crie as máquinas virtuais em uma região do
 
 8. Conclua o restante da página como de costume. Se você quiser criar um balanceador de carga, vá para a guia Rede, >Balanceamento de carga>Opções de balanceamento de carga. Você pode escolher um balanceador de carga do Azure ou um gateway de aplicativo.
 
-Para um balanceador de carga do Azure:
+## Para um balanceador de carga do Azure:
 
 a. Você pode escolher um balanceador de carga existente ou selecionar Criar um balanceador de carga.
 
@@ -38,7 +37,7 @@ e. Você pode deixar os valores padrão de Porta e a Porta de back-end, ou alter
 f. Quando terminar, selecione Criar. 
 
 
-Para um Gateway de Aplicativo:
+## Para um Gateway de Aplicativo:
 
 a. Selecione um gateway de aplicativo existente ou Crie um do zero.
 
@@ -48,21 +47,17 @@ c. Em Regra de roteamento, digite um nome de regra. O nome da regra deve descrev
 
 d. Para balanceamento de carga HTTP, você pode deixar os padrões e, em seguida, selecionar Criar. Para balanceamento de carga HTTPS, você tem duas opções: 
 
-
 🔹Carregue um certificado e adicione a senha (o gateway de aplicativo gerencia o armazenamento de certificados). Em nome do certificado, digite um nome amigável.
 
 🔹Use um cofre de chaves (o gateway de aplicativo extrairá um certificado definido de um cofre de chaves definido). Escolha a Identidade gerenciada, o Key Vault e o Certificado. 
 
-
-Importante
+## Importante
 
 Depois que as VMs e o gateway de aplicativo são implantados, faça logon nas VMs para garantir que o certificado do gateway de aplicativo seja carregado nas VMs ou que o nome de domínio do certificado da VM corresponda ao nome de domínio do gateway de aplicativo. 
 
-
-Observação
+## Observação
 
 Uma sub-rede separada será definida para o Gateway de Aplicativo após a criação.  
-
 
 9. Deixe os padrões restantes e, em seguida, selecione o botão Examinar + criar na parte inferior da página.
 
@@ -74,11 +69,9 @@ Uma sub-rede separada será definida para o Gateway de Aplicativo após a criaç
 
 Se desejar os benefícios de resiliência de uma Máquina Virtual Zonal e quiser ajuda para selecionar uma zona, você poderá fazer com que o Azure selecione a zona mais adequada para sua implantação. 
 
-
-Observação
+## Observação
 
 Revise a seção Restrições antes de implantar sua VM usando uma zona selecionada pelo Azure. 
-
 
 1. Entre no portal do Azure habilitando o recurso.
 
@@ -92,11 +85,9 @@ Revise a seção Restrições antes de implantar sua VM usando uma zona selecion
 
 6. Configure o restante da sua máquina virtual normalmente para implantação. 
 
+## Restrições
 
-
-Restrições
-
-Regiões
+## Regiões
 
 A implantação de um VM numa zona selecionada pelo Azure está disponível em todas as regiões zonais, exceto nas seguintes regiões.
 
@@ -110,13 +101,11 @@ A implantação de um VM numa zona selecionada pelo Azure está disponível em t
 
 🔹KoreaCentral
 
-
-
-Discos
+## Discos
 
 Atualmente, o sistema operacional e os discos de dados existentes não são suportados. O novo tipo de fonte de disco de dados deve ser "nenhum".
 
-Tipos de disco suportados
+## Tipos de disco suportados
 
 🔹HDDs Standard (unidades de disco rígido)
 
@@ -129,13 +118,11 @@ Tipos de disco suportados
 🔹SSD Standard ZRS
 
 
-Tipos de disco não suportados
+## Tipos de disco não suportados
 
 🔹LRS de SSD Standard 
 
-
-
-Outros recursos
+## Outros recursos
 
 🔹Os IPs públicos existentes não têm suporte para uma zona selecionada pelo Azure. Eles podem ser adicionados após a implantação.
 
@@ -146,4 +133,5 @@ Outros recursos
 🔹Não há suporte para grupos de posicionamento de proximidade, grupos de reserva de capacidade e Host Dedicado do Azure.
 
 🔹A configuração do Site Recovery não está disponível durante a criação da VM, mas pode ser configurada após a implantação.
+
 
