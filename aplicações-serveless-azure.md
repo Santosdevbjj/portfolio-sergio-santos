@@ -41,7 +41,6 @@ Execute o seguinte comando para criar um novo projeto de funções:
 Aqui, node é o runtime, mas você pode escolher outros, como python, dotnet, java, etc.
 
 
-
 ## 2. Adicionar uma Função ao Projeto:
 
 Após criar o projeto, adicione uma função dentro dele. Por exemplo, para criar uma função HTTP:
@@ -49,7 +48,6 @@ Após criar o projeto, adicione uma função dentro dele. Por exemplo, para cria
 ## func new --name MinhaFuncaoHttp --template "HTTP trigger"
 
 Esse comando cria uma função que é ativada por requisições HTTP.
-
 
 
 ## 3. Configurar o Arquivo local.settings.json:
@@ -88,7 +86,9 @@ No terminal, navegue até o diretório do projeto e execute o comando:
 
 ## func start
 
-A função será executada localmente e você verá uma URL como http://localhost:7071/api/MinhaFuncaoHttp. Você pode acessar essa URL no navegador ou por ferramentas como o Postman para testar a função.
+A função será executada localmente e você verá uma URL como http://localhost:7071/api/MinhaFuncaoHttp
+
+Você pode acessar essa URL no navegador ou por ferramentas como o Postman para testar a função.
 
 ## 4. Publicando no Azure
 
@@ -137,11 +137,14 @@ Esse exemplo é configurado para disparar a cada 5 minutos, e o código registra
 
 ## 6. Benefícios do Modelo Serverless com Azure Functions
 
-## Escalabilidade Automática: O Azure Functions escala automaticamente para lidar com picos de carga.
+## Escalabilidade Automática: 
+O Azure Functions escala automaticamente para lidar com picos de carga.
 
-## Custo por Uso: Você só paga pelo tempo de execução do código, o que pode ser bem mais econômico.
+## Custo por Uso: 
+Você só paga pelo tempo de execução do código, o que pode ser bem mais econômico.
 
-## Desenvolvimento Ágil: Concentre-se no código sem se preocupar com a infraestrutura.
+## Desenvolvimento Ágil: 
+Concentre-se no código sem se preocupar com a infraestrutura.
 
 ## Conclusão
 
