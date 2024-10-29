@@ -1,6 +1,6 @@
 ## O que é FinOps?
 
-![Screenshot_20241029-024654](https://github.com/user-attachments/assets/3e799a37-ad2e-460e-bd31-45d9c1f0bbe5)
+
 
 
 FinOps é uma disciplina de gestão financeira em nuvem e uma prática cultural em evolução que permite que as organizações obtenham o máximo valor comercial ao ajudar equipes de engenharia, finanças, TI e negócios a colaborar para aproveitar o modelo de custo variável da nuvem.
