@@ -168,8 +168,14 @@ O portal organiza os serviços em categorias, facilitando a navegação e a busc
     <tr>
 <td>37</td>
       <td>Bônus - Simulado Preparatório </td> 
-    </tr>
-  </tbody>
+    </tr> 
+
+
+<td>38</td>
+      <td>Kali Linux </td> 
+
+    
+  </tbody> 
 </table> 
 
 
