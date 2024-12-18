@@ -3,22 +3,39 @@
 ![Screenshot_20241218-131257](https://github.com/user-attachments/assets/09b3d700-e21a-444d-b9ba-43294d3070d5)
 
 
-Este repositório contém o resumo das lições aprendidas durante o Bootcamp da Dio, referente a Tecnologia Microsoft Azure.
-O curso proporcionou um amplo conhecimento sobre a tecnologia em nuvem: Microsoft Azure.
-Com a brilhante orientação das professoras Valeria Baptista e Elidiana Andrade, adquiri um valioso conhecimento.
+# Azure & Cybersecurity Learning Path 🚀
 
+Este repositório documenta minha jornada de desenvolvimento profissional em Cloud Computing e Segurança da Informação, focando em duas tecnologias essenciais para o mercado atual.
 
-O portal organiza os serviços em categorias, facilitando a navegação e a busca por recursos específicos.
+## Tecnologias
 
-Este repositório contem também, um resumo dos meus estudos em Cibersegurança. Estou fazendo o Bootcamp Santander Cibersegurança #2, em parceria com a DIO.
+### Microsoft Azure ☁️
+Participante do Bootcamp DIO Microsoft Azure, onde desenvolvi competências em:
+- Computação em Nuvem
+- Arquitetura Azure
+- Gerenciamento de Recursos
+- Melhores Práticas em Cloud Computing
 
-# Entendendo a como montei os arquivos:
+Mentoria técnica: Valeria Baptista e Elidiana Andrade
 
-# az ->: Nome arquivo começando com  az
-Indica que o arquivo é um assunto sobre o Microsoft Azure.
+### Cybersecurity 🔐
+Em formação pelo Bootcamp Santander Cibersegurança #2 (DIO), com foco em:
+- Fundamentos de Segurança da Informação
+- Práticas de Proteção de Dados
+- Análise de Vulnerabilidades
+- Estratégias de Defesa Cibernética
 
-# cs ->: nome do arquivo começando com cs
-Indica que o arquivo é um assunto sobre Cibersegurança 
+## Estrutura do Repositório 📂
+
+```
+├── az-* : Documentação Microsoft Azure
+└── cs-* : Documentação Cybersecurity
+```
+
+## Desenvolvimento Contínuo 📚
+
+Como profissional comprometido com o Lifelong Learning, mantenho este repositório atualizado com novos aprendizados e descobertas. Contribuições e sugestões são sempre bem-vindas!
+ 
 
 
 ## Trilha do Aprendizado do Microsoft Azure e Cibersegurança 
