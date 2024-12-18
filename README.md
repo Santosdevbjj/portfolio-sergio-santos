@@ -184,14 +184,13 @@ Indica que o arquivo é um assunto sobre Cibersegurança
 <td>38</td>
       <td>Kali Linux </td> 
 
-</td>
 
-      </tr> 
-
-
+</tr>
+    <tr>
 <td>39</td>
-      <td>Conscientizar e Treinar</td> 
-
+      <td>Conscientizar e Treinar</td>
+</tr>
+    <tr>
 
 </tr> 
 
