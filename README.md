@@ -3,11 +3,11 @@
 ![Screenshot_20241218-131257](https://github.com/user-attachments/assets/09b3d700-e21a-444d-b9ba-43294d3070d5)
 
 
-# Azure & Cybersecurity Learning Path 🚀
+ # Azure, Cybersecurity & AI Learning Path 🚀
 
-Este repositório documenta minha jornada de desenvolvimento profissional em Cloud Computing e Segurança da Informação, focando em duas tecnologias essenciais para o mercado atual.
+Este repositório documenta minha jornada de desenvolvimento profissional em Cloud Computing, Segurança da Informação e Inteligência Artificial, abrangendo tecnologias essenciais para a transformação digital.
 
-## Tecnologias
+## Tecnologias e Certificações
 
 ### Microsoft Azure ☁️
 Participante do Bootcamp DIO Microsoft Azure, onde desenvolvi competências em:
@@ -25,17 +25,42 @@ Em formação pelo Bootcamp Santander Cibersegurança #2 (DIO), com foco em:
 - Análise de Vulnerabilidades
 - Estratégias de Defesa Cibernética
 
+### Artificial Intelligence 🤖
+Certificação IBM AI Fundamentals, com especialização em:
+- Fundamentos de Inteligência Artificial
+- Machine Learning e Deep Learning
+- Ética e Responsabilidade em IA
+- Engenharia de Prompts (Prompt Engineering)
+- Aplicações Práticas de IA
+- Cases de Uso e Implementações
+- Ferramentas e Frameworks de IA
+
 ## Estrutura do Repositório 📂
 
 ```
-├── az-*:Documentação Microsoft Azure
-└── cs-*:Documentação Cybersecurity
+├── az-* : Documentação Microsoft Azure
+│   ├── Cloud Computing
+│   ├── Serviços Azure
+│   └── Arquitetura Cloud
+│
+├── cs-* : Documentação Cybersecurity
+│   ├── Fundamentos
+│   ├── Práticas de Segurança
+│   └── Análise de Riscos
+│
+└── ia-* : Documentação Inteligência Artificial
+    ├── Fundamentos IA
+    ├── Machine Learning
+    ├── Deep Learning
+    ├── Ética em IA
+    ├── Prompt Engineering
+    └── Cases Práticos
 ```
 
 ## Desenvolvimento Contínuo 📚
 
-Como profissional comprometido com o Lifelong Learning, mantenho este repositório atualizado com novos aprendizados e descobertas. Contribuições e sugestões são sempre bem-vindas!
- 
+Como profissional comprometido com o Lifelong Learning, mantenho este repositório atualizado com novos aprendizados e descobertas nas áreas de Cloud Computing, Cibersegurança e IA. Nosso objetivo é disseminar o conhecimento. Contribuições e sugestões são sempre bem-vindas!
+
 
 
 ## Trilha do Aprendizado do Microsoft Azure e Cibersegurança 
