@@ -184,6 +184,7 @@ Indica que o arquivo é um assunto sobre Cibersegurança
 <td>38</td>
       <td>Kali Linux </td> 
 
+</td>
 
       </tr> 
 
