@@ -11,6 +11,16 @@ Localizando Serviços por Categoria no Portal do Azure
 
 O portal organiza os serviços em categorias, facilitando a navegação e a busca por recursos específicos.
 
+Este repositório contem também, um resumo dos meus estudos em Cibersegurança. Estou fazendo o Bootcamp Santander Cibersegurança #2, em parceria com a DIO.
+
+# Entendendo a como montei os arquivos:
+
+# az ->: Nome arquivo começando com  az
+Indica que o arquivo é um assunto sobre o Microsoft Azure.
+
+# cs ->: nome do arquivo começando com cs
+Indica que o arquivo é um assunto sobre Cibersegurança 
+
 
 ## Trilha do Aprendizado do Microsoft Azure
 <table>
