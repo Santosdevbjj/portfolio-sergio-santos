@@ -184,6 +184,20 @@ Indica que o arquivo é um assunto sobre Cibersegurança
 <td>38</td>
       <td>Kali Linux </td> 
 
+
+      </tr> 
+
+
+<td>39</td>
+      <td>Conscientizar e Treinar</td> 
+
+
+</tr> 
+
+
+<td>40</td>
+      <td>Ethical Hacking </td> 
+
     
   </tbody> 
 </table> 
