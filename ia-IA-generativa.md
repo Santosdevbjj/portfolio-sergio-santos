@@ -1,5 +1,8 @@
 ## O que é IA generativa?
 
+![Screenshot_20241218-190624](https://github.com/user-attachments/assets/4a3e271c-4464-4e4d-bdd1-dd9fb4c3f1e1)
+
+
 IA generativa é um tipo de inteligência artificial que cria conteúdo novo e original que as pessoas nunca viram antes. 
 
 A maioria dos sistemas de IA são modelos de IA discriminativos, que predizem e classificam dados.
@@ -17,7 +20,7 @@ A produção da IA generativa ganhou atenção global devido à exclusividade, a
 
 Pense na IA generativa como um artista virtual. Como um artista humano, ela precisa de inspiração e ferramentas para criar algo exclusivo. Em vez de usar tinta e tela, no entanto, a IA generativa usa algoritmos e conjuntos de dados.
 
-Aqui está o processo geral da IA generativa. 
+# Aqui está o processo geral da IA generativa. 
 
 1- Primeiro, uma pessoa alimenta a IA com uma grande quantidade de dados. Isso pode ser qualquer coisa, desde imagens e sons até textos e números. 
 
@@ -30,8 +33,7 @@ A IA generativa também pode concluir tarefas mais complexas, como escrever hist
 É claro que nem toda IA generativa é perfeita. Assim como os artistas humanos, às vezes, os resultados podem ser um pouco estranhos ou inesperados. No entanto, à medida que esta tecnologia melhorar, você verá criações ainda mais impressionantes da IA generativa no futuro! 
 
 
-
-Tipos de modelos de IA generativa
+# Tipos de modelos de IA generativa
 
 Vamos explorar os três tipos primários de modelos de IA generativa: 
 
@@ -43,19 +45,19 @@ C)Autorregressivo
 
 Para entender esses conceitos, você aprenderá sobre analogias simples para cada modelo. 
 
-A) Autoencoder variacional (VAE)
+# A) Autoencoder variacional (VAE)
 
 Pense nos modelos de autoencoder variacional (VAE)  como um artista habilidoso que pode olhar para uma pintura, rapidamente rascunhar uma versão simplificada dela e, então, recriar uma nova pintura usando apenas esse rascunho simplificado como referência. O artista está capturando os elementos essenciais da pintura e, em seguida, usando-os para criar uma nova obra de arte. 
 
 VAEs usam um processo semelhante. A rede "codificadora" compacta os dados de entrada em uma representação de dimensão inferior e a rede "decodificadora" reconstrói os dados originais dessa representação compactada. Isso permite que os VAEs capturem a estrutura e os padrões básicos nos dados, que podem, então gerar novos dados semelhantes.
 
-B) Rede Adversária Gerativa (GAN)
+# B) Rede Adversária Gerativa (GAN)
 
 Pense em um modelo de rede adversária generativa (GAN) como uma competição entre um falsificador habilidoso (o gerador) e um crítico de arte talentoso (o discriminador). O falsificador cria pinturas falsas, enquanto o crítico tenta determinar se cada pintura é genuína ou uma falsificação. À medida que o falsificador melhora sua técnica, o crítico se torna mais perspicaz, e esse ciclo continua até que o falsificador possa criar falsificações quase perfeitas. 
 
 Nas GANs, o gerador cria novos dados, enquanto o discriminador avalia a qualidade dos dados gerados. O gerador tenta criar dados realistas o suficiente para enganar o discriminador, enquanto o discriminador aprende a distinguir melhor entre os dados reais e os gerados. Essa competição leva o gerador a criar conteúdo cada vez mais realista. 
 
-C) Autorregressivo
+# C) Autorregressivo
 
 Imagine um modelo autorregressivo como um contador de histórias habilitado que ouve o início de uma história e depois a continua prevendo o que vem a seguir com base nas palavras e eventos que ocorreram então até. O contador de histórias usa seu conhecimento de linguagem, gramática e convenções narrativas para criar uma continuação coerente e envolvente da história. 
 
@@ -63,23 +65,23 @@ Os modelos autorregressivos geram um novo conteúdo ao prever o próximo element
 
 Ao entender os três tipos de IA generativa, você pode compreender mais profundamente as possibilidades que a tecnologia oferece para a expressão criativa. Seja você músico, artista ou escritor, a IA generativa pode ser uma ferramenta poderosa para ajudá-lo a explorar novas ideias e ultrapassar os limites do seu ofício. À medida que o campo da IA generativa continua a evoluir, é emocionante imaginar que tipos de criações novas e inovadoras serão capazes de gerar nos próximos anos. 
 
-Exemplos de aplicações de IA generativa 
+# Exemplos de aplicações de IA generativa 
 
 A IA generativa está revolucionando a forma como as pessoas vivem, trabalham e se divertem. Vamos revisar os seguintes exemplos de sistemas e aplicações de IA generativa.
 
-ChatGPT
+# ChatGPT
 
 O OpenAI lançou o ChatGPT, um robô de bate-papo de IA, em novembro de 2022. Capaz de interagir usando conversação com linguagem natural, esta ferramenta de IA vai além das tradicionais respostas dos mecanismos de procura em forma de listagem simples de resultados relacionados. Em vez disso, o ChatGPT segue as instruções fornecidas no prompt e fornece uma resposta detalhada. Por exemplo, com o ChatGPT, uma pessoa pode solicitar "Escreva um poema sobre gatos" e o resultado será um poema sobre gatos, em vez de uma lista de sites sobre gatos. 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-IBM Watson Discovery
+# IBM Watson Discovery
 
 O IBM Watson Discovery usa tecnologias fundamentais, como grandes modelos de linguagem (LLMs), para obter insights do que nós não sabemos que não sabemos. É amplamente utilizado em pesquisa genômicas para descobrir quais aminoácidos podem se esconder dentro da proteína antes desconhecida e revelar a relacionamento de vários participantes ou entidades para questões relacionadas à segurança governamental. 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
 
-Geradores de imagens (DALL·E, MidJourney, Stable Diffusion)
+# Geradores de imagens (DALL·E, MidJourney, Stable Diffusion)
 
 Como funciona:
 
@@ -101,7 +103,7 @@ DALL·E 2: Gera imagens detalhadas e criativas com base em comandos textuais.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Modelos de áudio (OpenAI Jukebox, VALL-E)
+# Modelos de áudio (OpenAI Jukebox, VALL-E)
 
 Como funciona:
 
@@ -125,7 +127,7 @@ VALL-E: Gera fala que imita tons, pausas e entonações de uma pessoa.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Modelos de vídeo (Runway Gen-2, Synthesia)
+# Modelos de vídeo (Runway Gen-2, Synthesia)
 
 Como funciona:
 
@@ -147,7 +149,7 @@ Synthesia: Cria vídeos corporativos com apresentadores digitais.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Criação de código (Copilot, Codex)
+# Criação de código (Copilot, Codex)
 
 Como funciona:
 
@@ -169,7 +171,7 @@ GitHub Copilot: Sugere funções completas enquanto você digita.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
- IA Generativa em Biotecnologia
+ # IA Generativa em Biotecnologia
 
 Como funciona:
 
@@ -191,7 +193,7 @@ AlphaFold (DeepMind): Revolucionou a biologia ao prever estruturas de proteínas
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
- Ferramentas de personalização (Adobe Firefly, Canva Magic Edit)
+ # Ferramentas de personalização (Adobe Firefly, Canva Magic Edit)
 
 Como funciona:
 
@@ -218,12 +220,11 @@ Esses exemplos mostram como a IA generativa pode transformar diversos setores, a
 A IA generativa é uma tecnologia em rápido desenvolvimento e é uma área extremamente dinâmica que está experimentando inovações e avanços contínuos.
 
 
-
 Usos feitos pela indústria da IA generativa 
 
 A IA generativa já está impactando, e impactará cada vez mais, uma ampla gama de indústrias, incluindo esportes, entretenimento, assistência médica, varejo, bancos, manufatura, engenharia, segurança, mídia, agricultura, e a lista não para de se expandir.  
 
-Esportes
+# Esportes
 
 Nos esportes, a IA generativa pode ajudar a melhorar o desempenho atlético e aprimorar o engajamento do fã. 
 
@@ -235,13 +236,13 @@ A IA generativa pode analisar dados de esportes e identificar padrões e tendên
 
 No geral, a IA generativa tem o potencial de transformar a forma como as pessoas jogam, treinam e vivenciam os esportes, permitindo novos níveis de personalização, eficiência e engajamento.  
 
-Entretenimento
+# Entretenimento
 
 No setor de entretenimento, a IA generativa pode ajudar a criar experiências novas e imersivas para os usuários.  
 
 Uma aplicação da IA generativa em entretenimento é a criação de uma ampla variedade de personagens e ambientes virtuais altamente realistas e personalizados para vídeo e experiências de realidade virtual. Por exemplo, a IA generativa pode criar expressões faciais realistas e movimentos corporais para personagens virtuais, aprimorando a experiência do usuário e a imersão.  
 
-Negócios
+# Negócios
 
 Em negócios, a IA generativa pode ajudar a melhorar a tomada de decisões, personalizar as experiências do cliente e aprimorar a eficiência operacional.  
 
@@ -251,11 +252,11 @@ Outra aplicação da IA generativa em negócios é a criação de recomendaçõe
 
 A IA generativa está impactando o mundo de hoje em muitos setores. A maneira como cientistas e empresas estão aplicando a IA em diferentes casos de uso continuará a crescer! 
 
-Limitações da IA generativa
+# Limitações da IA generativa
 
 À medida que você se aprofunda no mundo da IA generativa, é crucial considerar as limitações e preocupações éticas que cercam essas tecnologias inovadoras. Com modelos como o GPT-4 transformando a forma como conteúdos são criados, desde texto e imagens até música, é essencial encontrar um equilíbrio entre seu potencial extraordinário e a necessidade do uso responsável e equitativo.  
 
-Limitações da IA generativa
+# Limitações da IA generativa
 
 Falta de originalidade: Os modelos de IA generativa dependem de grandes conjuntos de dados para aprender e gerar conteúdo. Como resultado, eles podem não criar conteúdo totalmente original, mas sim imitar padrões de seus dados de treinamento, o que pode levar à falta de criatividade e inovação.
 
@@ -265,7 +266,7 @@ Viés: Modelos de IA generativa podem perpetuar preconceitos existentes presente
 
 Recursos computacionais: O treinamento e a implementação de modelos de IA generativa requerem potência computacional significativa, que pode ser cara e contribuir para preocupações ambientais, como consumo de energia e emissões de carbono. 
 
-Preocupações éticas da IA generativa
+# Preocupações éticas da IA generativa
 
 Desinformação e conteúdo falso: A IA generativa pode criar conteúdo falso convincente, como deepfakes ou artigos de notícias, o que pode levar à divulgação de desinformação e ter consequências graves para indivíduos e sociedades. 
 
