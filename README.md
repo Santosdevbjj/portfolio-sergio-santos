@@ -1,4 +1,4 @@
-## Azure laboratório 
+## Azure laboratório e Cibersegurança 
 
 ![Screenshot_20241026-013509](https://github.com/user-attachments/assets/c49a7190-3c40-420f-8300-18daaab72dcf)
 
@@ -6,8 +6,6 @@ Este repositório contém o resumo das lições aprendidas durante o Bootcamp da
 O curso proporcionou um amplo conhecimento sobre a tecnologia em nuvem: Microsoft Azure.
 Com a brilhante orientação das professoras Valeria Baptista e Elidiana Andrade, adquiri um valioso conhecimento.
 
-
-Localizando Serviços por Categoria no Portal do Azure
 
 O portal organiza os serviços em categorias, facilitando a navegação e a busca por recursos específicos.
 
@@ -22,7 +20,7 @@ Indica que o arquivo é um assunto sobre o Microsoft Azure.
 Indica que o arquivo é um assunto sobre Cibersegurança 
 
 
-## Trilha do Aprendizado do Microsoft Azure
+## Trilha do Aprendizado do Microsoft Azure e Cibersegurança 
 <table>
   <thead>
     <tr align="left">
