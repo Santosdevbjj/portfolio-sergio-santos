@@ -246,6 +246,9 @@ Como profissional comprometido com o Lifelong Learning, mantenho este repositór
 
 
 
+## Contate-me:
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF)] (https://www.linkedin.com/in/sergio-luiz-dos-santos-3b081a326)
+
 
 
 ## Ferramentas
