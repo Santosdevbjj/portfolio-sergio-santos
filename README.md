@@ -28,8 +28,8 @@ Em formação pelo Bootcamp Santander Cibersegurança #2 (DIO), com foco em:
 ## Estrutura do Repositório 📂
 
 ```
-├── az-* : Documentação Microsoft Azure
-└── cs-* : Documentação Cybersecurity
+├── az-*:Documentação Microsoft Azure
+└── cs-*:Documentação Cybersecurity
 ```
 
 ## Desenvolvimento Contínuo 📚
