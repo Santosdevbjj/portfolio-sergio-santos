@@ -1,6 +1,7 @@
-## Azure laboratório e Cibersegurança 
+## Azure lab. e Cibersegurança lab.
 
-![Screenshot_20241026-013509](https://github.com/user-attachments/assets/c49a7190-3c40-420f-8300-18daaab72dcf)
+![Screenshot_20241218-131257](https://github.com/user-attachments/assets/09b3d700-e21a-444d-b9ba-43294d3070d5)
+
 
 Este repositório contém o resumo das lições aprendidas durante o Bootcamp da Dio, referente a Tecnologia Microsoft Azure.
 O curso proporcionou um amplo conhecimento sobre a tecnologia em nuvem: Microsoft Azure.
