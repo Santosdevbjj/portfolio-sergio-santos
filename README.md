@@ -264,6 +264,18 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
       
 
 
+
+</tr>
+  
+</tr> 
+
+<td>43</td>
+      <td>cs - CCPA - California Consomer Privacy Act
+ </td> 
+      
+
+
+
     
   </tbody> 
 </table> 
