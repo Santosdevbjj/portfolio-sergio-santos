@@ -61,7 +61,7 @@ Certificação IBM AI Fundamentals, com especialização em:
 
 ## Desenvolvimento Contínuo 📚
 
-Como profissional comprometido com o Lifelong Learning, mantenho este repositório atualizado com novos aprendizados e descobertas nas áreas de Cloud Computing, Cibersegurança e IA. Nosso objetivo é disseminar o conhecimento. Contribuições e sugestões são sempre bem-vindas!
+Como profissional comprometido com o Lifelong Learning, organizo este repositório, atualizado com novos aprendizados e descobertas nas áreas de Cloud Computing, Cibersegurança e IA. Nosso objetivo é disseminar o conhecimento. Contribuições e sugestões são sempre bem-vindas!
 
 
 
