@@ -1,7 +1,9 @@
-CVE: Common Vulnerabilities and Exposures.
+# CVE: Common Vulnerabilities and Exposures.
+
+![Screenshot_20241219-170245](https://github.com/user-attachments/assets/f0afdd1a-4ead-43ca-85f4-edb8b8ea2312)
 
 
-Missão do Programa CVE
+# Missão do Programa CVE
 
 A missão do Programa CVE ® é identificar, definir e catalogar vulnerabilidades de segurança cibernética divulgadas publicamente . Há um Registro CVE para cada vulnerabilidade no catálogo.
 
@@ -11,15 +13,17 @@ Os parceiros publicam Registros CVE para comunicar descrições consistentes de 
 
 Profissionais de tecnologia da informação e segurança cibernética usam Registros CVE para garantir que estejam discutindo o mesmo problema e para coordenar seus esforços para priorizar e abordar as vulnerabilidades.
 
-Em cibersegurança, CVE significa Common Vulnerabilities and Exposures (Vulnerabilidades e Exposições Comuns). É um sistema padronizado para identificar e catalogar vulnerabilidades em softwares e sistemas, facilitando a comunicação entre profissionais, ferramentas e empresas ao tratar de falhas de segurança.
+Em cibersegurança, CVE significa Common Vulnerabilities and Exposures (Vulnerabilidades e Exposições Comuns).
 
-Objetivo do CVE
+É um sistema padronizado para identificar e catalogar vulnerabilidades em softwares e sistemas, facilitando a comunicação entre profissionais, ferramentas e empresas ao tratar de falhas de segurança.
+
+# Objetivo do CVE
 
 O objetivo do CVE é fornecer uma maneira uniforme de identificar vulnerabilidades, permitindo que organizações e pesquisadores de segurança discutam e resolvam problemas de forma consistente. Cada CVE é um identificador único atribuído a uma vulnerabilidade específica.
 
-Estrutura de um CVE
+# Estrutura de um CVE
 
-Cada entrada no CVE tem um formato padrão, como:
+## Cada entrada no CVE tem um formato padrão, como:
 
 CVE-2023-12345
 
@@ -32,8 +36,7 @@ Número sequencial: Um identificador único para a vulnerabilidade dentro daquel
 Exemplo: CVE-2024-56789 pode referir-se a uma vulnerabilidade específica encontrada em um software lançado em 2024.
 
 
-
-Componentes do CVE
+# Componentes do CVE
 
 1. Identificação Única: Um número exclusivo, como mencionado acima.
 
@@ -41,9 +44,11 @@ Componentes do CVE
 
 3. Referências: Links para mais informações, como relatórios técnicos, patches de correção ou comunicados de fornecedores.
 
-Como um CVE é atribuído
+# Como um CVE é atribuído
 
-Os CVEs são gerenciados pelo MITRE Corporation em parceria com a National Vulnerability Database (NVD), que é mantida pelo NIST (National Institute of Standards and Technology). As etapas incluem:
+Os CVEs são gerenciados pelo MITRE Corporation em parceria com a National Vulnerability Database (NVD), que é mantida pelo NIST (National Institute of Standards and Technology).
+
+# As etapas incluem:
 
 1. Identificação da vulnerabilidade.
 
@@ -53,7 +58,7 @@ Os CVEs são gerenciados pelo MITRE Corporation em parceria com a National Vulne
 
 4. Publicação na base de dados CVE.
 
-Exemplo Prático
+# Exemplo Prático
 
 Vulnerabilidade Famosa: Log4Shell (CVE-2021-44228)
 
@@ -63,15 +68,21 @@ Impacto: Hackers podiam assumir o controle de sistemas vulneráveis, levando a r
 
 Solução: Atualização da biblioteca Log4j para versões corrigidas.
 
-Como o CVE é usado
+# Como o CVE é usado
 
-1. Análise de Vulnerabilidades: Empresas usam ferramentas de varredura para identificar softwares com vulnerabilidades listadas como CVEs.
+#  Análise de Vulnerabilidades:
+  
+Empresas usam ferramentas de varredura para identificar softwares com vulnerabilidades listadas como CVEs.
 
-2. Gerenciamento de Riscos: Priorizar a correção de vulnerabilidades críticas (por exemplo, CVEs com severidade alta, como execução remota de código ou vazamento de dados).
+# Gerenciamento de Riscos:
+  
+ Priorizar a correção de vulnerabilidades críticas (por exemplo, CVEs com severidade alta, como execução remota de código ou vazamento de dados).
 
-3. Comunicação: Quando uma vulnerabilidade é descoberta, todas as partes envolvidas (desenvolvedores, fornecedores e equipes de TI) podem se referir a ela de forma consistente.
+# Comunicação:
+  
+ Quando uma vulnerabilidade é descoberta, todas as partes envolvidas (desenvolvedores, fornecedores e equipes de TI) podem se referir a ela de forma consistente.
 
-Exemplo de Cenário
+# Exemplo de Cenário
 
 Imagine que sua empresa usa um servidor de e-mail que é identificado como vulnerável ao CVE-2023-12345:
 
@@ -83,7 +94,7 @@ Passo 3: Descobre que o CVE é uma falha que permite vazamento de e-mails por fa
 
 Passo 4: O fabricante do software já publicou uma correção (patch). Sua equipe de TI aplica a correção para mitigar o risco.
 
-Diferença entre CVE e NVD
+# Diferença entre CVE e NVD
 
 Embora o CVE forneça uma identificação única e descrição básica, a NVD (National Vulnerability Database) vai além, incluindo:
 
@@ -93,7 +104,7 @@ Impacto detalhado.
 
 Métricas de exploração e remediação.
 
-Conclusão
+# Conclusão
 
 O CVE é uma ferramenta essencial em cibersegurança para identificar, comunicar e corrigir vulnerabilidades de forma eficiente e padronizada.
 
