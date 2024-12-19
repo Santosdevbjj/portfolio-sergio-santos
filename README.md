@@ -233,21 +233,23 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 <td>39</td>
       <td>cs - Conscientizar e Treinar</td>
 </tr>
-    <tr> 
-
-
-<td>cs - DORA </td> 
-</tr>
-    <tr>
-<td>40</td>
-
-    
+   
 
 </tr> 
 
 
 <td>40</td>
       <td>cs - Ethical Hacking </td> 
+
+
+
+<tr> 
+
+<td>cs - DORA </td> 
+</tr>
+    <tr>
+<td>41</td>
+      
 
     
   </tbody> 
