@@ -341,12 +341,14 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 
 
 
-       </tr>
+      
   
 </tr> 
 
 <td>50</td>
       <td>cs - IA e Cibersegurança 
+
+      </tr>
      
   </tbody> 
 </table> 
