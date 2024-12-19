@@ -243,12 +243,14 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 
 
 
-<tr> 
 
-<td>cs - DORA </td> 
+
 </tr>
-    <tr>
+  
+</tr> 
+
 <td>41</td>
+      <td>cs - DORA </td> 
       
 
     
