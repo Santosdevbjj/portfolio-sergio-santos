@@ -337,8 +337,16 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 
 <td>49</td>
       <td>cs - Fundamentos da Defesa Cibernética
-       
-     
+
+
+
+
+       </tr>
+  
+</tr> 
+
+<td>50</td>
+      <td>cs - IA e Cibersegurança 
      
   </tbody> 
 </table> 
