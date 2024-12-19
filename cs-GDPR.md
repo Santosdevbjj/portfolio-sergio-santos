@@ -1,4 +1,6 @@
-# O Regulamento Geral de Proteção de Dados (GDPR, na sigla em inglês para General Data Protection Regulation) é uma legislação da União Europeia que regula a proteção e privacidade dos dados pessoais dos cidadãos da UE.
+# O Regulamento Geral de Proteção de Dados (GDPR, na sigla em inglês para General Data Protection Regulation).
+
+É uma legislação da União Europeia que regula a proteção e privacidade dos dados pessoais dos cidadãos da UE.
 
 ![Screenshot_20241219-014415](https://github.com/user-attachments/assets/a810b432-6fec-447a-93b3-5d715ed808f3)
 
