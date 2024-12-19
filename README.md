@@ -330,7 +330,15 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 <td>48</td>
       <td>cs - CVE - Common Vulnerabilities and Exposures
        
-      </td> 
+
+</tr>
+  
+</tr> 
+
+<td>49</td>
+      <td>cs - Fundamentos da Defesa Cibernética
+       
+     
      
   </tbody> 
 </table> 
