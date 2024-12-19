@@ -25,6 +25,8 @@ Em formação pelo Bootcamp Santander Cibersegurança #2 (DIO), com foco em:
 - Análise de Vulnerabilidades
 - Estratégias de Defesa Cibernética
 
+Mentoria técnica: Cassiano Peres
+
 ### Artificial Intelligence 🤖
 Certificação IBM AI Fundamentals, com especialização em:
 - Fundamentos de Inteligência Artificial
