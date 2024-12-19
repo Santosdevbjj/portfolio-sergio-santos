@@ -225,13 +225,13 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 
 
 <td>38</td>
-      <td>Kali Linux </td> 
+      <td>cs - Kali Linux </td> 
 
 
 </tr>
     <tr>
 <td>39</td>
-      <td>Conscientizar e Treinar</td>
+      <td>cs - Conscientizar e Treinar</td>
 </tr>
     <tr>
 
@@ -239,7 +239,7 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 
 
 <td>40</td>
-      <td>Ethical Hacking </td> 
+      <td>cs - Ethical Hacking </td> 
 
     
   </tbody> 
