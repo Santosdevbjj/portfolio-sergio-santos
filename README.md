@@ -250,7 +250,8 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 </tr> 
 
 <td>41</td>
-      <td>cs - DORA </td> 
+      <td>cs - DORA - Digital Operational Resilience Act
+ </td> 
       
 
     
