@@ -301,17 +301,21 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 </tr> 
 
 <td>46</td>
-      <td>cs - LGPD - Lei Geral de Proteção de Dados
+      <td>cs - HIPAA - Health Insurance Portability and Accountability Act
  </td> 
+
+
+
 
 
 </tr>
   
 </tr> 
 
-<td>46</td>
-      <td>cs - HIPAA - Health Insurance Portability and Accountability Act
+<td>47</td>
+      <td>cs - LGPD - Lei Geral de Proteção de Dados
  </td> 
+
 
 
     
