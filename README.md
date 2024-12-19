@@ -284,8 +284,6 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
       
 
 
-
-
 </tr>
   
 </tr> 
@@ -293,6 +291,19 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 <td>45</td>
       <td>cs - PCI DSS  Payment Card Industry Data Security Standard
  </td> 
+
+
+
+
+
+</tr>
+  
+</tr> 
+
+<td>46</td>
+      <td>cs - HIPAA - Health Insurance Portability and Accountability Act
+ </td> 
+
 
     
   </tbody> 
