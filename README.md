@@ -252,7 +252,17 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
 <td>41</td>
       <td>cs - DORA - Digital Operational Resilience Act
  </td> 
+
+
+ </tr>
+  
+</tr> 
+
+<td>42</td>
+      <td>cs - GDPR - General Data Protection Regulation
+ </td> 
       
+
 
     
   </tbody> 
