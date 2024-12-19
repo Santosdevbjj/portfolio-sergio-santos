@@ -284,6 +284,16 @@ Como profissional comprometido com o Lifelong Learning, organizo este repositór
       
 
 
+
+
+</tr>
+  
+</tr> 
+
+<td>45</td>
+      <td>cs - PCI DSS  Payment Card Industry Data Security Standard
+ </td> 
+
     
   </tbody> 
 </table> 
