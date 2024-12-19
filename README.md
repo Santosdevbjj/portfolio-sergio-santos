@@ -40,17 +40,17 @@ Certificação IBM AI Fundamentals, com especialização em:
 ## Estrutura do Repositório 📂
 
 ```
-├── az-* :Document.Microsoft Azure
+├── az-* :Microsoft Azure
 │   ├── Cloud Computing
 │   ├── Serviços Azure
 │   └── Arquitetura Cloud
 │
-├── cs-* :Document.Cybersecurity
+├── cs-* :Cybersecurity
 │   ├── Fundamentos
 │   ├── Práticas de Segurança
 │   └── Análise de Riscos
 │
-└── ia-* :Document.Inteligência Artificial
+└── ia-* :Inteligência Artificial
     ├── Fundamentos IA
     ├── Machine Learning
     ├── Deep Learning
