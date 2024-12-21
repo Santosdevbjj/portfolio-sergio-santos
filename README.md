@@ -10,7 +10,7 @@ Este repositório documenta minha jornada de desenvolvimento profissional em Clo
 ## Tecnologias e Certificações
 
 ### Microsoft Azure ☁️
-Participante do Bootcamp DIO Microsoft Azure, onde desenvolvi competências em:
+Participante do Bootcamp DIO Microsoft Azure Essentials, onde desenvolvi competências em:
 - Computação em Nuvem
 - Arquitetura Azure
 - Gerenciamento de Recursos
