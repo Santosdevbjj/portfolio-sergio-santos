@@ -1,5 +1,8 @@
 # Hash: Conceitos, Características e Aplicações
 
+![Screenshot_20241222-192723](https://github.com/user-attachments/assets/a19490a7-bb52-4da1-a96d-aa449bf3f5e1)
+
+
 ## O que é um Hash?
 
 Um hash é uma função matemática que transforma uma entrada (dados de qualquer tamanho, como texto ou arquivos) em uma saída fixa de comprimento específico.
