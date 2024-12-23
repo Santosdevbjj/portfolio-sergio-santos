@@ -106,6 +106,67 @@ Protocolo confiável que garante a entrega dos dados na ordem correta.
 
 4. **Recebimento:** O TCP confirma a entrega e reordena os pacotes
 
-5. **Entrega:** O FTP conclui o download 
+5. **Entrega:** O FTP conclui o download
 
+
+# Funcionamento do TCP/IP
+
+## Exemplo Prático: Acessar um site
+
+1. Você digita "www.google.com" no navegador.
+
+2. O protocolo DNS traduz o nome do domínio para um endereço IP (ex.: 142.250.190.46).
+
+3. O protocolo HTTP (Camada de Aplicação) solicita o conteúdo da página.
+
+4. O protocolo TCP (Camada de Transporte) divide os dados da página em pacotes e os envia de forma confiável.
+
+5. O protocolo IP (Camada de Internet) roteia os pacotes pela rede até o servidor do Google.
+
+6. Os pacotes chegam ao destino e são reagrupados para exibir o site no navegador.
+   
+
+## Importância do TCP/IP na Cibersegurança
+
+### 1. Análise de Tráfego
+Ferramentas como o Wireshark capturam pacotes TCP/IP para identificar anomalias no tráfego, como ataques de negação de serviço (DDoS).
+
+**Exemplo:**
+Um atacante envia milhares de requisições falsas para um servidor (flood de pacotes TCP SYN). Analisar esses pacotes ajuda a bloquear o ataque.
+
+### 2. Firewall e Filtragem
+Firewalls analisam os cabeçalhos TCP/IP para decidir quais pacotes podem passar.
+
+**Exemplo:**
+Um firewall pode bloquear pacotes com IPs suspeitos ou portas específicas usadas por malwares.
+
+### 3. Detecção de Intrusão (IDS)
+Sistemas IDS monitoram padrões de tráfego anormal baseados no protocolo TCP/IP para detectar atividades maliciosas.
+
+**Exemplo:**
+Detectar um ataque de "Man-in-the-Middle" onde pacotes IP são interceptados e modificados.
+
+### 4. Endurecimento de Redes
+Entender TCP/IP permite implementar medidas como:
+* Uso de VPNs para proteger o tráfego
+* Configuração correta de NAT e roteadores para isolar redes internas
+
+## Exemplos de Uso no Dia a Dia
+
+### 1. Proteção de Redes Empresariais
+Administradores usam ferramentas como firewalls baseados em TCP/IP para segmentar redes e evitar o movimento lateral de invasores.
+
+### 2. Implementação de VPNs
+Empresas criam túneis seguros (baseados em TCP/IP) para proteger dados enviados pela internet.
+
+### 3. Análise Forense
+Peritos em cibersegurança analisam pacotes TCP/IP para rastrear a origem de ataques.
+
+## Conclusão
+
+O TCP/IP é essencial para a conectividade, mas também é um dos principais vetores de ataque.
+
+Entender seu funcionamento é crucial para implementar medidas de proteção como firewalls, VPNs e IDS, além de identificar vulnerabilidades na comunicação em redes.
+
+Essa expertise ajuda a mitigar ataques e proteger os sistemas modernos.
 
