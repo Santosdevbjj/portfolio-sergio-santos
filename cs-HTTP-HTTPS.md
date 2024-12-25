@@ -1,5 +1,8 @@
 # HTTP e HTTPS: Protocolos Web e Segurança
 
+![Screenshot_20241225-183228](https://github.com/user-attachments/assets/ab2639c9-5ab0-4fe5-b539-7c93016e5a26)
+
+
 ## Introdução
 O HTTP (Hypertext Transfer Protocol) e o HTTPS (Hypertext Transfer Protocol Secure) são protocolos usados para comunicação entre clientes (navegadores, por exemplo) e servidores na web.
 
