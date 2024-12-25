@@ -52,8 +52,6 @@ O HTTPS é uma versão segura do HTTP. Ele usa criptografia para proteger os dad
 https://www.exemplo.com
 ```
 
-## Comparação entre HTTP e HTTPS
-
 
 </head>
 <body>
