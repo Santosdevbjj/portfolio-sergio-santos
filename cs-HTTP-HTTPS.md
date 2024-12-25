@@ -54,13 +54,48 @@ https://www.exemplo.com
 
 ## Comparação entre HTTP e HTTPS
 
-| Característica | HTTP | HTTPS |
-|----------------|------|--------|
-| Segurança | Dados em texto puro | Dados criptografados |
-| Criptografia | Não | Sim (SSL/TLS) |
-| Porta padrão | 80 | 443 |
-| Uso de certificados | Não | Sim (certificado SSL/TLS) |
-| Indicação no navegador | Nenhuma ou "Não seguro" | Cadeado ou barra verde |
+
+</head>
+<body>
+    <h1>Diferenças entre HTTP e HTTPS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Característica</th>
+                <th>HTTP</th>
+                <th>HTTPS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segurança</td>
+                <td>Dados em texto puro</td>
+                <td>Dados criptografados</td>
+            </tr>
+            <tr>
+                <td>Criptografia</td>
+                <td>Não</td>
+                <td>Sim (SSL/TLS)</td>
+            </tr>
+            <tr>
+                <td>Porta padrão</td>
+                <td>80</td>
+                <td>443</td>
+            </tr>
+            <tr>
+                <td>Uso de certificados</td>
+                <td>Não</td>
+                <td>Sim (certificado SSL/TLS)</td>
+            </tr>
+            <tr>
+                <td>Indicação no navegador</td>
+                <td>Nenhuma ou "Não seguro"</td>
+                <td>Cadeado ou barra verde</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html> 
 
 ## Importância para a Cibersegurança
 
