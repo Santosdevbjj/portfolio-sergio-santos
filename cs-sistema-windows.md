@@ -10,108 +10,102 @@ Ele oferece uma ampla gama de recursos para usuários domésticos, corporativos 
 Vamos explorar o sistema operacional em detalhes com foco em cibersegurança, incluindo as versões, comandos, uso em redes, internet, nuvem, PowerShell e configurações especiais.
 
 
-1. Visão Geral das Versões do Windows
+# 1. Visão Geral das Versões do Windows
 
-1.1. Versões Principais
+# 1.1. Versões Principais
 
-1. Windows XP (2001): Amplamente usado, mas inseguro para padrões modernos.
-
-
-2. Windows 7 (2009): Estável, com suporte encerrado em 2020.
+**1. Windows XP (2001):** Amplamente usado, mas inseguro para padrões modernos.
 
 
-3. Windows 10 (2015): Focado em segurança e integração com a nuvem.
+**2. Windows 7 (2009):** Estável, com suporte encerrado em 2020.
 
 
-4. Windows 11 (2021): Última versão, com foco em produtividade e segurança avançada.
+**3. Windows 10 (2015):** Focado em segurança e integração com a nuvem.
 
 
-Nota: As versões de servidor, como Windows Server 2019/2022, oferecem recursos adicionais para gerenciar redes corporativas e servidores.
+**4. Windows 11 (2021):** Última versão, com foco em produtividade e segurança avançada.
 
 
-
-2. Recursos de Segurança no Windows
-
-2.1. Recursos Embutidos
-
-1. Windows Defender: Antivírus integrado para proteger contra malware e spyware.
+Nota: As versões de servidor, como **Windows Server 2019/2022**, oferecem recursos adicionais para gerenciar redes corporativas e servidores.
 
 
-2. BitLocker: Criptografia de disco para proteger dados em dispositivos roubados ou perdidos.
+## 2. Recursos de Segurança no Windows
+
+## 2.1. Recursos Embutidos
+
+**1. Windows Defender:** Antivírus integrado para proteger contra malware e spyware.
 
 
-3. Windows Sandbox: Ambiente isolado para executar aplicativos suspeitos.
+**2. BitLocker:** Criptografia de disco para proteger dados em dispositivos roubados ou perdidos.
 
 
-4. Controle de Conta de Usuário (UAC): Protege contra alterações não autorizadas no sistema.
+**3. Windows Sandbox:** Ambiente isolado para executar aplicativos suspeitos.
 
 
-5. Firewall do Windows: Bloqueia conexões não autorizadas.
+**4. Controle de Conta de Usuário (UAC):** Protege contra alterações não autorizadas no sistema.
 
 
-
-2.2. Ferramentas Avançadas
-
-Event Viewer: Monitora logs de eventos.
-
-Windows Security Baseline: Conjunto de políticas de segurança recomendado pela Microsoft.
-
-Group Policy (GPO): Gerencia configurações de segurança em redes corporativas.
+**5. Firewall do Windows:** Bloqueia conexões não autorizadas.
 
 
+## 2.2. Ferramentas Avançadas
 
-3. Principais Comandos para Cibersegurança
+**Event Viewer:** Monitora logs de eventos.
 
-3.1. Comandos do Prompt (CMD)
+**Windows Security Baseline:** Conjunto de políticas de segurança recomendado pela Microsoft.
 
-1. Ver informações de rede:
-
-ipconfig: Exibe a configuração de rede.
-
-ping: Verifica a conectividade com um host.
-
-tracert: Rastreia o caminho de pacotes até um host.
-
-netstat: Mostra conexões de rede ativas.
-
-arp -a: Lista a tabela ARP.
+**Group Policy (GPO):** Gerencia configurações de segurança em redes corporativas.
 
 
+## 3. Principais Comandos para Cibersegurança
 
-2. Gerenciamento de usuários:
+# 3.1. Comandos do Prompt (CMD)
 
-net user: Adiciona ou modifica contas de usuários.
+# 1. Ver informações de rede:
 
-net localgroup: Gerencia grupos locais.
+**ipconfig:** Exibe a configuração de rede.
+
+**ping:** Verifica a conectividade com um host.
+
+**tracert:** Rastreia o caminho de pacotes até um host.
+
+**netstat:** Mostra conexões de rede ativas.
+
+**arp -a:** Lista a tabela ARP.
 
 
+## 2. Gerenciamento de usuários:
 
-3. Segurança:
+**net user:** Adiciona ou modifica contas de usuários.
 
-cipher /w:C: Apaga dados permanentemente.
+**net localgroup:** Gerencia grupos locais.
 
-tasklist e taskkill: Lista e encerra processos.
+
+## 3. Segurança:
+
+**cipher /w:C:** Apaga dados permanentemente.
+
+**tasklist e taskkill:** Lista e encerra processos.
 
 
 
+## 3.2. Comandos no PowerShell
 
-3.2. Comandos no PowerShell
-
-1. Auditoria de Sistema:
+## 1. Auditoria de Sistema:
 
 Get-EventLog -LogName Security -Newest 10
 
 Exibe os 10 eventos mais recentes do log de segurança.
 
 
-2. Gerenciar Firewalls:
+## 2. Gerenciar Firewalls:
 
 Get-NetFirewallRule | Where-Object { $_.Enabled -eq "True" }
 
 Lista regras de firewall ativas.
 
 
-3. Varredura de Arquivos Maliciosos:
+## 3. Varredura de Arquivos Maliciosos:
 
 Start-MpScan -ScanType QuickScan
 
@@ -119,103 +113,96 @@ Realiza uma varredura rápida usando o Windows Defender.
 
 
 
-4. Uso em Rede
+## 4. Uso em Rede
 
-4.1. Configuração de Rede
+## 4.1. Configuração de Rede
 
-Definição de IP estático: Configure IPs manualmente para maior controle.
+**Definição de IP estático:** Configure IPs manualmente para maior controle.
 
-Active Directory (AD): Gerenciamento centralizado de usuários e dispositivos em redes corporativas.
+**Active Directory (AD):** Gerenciamento centralizado de usuários e dispositivos em redes corporativas.
 
-Group Policy: Impõe políticas de segurança em dispositivos conectados à rede.
-
-
-4.2. Diagnóstico
-
-Ferramentas de Rede:
-
-Wireshark: Análise de pacotes.
-
-netsh: Configurações de rede avançadas.
+**Group Policy:** Impõe políticas de segurança em dispositivos conectados à rede.
 
 
+## 4.2. Diagnóstico
+
+## Ferramentas de Rede:
+
+**Wireshark:**  Análise de pacotes.
+
+**netsh:** Configurações de rede avançadas.
 
 
-5. Internet e Navegação Segura
+## 5. Internet e Navegação Segura
 
-Microsoft Edge: Navegador integrado com proteção contra phishing e sites maliciosos.
+**Microsoft Edge:**  Navegador integrado com proteção contra phishing e sites maliciosos.
 
-Configurações DNS:
+## Configurações DNS:
 
 Use DNS seguros como o Google Public DNS (8.8.8.8) ou Cloudflare (1.1.1.1).
 
 
-VPN no Windows:
+## VPN no Windows:
 
 Configure VPNs para proteger conexões, especialmente em redes públicas.
 
 
+## 6. Integração com a Nuvem
 
-6. Integração com a Nuvem
+## 6.1. Microsoft Azure
 
-6.1. Microsoft Azure
+**Azure Active Directory:**  Gerenciamento de identidades na nuvem.
 
-Azure Active Directory: Gerenciamento de identidades na nuvem.
+**Windows Virtual Desktop:** Virtualização do Windows na nuvem.
 
-Windows Virtual Desktop: Virtualização do Windows na nuvem.
-
-Backup e Recuperação:
+## Backup e Recuperação:
 
 Use o OneDrive para backup de dados importantes.
 
 
 
-6.2. Sincronização
+## 6.2. Sincronização
 
 O Windows 10/11 sincroniza configurações e arquivos com a nuvem para acesso seguro em vários dispositivos.
 
 
-
-7. PowerShell e Automação
+## 7. PowerShell e Automação
 
 O PowerShell é uma ferramenta poderosa para automação, com suporte para scripts avançados.
 
 
-Exemplo: Bloquear um IP com firewall:
+**Exemplo:** Bloquear um IP com firewall:
 
 New-NetFirewallRule -DisplayName "Bloquear IP Malicioso" -Direction Inbound -Action Block -RemoteAddress 192.168.1.100
 
 
+## 8. Configurações Especiais para Segurança
 
-8. Configurações Especiais para Segurança
-
-8.1. Configurações de Política
+# 8.1. Configurações de Política
 
 Configure o GPO para restringir aplicativos não confiáveis.
 
 Ative o Windows Defender Credential Guard para proteger credenciais.
 
 
-8.2. Proteção de Dados
+# 8.2. Proteção de Dados
 
 Habilite o BitLocker para criptografar discos rígidos.
 
 Use o Controlled Folder Access para proteger pastas críticas.
 
 
+# Vamos detalhar os aspectos mais práticos do Windows 10, Windows 11, e o PowerShell, incluindo tutoriais básicos e avançados.
+
+# A abordagem é focada no uso cotidiano e em aplicações relacionadas à cibersegurança.
 
 
 
+# 1. Introdução ao Windows 10 e Windows 11
 
-Vamos detalhar os aspectos mais práticos do Windows 10, Windows 11, e o PowerShell, incluindo tutoriais básicos e avançados. A abordagem é focada no uso cotidiano e em aplicações relacionadas à cibersegurança.
+# 1.1. Semelhanças e Diferenças
 
-
-
-1. Introdução ao Windows 10 e Windows 11
-
-1.1. Semelhanças e Diferenças
-
-Windows 10:
+## Windows 10:
 
 Interface mais personalizável.
 
@@ -224,7 +211,7 @@ Suporte prolongado para uso corporativo.
 Compatibilidade com hardware mais antigo.
 
 
-Windows 11:
+## Windows 11:
 
 Interface mais moderna e simplificada.
 
@@ -233,35 +220,32 @@ Requisitos de hardware mais rigorosos (ex.: TPM 2.0).
 Melhor integração com a Microsoft Store e aplicativos Android.
 
 
+# 1.2. Ferramentas de Segurança Essenciais
 
-1.2. Ferramentas de Segurança Essenciais
+# Ambos incluem:
 
-Ambos incluem:
-
-1. Windows Defender: Antivírus e proteção contra ameaças.
-
-
-2. Firewall do Windows: Bloqueio de conexões maliciosas.
+**1. Windows Defender:** Antivírus e proteção contra ameaças.
 
 
-3. BitLocker: Criptografia de disco para segurança de dados.
+**2. Firewall do Windows:** Bloqueio de conexões maliciosas.
 
 
-4. Sandbox (somente Pro e Enterprise): Executa aplicativos suspeitos em ambiente isolado.
+**3. BitLocker:** Criptografia de disco para segurança de dados.
+
+**4. Sandbox (somente Pro e Enterprise):** Executa aplicativos suspeitos em ambiente isolado.
 
 
 
+# 2. Configurações Básicas e Avançadas
 
-2. Configurações Básicas e Avançadas
-
-2.1. Atalhos e Configurações Básicas
+# 2.1. Atalhos e Configurações Básicas
 
 Windows + I: Abre as configurações.
 
 Windows + R: Executa comandos.
 
 
-Alterar Configurações de Rede
+# Alterar Configurações de Rede
 
 1. Vá para Configurações > Rede e Internet.
 
@@ -272,8 +256,7 @@ Alterar Configurações de Rede
 3. Ative o IPv4 manualmente e configure IP estático se necessário.
 
 
-
-Configurar Firewall
+## Configurar Firewall
 
 1. Acesse o Painel de Controle > Sistema e Segurança > Firewall do Windows.
 
@@ -281,11 +264,9 @@ Configurar Firewall
 2. Clique em Configurações Avançadas para criar regras personalizadas.
 
 
+## 2.2. Segurança com o BitLocker
 
-
-2.2. Segurança com o BitLocker
-
-Habilitar o BitLocker:
+# Habilitar o BitLocker:
 
 1. Abra o Painel de Controle > Criptografia de Unidade de Disco BitLocker.
 
@@ -296,62 +277,58 @@ Habilitar o BitLocker:
 3. Escolha um método de autenticação (senha ou chave USB).
 
 
-
-
-
-3. Introdução ao PowerShell
+## 3. Introdução ao PowerShell
 
 O PowerShell é uma ferramenta poderosa de automação e gerenciamento em sistemas Windows.
 
-3.1. Abrindo o PowerShell
+## 3.1. Abrindo o PowerShell
 
-1. Windows 10/11: Clique em Iniciar e digite "PowerShell".
-
-
-2. Execute como Administrador para acesso total.
+**1. Windows 10/11:** Clique em Iniciar e digite "PowerShell".
 
 
+## 2. Execute como Administrador para acesso total.
 
 
-3.2. Comandos Básicos do PowerShell
 
-Navegação pelo Sistema
+## 3.2. Comandos Básicos do PowerShell
 
-Listar arquivos em um diretório:
+# Navegação pelo Sistema
+
+## Listar arquivos em um diretório:
 
 Get-ChildItem
 
-Mover para outro diretório:
+## Mover para outro diretório:
 
 Set-Location C:\Windows
 
 
-Gerenciamento de Processos
+## Gerenciamento de Processos
 
-Listar processos ativos:
+## Listar processos ativos:
 
 Get-Process
 
-Encerrar processo específico:
+## Encerrar processo específico:
 
 Stop-Process -Name notepad
 
 
-Gerenciamento de Usuários
+## Gerenciamento de Usuários
 
-Criar um novo usuário local:
+## Criar um novo usuário local:
 
 New-LocalUser -Name "NovoUsuario" -Password (ConvertTo-SecureString "SenhaForte123" -AsPlainText -Force) -FullName "Usuário Teste"
 
-Adicionar ao grupo Administradores:
+## Adicionar ao grupo Administradores:
 
 Add-LocalGroupMember -Group "Administradores" -Member "NovoUsuario"
 
 
 
-3.3. Automação com Scripts
+## 3.3. Automação com Scripts
 
-Os scripts no PowerShell usam a extensão .ps1. Para criar um script básico:
+**Os scripts no PowerShell usam a extensão .ps1. Para criar um script básico:**
 
 1. Abra o Bloco de Notas.
 
@@ -370,41 +347,39 @@ Write-Host "Bem-vindo ao PowerShell!"
 
 
 
+## 3.4. Comandos Avançados em Cibersegurança
 
-3.4. Comandos Avançados em Cibersegurança
+## Auditar Eventos de Segurança
 
-Auditar Eventos de Segurança
-
-Listar os últimos 50 eventos de segurança:
+# Listar os últimos 50 eventos de segurança:
 
 Get-EventLog -LogName Security -Newest 50
 
 
-Configuração de Firewall
+## Configuração de Firewall
 
-Bloquear endereço IP:
+# Bloquear endereço IP:
 
 New-NetFirewallRule -DisplayName "Bloquear IP Malicioso" -Direction Inbound -Action Block -RemoteAddress 192.168.1.100
 
 
-Varredura Rápida com Windows Defender
+# Varredura Rápida com Windows Defender
 
 Executar uma verificação rápida:
 
 Start-MpScan -ScanType QuickScan
 
 
-
-3.5. Automatização com Tarefas Agendadas
+# 3.5. Automatização com Tarefas Agendadas
 
 Automatize uma tarefa para executar diariamente:
 
-1. Crie um script backup.ps1:
+## 1. Crie um script backup.ps1:
 
 Copy-Item -Path "C:\Dados" -Destination "D:\Backup" -Recurse
 
 
-2. Agende a execução no Agendador de Tarefas:
+## 2. Agende a execução no Agendador de Tarefas:
 
 Acesse Painel de Controle > Ferramentas Administrativas > Agendador de Tarefas.
 
@@ -412,34 +387,28 @@ Crie uma nova tarefa e defina a execução do script.
 
 
 
+## 4. Tutorial Prático de Cibersegurança no Windows 10/11
 
-
-4. Tutorial Prático de Cibersegurança no Windows 10/11
-
-4.1. Configuração de Proteção com GPO
+# 4.1. Configuração de Proteção com GPO
 
 1. Abra o Editor de Política de Grupo Local:
 
 gpedit.msc no Executar.
 
 
-
-2. Navegue até:
+# 2. Navegue até:
 
 Configurações do Computador > Políticas > Configurações do Windows > Configurações de Segurança.
 
 
 
-3. Configure políticas como:
+# 3. Configure políticas como:
 
 Bloquear execução de programas não autorizados: Ative o AppLocker.
 
 
 
-
-
-
-4.2. Monitoramento de Atividades
+# 4.2. Monitoramento de Atividades
 
 Ative o Auditing para monitorar alterações em arquivos:
 
@@ -447,99 +416,82 @@ AuditPol /Set /Category:"Object Access" /Success:Enable /Failure:Enable
 
 
 
-Se precisar de mais tutoriais, como instalação de ambientes Windows Server ou configuração detalhada de redes, posso aprofundar ainda mais!
+**O Windows Server 2019/2022 é uma das plataformas mais robustas para gerenciamento de redes corporativas e servidores.**
 
+![Screenshot_20241226-221054](https://github.com/user-attachments/assets/234c60a3-419b-4c6d-9b7f-7c89a076bdcb)
 
-
-
-
-O Windows Server 2019/2022 é uma das plataformas mais robustas para gerenciamento de redes corporativas e servidores.
 
 Ele oferece ferramentas avançadas para configurar redes, gerenciar usuários, proteger dados e implementar políticas de segurança em ambientes corporativos.
 
 Aqui está uma visão detalhada com tutoriais práticos sobre como gerenciar redes, configurar servidores, usar o PowerShell, habilitar o firewall, implementar antivírus e adotar boas práticas de cibersegurança.
 
 
+##1. Introdução ao Windows Server 2019/2022
 
-1. Introdução ao Windows Server 2019/2022
+# 1.1. Principais Características
 
-1.1. Principais Características
+# 1. Gerenciamento de Identidades:
 
-1. Gerenciamento de Identidades:
+**Active Directory (AD):** Controla usuários, grupos e políticas.
 
-Active Directory (AD): Controla usuários, grupos e políticas.
-
-DNS e DHCP: Gerencia endereços IP e resolve nomes de domínio.
-
+**DNS e DHCP:** Gerencia endereços IP e resolve nomes de domínio.
 
 
-2. Virtualização:
+## 2. Virtualização:
 
-Hyper-V: Cria e gerencia máquinas virtuais.
-
-
-
-3. Armazenamento e Backup:
-
-Storage Spaces Direct (S2D): Configuração de armazenamento distribuído.
-
-Windows Server Backup: Backup de arquivos e sistemas.
+**Hyper-V:** Cria e gerencia máquinas virtuais.
 
 
+## 3. Armazenamento e Backup:
 
-4. Segurança:
+**Storage Spaces Direct (S2D):** Configuração de armazenamento distribuído.
+
+**Windows Server Backup:** Backup de arquivos e sistemas.
+
+
+## 4. Segurança:
 
 Windows Defender Advanced Threat Protection (ATP).
 
-Just Enough Administration (JEA): Limita privilégios administrativos.
+**Just Enough Administration (JEA):** Limita privilégios administrativos.
 
 
+## 2. Configurações Básicas do Servidor
+
+# 2.1. Pré-requisitos
+
+# 1. Instale o Windows Server 2019/2022.
 
 
-
-2. Configurações Básicas do Servidor
-
-2.1. Pré-requisitos
-
-1. Instale o Windows Server 2019/2022.
+# 2. Acesse o Server Manager (Gerenciador do Servidor) após o login inicial.
 
 
-2. Acesse o Server Manager (Gerenciador do Servidor) após o login inicial.
+# 2.2. Configuração de Rede
 
-
-
-
-
-2.2. Configuração de Rede
-
-1. Defina o IP Estático:
+# 1. Defina o IP Estático:
 
 Abra o Gerenciador de Servidor > Ferramentas > Configurações de Rede.
 
 Configure um IP estático para o servidor.
 
 
-PowerShell:
+## PowerShell:
 
-New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 192.168.1.100 -PrefixLength 24 -DefaultGateway 192.168.1.1
+**New-NetIPAddress -InterfaceAlias "Ethernet"**  -IPAddress 192.168.1.100 -PrefixLength 24 -DefaultGateway 192.168.1.1
 
 
-2. Configuração de DNS:
+## 2. Configuração de DNS:
 
 Configure o DNS para resolver nomes dentro da rede.
 
-Exemplo: 192.168.1.10 para o domínio interno empresa.local.
+**Exemplo:** 192.168.1.10 para o domínio interno empresa.local.
 
 
-
-
-2.3. Criar e Configurar um Domínio
+## 2.3. Criar e Configurar um Domínio
 
 1. Abra o Server Manager.
 
-
 2. Instale a função Active Directory Domain Services (AD DS).
-
 
 3. Promova o servidor a um Controlador de Domínio:
 
@@ -547,13 +499,10 @@ Escolha o nome do domínio (ex.: empresa.local).
 
 
 
-
-PowerShell:
+## PowerShell:
 
 Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 Install-ADDSForest -DomainName "empresa.local"
-
-
 
 
 3. Gerenciamento de Redes Corporativas
@@ -565,36 +514,32 @@ Install-ADDSForest -DomainName "empresa.local"
 Server Manager > Adicionar Funções e Recursos.
 
 
-
-2. Configure um escopo:
+## 2. Configure um escopo:
 
 Intervalo de IPs: 192.168.1.100 - 192.168.1.200.
 
 Máscara de Sub-rede: 255.255.255.0.
 
 
-PowerShell:
+## PowerShell:
 
 Add-DhcpServerv4Scope -Name "RedeLocal" -StartRange 192.168.1.100 -EndRange 192.168.1.200 -SubnetMask 255.255.255.0
 
 
 
+# 3.2. Configuração do DNS
 
-3.2. Configuração do DNS
-
-1. Instale o DNS:
+# 1. Instale o DNS:
 
 Configure zonas primárias e reversas.
 
 Adicione registros A e PTR.
 
 
-
-PowerShell:
+## PowerShell:
 
 Add-DnsServerPrimaryZone -Name "empresa.local" -ZoneType ActiveDirectoryIntegrated
 Add-DnsServerResourceRecordA -ZoneName "empresa.local" -Name "servidor" -IPv4Address 192.168.1.100
-
 
 
 
@@ -602,7 +547,7 @@ Add-DnsServerResourceRecordA -ZoneName "empresa.local" -Name "servidor" -IPv4Add
 
 4.1. Configuração do Firewall
 
-Habilite o Firewall do Windows:
+## Habilite o Firewall do Windows:
 
 1. Vá para Ferramentas > Configurações Avançadas do Firewall.
 
@@ -610,13 +555,13 @@ Habilite o Firewall do Windows:
 2. Crie regras para bloquear portas não utilizadas.
 
 
-PowerShell:
+## PowerShell:
 
 New-NetFirewallRule -DisplayName "Bloquear Porta 23 (Telnet)" -Direction Inbound -Protocol TCP -LocalPort 23 -Action Block
 
 
 
-4.2. Windows Defender ATP
+## 4.2. Windows Defender ATP
 
 Configure a Proteção Avançada contra Ameaças:
 
@@ -627,8 +572,7 @@ Configure a Proteção Avançada contra Ameaças:
 
 
 
-
-Varredura Rápida:
+## Varredura Rápida:
 
 Start-MpScan -ScanType QuickScan
 
@@ -638,11 +582,11 @@ Set-MpPreference -EnableControlledFolderAccess Enabled
 
 
 
-5. Uso do PowerShell no Windows Server
+## 5. Uso do PowerShell no Windows Server
 
-5.1. Gerenciamento de Usuários
+# 5.1. Gerenciamento de Usuários
 
-Criar um Usuário:
+## Criar um Usuário:
 
 New-ADUser -Name "Joao Silva" -SamAccountName "joao.silva" -UserPrincipalName "joao.silva@empresa.local" -Path "OU=Usuarios,DC=empresa,DC=local" -AccountPassword (ConvertTo-SecureString "SenhaForte123" -AsPlainText -Force) -Enabled $true
 
@@ -651,8 +595,7 @@ Adicionar ao Grupo Administradores:
 Add-ADGroupMember -Identity "Administradores" -Members "joao.silva"
 
 
-
-5.2. Monitoramento de Logs
+## 5.2. Monitoramento de Logs
 
 Visualizar os 20 eventos mais recentes:
 
@@ -663,11 +606,9 @@ Exportar logs de segurança:
 Get-WinEvent -LogName Security | Export-Csv "C:\Logs\Seguranca.csv"
 
 
+## 5.3. Configuração de Scripts Automáticos
 
-
-5.3. Configuração de Scripts Automáticos
-
-Crie um script para backup:
+# Crie um script para backup:
 
 Copy-Item -Path "C:\Dados" -Destination "\\ServidorBackup\Backup" -Recurse
 
@@ -677,8 +618,6 @@ Agende o script com o Agendador de Tarefas:
 
 
 2. Crie uma nova tarefa e adicione o script.
-
-
 
 
 6. Cibersegurança no Windows Server
@@ -691,7 +630,7 @@ New-PSSessionConfigurationFile -SessionType RestrictedRemoteServer -Path "C:\Con
 Register-PSSessionConfiguration -Name "JEAConfig" -Path "C:\Config\JEA.pssc"
 
 
-6.2. Monitoramento em Tempo Real
+## 6.2. Monitoramento em Tempo Real
 
 Use o Microsoft Defender for Endpoint para rastrear ataques.
 
@@ -700,7 +639,7 @@ Configure alertas de segurança no Security Compliance Toolkit.
 
 6.3. Configuração de Políticas de Grupo (GPO)
 
-Configure restrições em:
+## Configure restrições em:
 
 1. Computador > Configurações > Políticas > Configurações de Segurança.
 
@@ -708,28 +647,23 @@ Configure restrições em:
 2. Ative Restrição de Software ou AppLocker para bloquear aplicativos.
 
 
-
-
 Vamos aprofundar nos tópicos de virtualização, scripts avançados no Windows Server 2019/2022, configuração de máquinas virtuais e replicação de dados, incluindo cada etapa detalhada.
 
 
 
-1. Virtualização no Windows Server com Hyper-V
+## 1. Virtualização no Windows Server com Hyper-V
 
-1.1. Introdução ao Hyper-V
+## 1.1. Introdução ao Hyper-V
 
 O Hyper-V é a tecnologia de virtualização nativa do Windows Server, permitindo a criação e gerenciamento de máquinas virtuais (VMs).
 
-1.1.1. Benefícios da Virtualização
+## 1.1.1. Benefícios da Virtualização
 
 Economia de custos ao consolidar servidores.
 
 Melhor utilização de hardware.
 
 Isolamento de aplicações em ambientes distintos.
-
-
-
 
 1.2. Configuração do Hyper-V
 
@@ -748,10 +682,9 @@ Isolamento de aplicações em ambientes distintos.
 
 
 
-PowerShell:
+## PowerShell:
 
 Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
-
 
 
 1.2.2. Criar uma Máquina Virtual
@@ -764,25 +697,22 @@ Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
 
 3. Defina as configurações:
 
-Nome da VM.
+**Nome da VM.**
 
 Quantidade de memória (ex.: 4 GB).
 
 Disco virtual (ex.: 40 GB, VHDX).
 
 
-
 4. Conecte a máquina virtual à rede.
 
 
-
-PowerShell:
+## PowerShell:
 
 New-VM -Name "ServidorTeste" -MemoryStartupBytes 4GB -Generation 2 -NewVHDPath "C:\VMs\ServidorTeste.vhdx" -NewVHDSizeBytes 40GB -SwitchName "RedeVirtual"
 
 
-
-1.3. Gerenciamento de Máquinas Virtuais
+# 1.3. Gerenciamento de Máquinas Virtuais
 
 1.3.1. Iniciar e Parar VMs
 
@@ -797,15 +727,13 @@ Stop-VM -Name "ServidorTeste"
 
 1.3.2. Exportar e Importar VMs
 
-Exportar uma VM:
+# Exportar uma VM:
 
 Export-VM -Name "ServidorTeste" -Path "D:\Backup\VMs"
 
-Importar uma VM:
+# Importar uma VM:
 
 Import-VM -Path "D:\Backup\VMs\ServidorTeste\ServidorTeste.xml"
-
-
 
 
 2. Scripts Avançados no Windows Server
@@ -813,11 +741,9 @@ Import-VM -Path "D:\Backup\VMs\ServidorTeste\ServidorTeste.xml"
 Scripts são úteis para automatizar tarefas complexas e repetitivas.
 
 
-
-
 2.1. Script para Criar e Configurar VMs
 
-Salve o seguinte script como CriarVMs.ps1:
+## Salve o seguinte script como CriarVMs.ps1:
 
 # Variáveis
 $VMName = "NovaVM"
@@ -843,7 +769,7 @@ Execute o script no PowerShell:
 
 
 
-2.2. Script para Monitorar Uso de CPU
+## 2.2. Script para Monitorar Uso de CPU
 
 Este script monitora o uso da CPU em tempo real:
 
@@ -851,7 +777,7 @@ Get-Counter "\Processor(_Total)\% Processor Time" -Continuous
 
 
 
-2.3. Script de Backup e Replicação
+## 2.3. Script de Backup e Replicação
 
 Automatize o backup de arquivos e replicação para outro servidor:
 
@@ -872,7 +798,7 @@ O Hyper-V permite configurar replicação de dados para alta disponibilidade.
 
 
 
-3.1. Configurar o Ambiente de Replicação
+## 3.1. Configurar o Ambiente de Replicação
 
 1. Pré-requisitos:
 
@@ -881,8 +807,7 @@ Dois servidores com Hyper-V.
 Configuração de DNS para ambos os servidores.
 
 
-
-2. Habilitar a Replicação no Host
+## 2. Habilitar a Replicação no Host
 
 Abra o Gerenciador do Hyper-V.
 
@@ -891,9 +816,7 @@ Clique no servidor e acesse Configurações > Configurações de Replicação.
 Ative a replicação e defina as permissões.
 
 
-
-
-PowerShell:
+## PowerShell:
 
 Enable-VMReplication -VMName "ServidorTeste" -ReplicaServerName "ServidorSecundario" -AuthenticationType Kerberos
 
@@ -904,15 +827,14 @@ Enable-VMReplication -VMName "ServidorTeste" -ReplicaServerName "ServidorSecunda
 1. No Gerenciador do Hyper-V, selecione a VM.
 
 
-2. Clique em Configurar Replicação.
+## 2. Clique em Configurar Replicação.
 
 
 3. Siga as etapas para definir o servidor de destino e o agendamento.
 
 
 
-
-3.3. Testar a Replicação
+## 3.3. Testar a Replicação
 
 1. Forçar a replicação manual:
 
@@ -924,10 +846,7 @@ Start-VMInitialReplication -VMName "ServidorTeste"
 Get-VMReplication -VMName "ServidorTeste"
 
 
-
-
-
-4. Cibersegurança na Virtualização
+## 4. Cibersegurança na Virtualização
 
 4.1. Configuração de Rede Virtual Segura
 
@@ -937,8 +856,7 @@ Crie switches virtuais separados para diferentes VMs.
 
 
 
-
-PowerShell:
+## PowerShell:
 
 New-VMSwitch -Name "Isolado" -SwitchType Internal
 
@@ -948,8 +866,7 @@ Adicione regras de firewall específicas para proteger o tráfego.
 
 
 
-
-PowerShell:
+## PowerShell:
 
 New-NetFirewallRule -DisplayName "Permitir RDP VM" -Direction Inbound -Protocol TCP -LocalPort 3389 -Action Allow
 
@@ -962,99 +879,81 @@ New-NetFirewallRule -DisplayName "Permitir RDP VM" -Direction Inbound -Protocol 
 Habilite o BitLocker para discos VHDX.
 
 
-
-2. Configuração de Snapshots:
+## 2. Configuração de Snapshots:
 
 Crie checkpoints para recuperação rápida em caso de falhas:
 
 Checkpoint-VM -Name "ServidorTeste" -SnapshotName "Checkpoint1"
 
 
+## Clustering, Failover e Scripts Avançados no Windows Server 2019/2022
 
-
-
-
-
-Clustering, Failover e Scripts Avançados no Windows Server 2019/2022
-
-Clustering e Failover são componentes críticos para alcançar alta disponibilidade e continuidade de negócios em redes corporativas.
+**Clustering e Failover são componentes críticos para alcançar alta disponibilidade e continuidade de negócios em redes corporativas.**
 
 Vamos explorar como configurar, gerenciar e automatizar essas tecnologias no Windows Server 2019/2022, além de fornecer scripts avançados.
 
 
+## 1. Introdução ao Clustering e Failover
+
+# 1.1. O Que é Clustering?
+
+**O Failover Cluster** é um grupo de servidores interconectados (nós) que trabalham juntos para manter a disponibilidade de serviços e aplicações. Se um nó falhar, outro nó assume automaticamente.
 
 
-1. Introdução ao Clustering e Failover
+## 1.2. Benefícios do Failover Cluster
 
-1.1. O Que é Clustering?
-
-O Failover Cluster é um grupo de servidores interconectados (nós) que trabalham juntos para manter a disponibilidade de serviços e aplicações. Se um nó falhar, outro nó assume automaticamente.
+**1. Alta Disponibilidade:** Serviços permanecem ativos mesmo em caso de falhas.
 
 
-
-1.2. Benefícios do Failover Cluster
-
-1. Alta Disponibilidade: Serviços permanecem ativos mesmo em caso de falhas.
+**2. Escalabilidade:** Permite adicionar nós para aumentar a capacidade.
 
 
-2. Escalabilidade: Permite adicionar nós para aumentar a capacidade.
+**3. Recuperação Rápida:** Reduz o tempo de inatividade.
 
 
-3. Recuperação Rápida: Reduz o tempo de inatividade.
+# 2. Configuração de Failover Cluster
+
+# 2.1. Pré-requisitos
+
+**1. Hardware Compatível:** Certifique-se de que os servidores compartilham acesso a um storage (iSCSI ou Fibre Channel).
 
 
-
-
-2. Configuração de Failover Cluster
-
-2.1. Pré-requisitos
-
-1. Hardware Compatível: Certifique-se de que os servidores compartilham acesso a um storage (iSCSI ou Fibre Channel).
-
-
-2. Rede Configurada:
+## 2. Rede Configurada:
 
 Uma rede dedicada para comunicação entre os nós.
 
 Uma rede para comunicação com o cliente.
 
 
-
-3. Função de Cluster Instalada.
-
+# 3. Função de Cluster Instalada.
 
 
-Instalar o Cluster no PowerShell:
+# Instalar o Cluster no PowerShell:
 
 Install-WindowsFeature -Name Failover-Clustering -IncludeManagementTools
 
 
+# 2.2. Configurar Storage Compartilhado
 
-
-2.2. Configurar Storage Compartilhado
-
-1. Conectar ao Storage via iSCSI:
+# 1. Conectar ao Storage via iSCSI:
 
 Abra o Iniciador iSCSI no Windows.
 
 Configure o alvo (target) do iSCSI.
 
 
-
-
-PowerShell:
+## PowerShell:
 
 New-IscsiTargetPortal -TargetPortalAddress "192.168.1.10"
 Connect-IscsiTarget -NodeAddress "iqn.2023-01.com.storage:target1"
 
-2. Configurar o Disco Compartilhado:
+## 2. Configurar o Disco Compartilhado:
 
 Use o Gerenciamento de Disco para inicializar e formatar o disco.
 
 
 
-
-PowerShell:
+## PowerShell:
 
 Get-Disk | Where-Object IsOffline -eq $true | Set-Disk -IsOffline $false
 Initialize-Disk -Number 2 -PartitionStyle GPT
@@ -1063,37 +962,31 @@ Format-Volume -DriveLetter E -FileSystem NTFS
 
 
 
+## 2.3. Criar o Failover Cluster
 
-2.3. Criar o Failover Cluster
-
-1. Validar Configuração:
+## 1. Validar Configuração:
 
 Abra o Gerenciador de Cluster de Failover.
 
 Execute o assistente de validação para garantir que os servidores estão prontos.
 
 
-
-
-PowerShell:
+## PowerShell:
 
 Test-Cluster -Node "Servidor1", "Servidor2" -Include "Storage", "Inventory", "Network"
 
-2. Criar o Cluster:
+## o 2. Criar o Cluster:
 
 No gerenciador de Cluster, escolha Criar Cluster e siga os passos.
 
 
-
-
-PowerShell:
+## PowerShell:
 
 New-Cluster -Name "ClusterPrincipal" -Node "Servidor1", "Servidor2" -StaticAddress 192.168.1.20
 
 
 
-
-2.4. Configurar um Serviço ou Aplicação
+## 2.4. Configurar um Serviço ou Aplicação
 
 1. Adicione um serviço de alta disponibilidade (ex.: servidor de arquivos):
 
@@ -1102,9 +995,7 @@ Clique com o botão direito no cluster e escolha Configurar Função.
 Selecione Servidor de Arquivos.
 
 
-
-
-PowerShell:
+## PowerShell:
 
 Add-ClusterFileServerRole -Cluster "ClusterPrincipal" -Name "FileServerHA" -StaticAddress 192.168.1.21
 
@@ -1114,9 +1005,7 @@ New-SmbShare -Name "Arquivos" -Path "E:\Dados" -FullAccess "Administradores"
 
 
 
-
-
-3. Gerenciamento Avançado de Clusters
+## 3. Gerenciamento Avançado de Clusters
 
 3.1. Gerenciar Nós do Cluster
 
@@ -1130,8 +1019,7 @@ Remove-ClusterNode -Cluster "ClusterPrincipal" -Name "Servidor2"
 
 
 
-
-3.2. Configurar Quórum
+## 3.2. Configurar Quórum
 
 O quórum determina quantos nós precisam estar ativos para o cluster operar.
 
@@ -1141,9 +1029,7 @@ Set-ClusterQuorum -Cluster "ClusterPrincipal" -NodeMajority
 
 
 
-
-
-3.3. Monitorar o Status do Cluster
+## 3.3. Monitorar o Status do Cluster
 
 Verifique o estado dos nós:
 
@@ -1154,10 +1040,7 @@ Verifique os recursos ativos:
 Get-ClusterResource
 
 
-
-
-
-4. Replicação Avançada com Storage Replica
+## 4. Replicação Avançada com Storage Replica
 
 O Storage Replica permite a replicação de dados entre servidores ou clusters, garantindo proteção contra falhas catastróficas.
 
@@ -1166,15 +1049,12 @@ O Storage Replica permite a replicação de dados entre servidores ou clusters, 
 1. No Server Manager, instale a função Storage Replica.
 
 
-
-PowerShell:
+## PowerShell:
 
 Install-WindowsFeature -Name Storage-Replica -IncludeManagementTools
 
 
-
-
-4.2. Configurar a Replicação
+## 4.2. Configurar a Replicação
 
 1. Configure discos dedicados para replicação (um por volume replicado).
 
@@ -1182,15 +1062,13 @@ Install-WindowsFeature -Name Storage-Replica -IncludeManagementTools
 2. Crie um grupo de replicação.
 
 
-
-PowerShell:
+## PowerShell:
 
 New-SRPartnership -SourceComputerName "Servidor1" -SourceRGName "GrupoOrigem" -SourceVolumeName "E:" -DestinationComputerName "Servidor2" -DestinationRGName "GrupoDestino" -DestinationVolumeName "E:" -LogVolumeName "F:"
 
 
 
-
-4.3. Monitorar a Replicação
+## 4.3. Monitorar a Replicação
 
 Verifique o status da replicação:
 
@@ -1201,12 +1079,9 @@ Verifique logs de replicação:
 Get-SRPartnership
 
 
+# 5. Scripts Avançados para Clusters e Failover
 
-
-
-5. Scripts Avançados para Clusters e Failover
-
-5.1. Script para Monitorar Clusters
+# 5.1. Script para Monitorar Clusters
 
 # Variáveis
 $ClusterName = "ClusterPrincipal"
@@ -1224,7 +1099,7 @@ Get-ClusterResource -Cluster $ClusterName | ForEach-Object {
 
 
 
-5.2. Script para Failover Manual
+## 5.2. Script para Failover Manual
 
 # Variáveis
 $ResourceName = "FileServerHA"
@@ -1237,8 +1112,7 @@ Write-Host "Recurso '$ResourceName' movido para '$TargetNode'."
 
 
 
-
-5.3. Script de Replicação Automática
+## 5.3. Script de Replicação Automática
 
 # Variáveis
 $SourceServer = "Servidor1"
@@ -1253,44 +1127,38 @@ New-SRPartnership -SourceComputerName $SourceServer -SourceRGName "GrupoOrigem" 
 Write-Host "Replicação configurada com sucesso!"
 
 
+**Vamos abordar o Windows Server 2022 com foco em Cibersegurança e os principais recursos e práticas recomendadas, incluindo o Secured-Core Server, Trusted Platform Module (TPM) 2.0, Virtualization-Based Security (VBS), HTTPS e TLS 1.3, DNS Seguro, Server Message Block (SMB), e a integração com o Azure.**
 
 
 
+## 1. Visão Geral do Windows Server 2022 e Cibersegurança
 
-Vamos abordar o Windows Server 2022 com foco em Cibersegurança e os principais recursos e práticas recomendadas, incluindo o Secured-Core Server, Trusted Platform Module (TPM) 2.0, Virtualization-Based Security (VBS), HTTPS e TLS 1.3, DNS Seguro, Server Message Block (SMB), e a integração com o Azure.
+O Windows Server 2022 foi projetado com foco em segurança avançada, integração com a nuvem e desempenho.
 
+Ele traz melhorias significativas em criptografia, autenticação e proteção contra ameaças, permitindo uma abordagem de "Zero Trust" na segurança de redes corporativas.
 
+## Principais Recursos de Segurança:
 
+**Secured-Core Server:** Proteção contra ameaças avançadas a nível de hardware.
 
-1. Visão Geral do Windows Server 2022 e Cibersegurança
+**Trusted Platform Module (TPM) 2.0:** Criptografia baseada em hardware.
 
-O Windows Server 2022 foi projetado com foco em segurança avançada, integração com a nuvem e desempenho. Ele traz melhorias significativas em criptografia, autenticação e proteção contra ameaças, permitindo uma abordagem de "Zero Trust" na segurança de redes corporativas.
+**Virtualization-Based Security (VBS):** Isolamento seguro de processos críticos.
 
-Principais Recursos de Segurança:
+**HTTPS e TLS 1.3:** Segurança aprimorada para comunicação de rede.
 
-Secured-Core Server: Proteção contra ameaças avançadas a nível de hardware.
+**DNS Seguro:** Proteção contra ataques de spoofing.
 
-Trusted Platform Module (TPM) 2.0: Criptografia baseada em hardware.
-
-Virtualization-Based Security (VBS): Isolamento seguro de processos críticos.
-
-HTTPS e TLS 1.3: Segurança aprimorada para comunicação de rede.
-
-DNS Seguro: Proteção contra ataques de spoofing.
-
-SMB (Server Message Block): Novas melhorias para transferência de arquivos segura.
+**SMB (Server Message Block):** Novas melhorias para transferência de arquivos segura.
 
 
+## 2. Secured-Core Server
 
-
-
-2. Secured-Core Server
-
-2.1. O Que é Secured-Core Server?
+# 2.1. O Que é Secured-Core Server?
 
 Essa tecnologia combina segurança de hardware, firmware e software para proteger o servidor contra ataques avançados, como malware que opera antes do sistema operacional iniciar.
 
-Pré-requisitos para Secured-Core Server:
+# Pré-requisitos para Secured-Core Server:
 
 1. Processadores compatíveis, como AMD EPYC ou Intel Xeon de última geração.
 
@@ -1301,8 +1169,7 @@ Pré-requisitos para Secured-Core Server:
 3. Boot Seguro e Virtualization-Based Security (VBS) ativados.
 
 
-
-Habilitar Secured-Core Server:
+## Habilitar Secured-Core Server:
 
 1. Acesse o Gerenciador do Servidor.
 
@@ -1319,23 +1186,19 @@ Device Guard.
 Credential Guard.
 
 
-
-
-PowerShell:
+## PowerShell:
 
 # Habilitar Device Guard e Credential Guard
 Enable-WindowsOptionalFeature -Online -FeatureName Windows-Defender-ApplicationGuard
 
 
+## 3. Trusted Platform Module (TPM) 2.0
 
-
-3. Trusted Platform Module (TPM) 2.0
-
-3.1. O Que é TPM 2.0?
+# 3.1. O Que é TPM 2.0?
 
 É um chip físico no hardware que protege informações críticas, como chaves de criptografia e autenticação de sistema.
 
-Verificar TPM no Sistema:
+## Verificar TPM no Sistema:
 
 1. No Windows Server, pressione Win + R e digite tpm.msc.
 
@@ -1343,12 +1206,11 @@ Verificar TPM no Sistema:
 2. Confirme se o status está como Ready for use.
 
 
-
-PowerShell:
+## PowerShell:
 
 Get-WmiObject -Namespace "Root\CIMv2\Security\MicrosoftTpm" -Class Win32_Tpm
 
-Usos do TPM 2.0:
+## Usos do TPM 2.0:
 
 Proteção de chaves do BitLocker.
 
@@ -1357,16 +1219,13 @@ Autenticação para sistemas de boot seguro.
 Armazenamento seguro de certificados.
 
 
+## 4. Virtualization-Based Security (VBS)
 
-
-
-4. Virtualization-Based Security (VBS)
-
-4.1. O Que é VBS?
+# 4.1. O Que é VBS?
 
 VBS isola partes críticas do sistema em uma máquina virtual protegida, impedindo que malware ou usuários mal-intencionados acessem dados sensíveis.
 
-Habilitar VBS no Windows Server 2022:
+## Habilitar VBS no Windows Server 2022:
 
 1. Abra o Editor de Política de Grupo (gpedit.msc).
 
@@ -1382,21 +1241,20 @@ Configurar a Proteção de Credenciais.
 
 
 
-
-PowerShell:
+## PowerShell:
 
 # Ativar Virtualization-Based Security
 Set-ProcessMitigation -System -Enable VirtualizationBasedSecurity
 
 
 
-5. HTTPS e TLS 1.3
+## 5. HTTPS e TLS 1.3
 
 5.1. Configurar HTTPS e TLS 1.3 no Windows Server
 
-O protocolo TLS 1.3 oferece melhor segurança e desempenho, sendo obrigatório em ambientes modernos.
+**O protocolo TLS 1.3** oferece melhor segurança e desempenho, sendo obrigatório em ambientes modernos.
 
-Passo a Passo para Habilitar TLS 1.3:
+## Passo a Passo para Habilitar TLS 1.3:
 
 1. No Editor de Registro (regedit), navegue para:
 
@@ -1404,19 +1262,17 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\P
 
 
 
-2. Crie uma nova chave chamada TLS 1.3.
+# 2. Crie uma nova chave chamada TLS 1.3.
 
 
-3. Adicione valores:
+# 3. Adicione valores:
 
-DWORD (32 bits): Enabled = 1
+**DWORD (32 bits):** Enabled = 1
 
-DWORD (32 bits): DisabledByDefault = 0
-
-
+**DWORD (32 bits):** DisabledByDefault = 0
 
 
-PowerShell:
+## PowerShell:
 
 New-Item -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.3" -Force
 New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.3" -Name "Enabled" -Value 1 -PropertyType "DWord"
@@ -1424,15 +1280,13 @@ New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders
 
 
 
+## 6. DNS Seguro
 
-6. DNS Seguro
+# 6.1. Implementar DNS Seguro
 
-6.1. Implementar DNS Seguro
-
-1. Habilitar DNS-over-HTTPS (DoH):
+# 1. Habilitar DNS-over-HTTPS (DoH):
 
 Configuração no servidor DNS ou diretamente no Windows Server.
-
 
 
 2. Usar DNSSEC (DNS Security Extensions):
@@ -1440,26 +1294,23 @@ Configuração no servidor DNS ou diretamente no Windows Server.
 Protege contra falsificação de DNS e ataques de man-in-the-middle.
 
 
-
-
-PowerShell para Habilitar DNSSEC:
+# PowerShell para Habilitar DNSSEC:
 
 Add-DnsServerSigningKey -ZoneName "example.com" -KeyLength 2048 -KeyStorageProvider "Software"
 Set-DnsServerZoneSetting -ZoneName "example.com" -DnsSecEnable
-
-
 
 
 7. Server Message Block (SMB)
 
 7.1. Novidades no SMB
 
-SMB over QUIC: Transferência de arquivos segura sobre QUIC.
 
-Melhorias no desempenho e na criptografia.
+# SMB over QUIC: Transferência de arquivos segura sobre QUIC.
+
+# Melhorias no desempenho e na criptografia.
 
 
-Configurar SMB Encryption:
+# Configurar SMB Encryption:
 
 1. Abra o Gerenciador do Servidor.
 
@@ -1467,21 +1318,18 @@ Configurar SMB Encryption:
 2. Configure a criptografia de SMB para o compartilhamento de arquivos.
 
 
-
-PowerShell:
+## PowerShell:
 
 Set-SmbServerConfiguration -EncryptData $true
 
 
+## 8. Conexão com o Azure
 
+## 8.1. Introdução ao Azure Arc
 
-8. Conexão com o Azure
+**O Azure Arc** permite gerenciar servidores locais como se fossem recursos do Azure.
 
-8.1. Introdução ao Azure Arc
-
-O Azure Arc permite gerenciar servidores locais como se fossem recursos do Azure.
-
-Passos para Conectar o Windows Server ao Azure:
+## Passos para Conectar o Windows Server ao Azure:
 
 1. Instale o Azure Connected Machine Agent no servidor.
 
@@ -1492,7 +1340,7 @@ azcmagent connect --resource-group "MyResourceGroup" --subscription-id "XXXXXXXX
 
 
 
-8.2. Configurar Backup e Segurança com Azure
+## 8.2. Configurar Backup e Segurança com Azure
 
 1. Habilite o Azure Backup para recuperação de desastres.
 
@@ -1500,54 +1348,46 @@ azcmagent connect --resource-group "MyResourceGroup" --subscription-id "XXXXXXXX
 2. Configure Azure Security Center para monitoramento de segurança.
 
 
+**Vamos aprofundar no Azure Backup e no Microsoft Defender for Cloud (antigo Azure Security Center), com detalhes técnicos e exemplos práticos.**
 
 
 
+## 1. Azure Backup
 
-Vamos aprofundar no Azure Backup e no Microsoft Defender for Cloud (antigo Azure Security Center), com detalhes técnicos e exemplos práticos.
-
-
-
-1. Azure Backup
-
-1.1. O que é Azure Backup?
+# 1.1. O que é Azure Backup?
 
 O Azure Backup é uma solução de backup baseada em nuvem que protege dados e servidores contra falhas, perda de dados e desastres. Ele suporta backups de:
 
-Servidores Windows e Linux.
+## Servidores Windows e Linux.
 
-Máquinas virtuais no Azure.
+# Máquinas virtuais no Azure.
 
-Banco de dados SQL.
+# Banco de dados SQL.
 
-Dados do SharePoint e do Exchange.
-
-
+# Dados do SharePoint e do Exchange.
 
 
-1.2. Configuração Prática do Azure Backup
+
+## 1.2. Configuração Prática do Azure Backup
 
 Passo 1: Criar um Cofre dos Serviços de Recuperação
 
 1. Acesse o Azure Portal.
 
-
 2. Navegue até Todos os Serviços > Backup e Site Recovery > Cofres dos Serviços de Recuperação.
 
 
-3. Clique em Criar:
+## 3. Clique em Criar:
 
 Nome: CofreBackupEmpresa.
 
 Região: Escolha a mesma do recurso que deseja proteger.
 
 
-
 4. Clique em Revisar e Criar e, em seguida, Criar.
 
 
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Login no Azure
 Connect-AzAccount
@@ -1557,8 +1397,7 @@ New-AzRecoveryServicesVault -Name "CofreBackupEmpresa" -ResourceGroupName "Grupo
 
 
 
-
-Passo 2: Configurar o Backup
+## Passo 2: Configurar o Backup
 
 1. Acesse o cofre criado no Azure Portal.
 
@@ -1574,12 +1413,11 @@ No Local: Para servidores físicos ou máquinas virtuais fora do Azure.
 
 
 
-4. Defina a política de backup:
+## 4. Defina a política de backup:
 
 Frequência: Diária ou semanal.
 
 Retenção: 30 dias, 1 ano, etc.
-
 
 
 Exemplo no PowerShell para Backup de Máquina Virtual:
@@ -1593,8 +1431,7 @@ Enable-AzRecoveryServicesBackupProtection -ResourceGroupName "GrupoRecursos" -Na
 
 
 
-
-Passo 3: Restaurar Dados
+# Passo 3: Restaurar Dados
 
 1. Acesse o cofre no portal.
 
@@ -1605,12 +1442,10 @@ Passo 3: Restaurar Dados
 3. Escolha o ponto de recuperação desejado.
 
 
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Restaurar uma VM a partir de um ponto de recuperação
 Start-AzRecoveryServicesBackupRestoreJob -ResourceGroupName "GrupoRecursos" -VaultName "CofreBackupEmpresa" -ItemName "MinhaVM" -TargetResourceGroupName "NovoGrupoRecursos"
-
 
 
 
@@ -1623,25 +1458,23 @@ Start-AzRecoveryServicesBackupRestoreJob -ResourceGroupName "GrupoRecursos" -Vau
 
 
 
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 Get-AzRecoveryServicesBackupJob -VaultName "CofreBackupEmpresa" -Status Failed
 
 
 
+## 2. Microsoft Defender for Cloud (Azure Security Center)
 
-2. Microsoft Defender for Cloud (Azure Security Center)
-
-2.1. O que é Microsoft Defender for Cloud?
+# 2.1. O que é Microsoft Defender for Cloud?
 
 O Defender for Cloud oferece monitoramento de segurança para recursos no Azure, locais e até em outras nuvens. Ele avalia a conformidade com normas, detecta vulnerabilidades e recomenda ações para proteger o ambiente.
 
 
 
+## 2.2. Habilitar o Defender for Cloud
 
-2.2. Habilitar o Defender for Cloud
-
-Passo 1: Ativar no Azure
+# Passo 1: Ativar no Azure
 
 1. Acesse o Azure Portal.
 
@@ -1658,19 +1491,16 @@ Contas de Armazenamento.
 Bancos de Dados SQL.
 
 
-
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Habilitar o Microsoft Defender for Cloud
 Enable-AzSecurityContact -Name "seguranca@empresa.com" -NotificationEmailsEnabled $true
 
 
 
+## 2.3. Avaliação de Segurança
 
-2.3. Avaliação de Segurança
-
-Passo 1: Revisar Recomendações
+# Passo 1: Revisar Recomendações
 
 1. No Defender for Cloud, vá para Recomendações.
 
@@ -1679,12 +1509,10 @@ Passo 1: Revisar Recomendações
 
 Máquinas virtuais sem agentes de monitoramento.
 
-Redes expostas.
+## Redes expostas.
 
 
-
-
-Passo 2: Configurar Alertas
+## Passo 2: Configurar Alertas
 
 1. Ative notificações para alertas críticos.
 
@@ -1692,13 +1520,10 @@ Passo 2: Configurar Alertas
 2. Integre com ferramentas como Microsoft Sentinel.
 
 
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Listar recomendações de segurança
 Get-AzSecurityRecommendation
-
-
 
 
 2.4. Monitoramento e Alertas
@@ -1715,14 +1540,13 @@ Requisitos de senha.
 Controle de portas de rede.
 
 
-
-
-Exemplo no PowerShell:
+# Exemplo no PowerShell:
 
 # Configurar uma política de segurança para senha
 Set-AzSecurityPolicyAssignment -Name "PasswordPolicy" -PolicyDefinitionId "/providers/Microsoft.Authorization/policyDefinitions/StrongPasswordPolicy"
 
-Passo 2: Verificar Alertas de Segurança
+
+# Passo 2: Verificar Alertas de Segurança
 
 1. Navegue para Alertas de Segurança.
 
@@ -1734,17 +1558,14 @@ Tentativas de login não autorizadas.
 Ataques de força bruta.
 
 
-
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Obter alertas de segurança
 Get-AzSecurityAlert
 
 
 
-
-2.5. Defender for Servers
+## 2.5. Defender for Servers
 
 O Defender for Servers adiciona camadas extras de proteção, como:
 
@@ -1761,25 +1582,22 @@ Habilitar o Defender for Servers:
 2. Configure as políticas de proteção.
 
 
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Habilitar Defender para Servidores
 Set-AzSecurityPricing -Name VirtualMachines -PricingTier Standard
 
 
 
+# 2.6. Conexão com Ambientes Híbridos
 
-2.6. Conexão com Ambientes Híbridos
-
-1. Instale o Azure Arc para gerenciar servidores locais.
+# 1. Instale o Azure Arc para gerenciar servidores locais.
 
 
 2. Registre máquinas locais no Defender for Cloud.
 
 
-
-Exemplo no PowerShell:
+## Exemplo no PowerShell:
 
 # Conectar servidor local ao Azure Arc
 azcmagent connect --resource-group "GrupoRecursos" --subscription-id "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX" --location "eastus"
