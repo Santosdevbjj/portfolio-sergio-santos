@@ -1313,7 +1313,7 @@ Host 192.168.1.101 is up.*
 
 
 
-Linux Fedora
+## Linux Fedora
 
 ![Screenshot_20250107-203022](https://github.com/user-attachments/assets/cc9878e9-f78b-4eb4-a712-27214f13731e)
 
