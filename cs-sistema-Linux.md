@@ -1,15 +1,21 @@
-Sistema Operacional Linux
+## Sistema Operacional Linux
+
+![Screenshot_20250106-193519](https://github.com/user-attachments/assets/61bfd2a9-160d-4620-b39e-3f7683b5018f)
+
 
 O Linux é um sistema operacional de código aberto baseado no kernel Linux, desenvolvido inicialmente por Linus Torvalds em 1991. Ele é usado em servidores, desktops, dispositivos móveis e até em supercomputadores, devido à sua flexibilidade, segurança e eficiência. O Linux é gratuito, altamente personalizável e possui uma ampla comunidade de desenvolvedores.
 
 
-O que são distribuições Linux?
+## O que são distribuições Linux?
 
 As distribuições (ou distros) Linux são variações do sistema operacional base, que combinam o kernel com software adicional, ferramentas e interfaces para diferentes propósitos. Cada distro possui características específicas, atendendo a diferentes necessidades e públicos.
 
-Distribuições populares:
+## Distribuições populares:
 
-1. Ubuntu:
+## 1. Ubuntu:
+
+![Screenshot_20250107-185104](https://github.com/user-attachments/assets/8c4b038b-845b-4d01-9261-214b1b781175)
+
 
 Voltado para usuários iniciantes e avançados.
 
@@ -21,7 +27,10 @@ Baseado no Debian, com um ciclo de lançamento regular.
 
 
 
-2. Kali Linux:
+## 2. Kali Linux:
+
+![Screenshot_20250107-185415](https://github.com/user-attachments/assets/28fbab79-636d-4676-9b91-5abc458c5bb5)
+
 
 Focado em testes de penetração e cibersegurança.
 
@@ -32,16 +41,21 @@ Usado por profissionais de segurança para identificar vulnerabilidades.
 Baseado no Debian.
 
 
+## 3. Debian:
 
-3. Debian:
+![Screenshot_20250107-185657](https://github.com/user-attachments/assets/3c1e81ff-631b-4597-9885-45baa33d9206)
+
 
 Estável, confiável e altamente personalizável.
 
 Base para várias outras distribuições, incluindo Ubuntu.
 
 
+## 4. Fedora:
 
-4. Fedora:
+
+![Screenshot_20250107-185836](https://github.com/user-attachments/assets/8478c0ce-d4d9-41c3-9609-e20cabd0c51b)
+
 
 Mantida pela comunidade Red Hat.
 
@@ -49,7 +63,10 @@ Focada em inovação e tecnologias de ponta.
 
 
 
-5. CentOS/AlmaLinux:
+## 5. CentOS/AlmaLinux:
+
+![Screenshot_20250107-190405](https://github.com/user-attachments/assets/acebe741-14da-4baa-86eb-ad39ee039e92)
+
 
 Voltado para servidores corporativos.
 
@@ -57,20 +74,16 @@ Baseado no Red Hat Enterprise Linux.
 
 
 
+## Instalação e Configuração do Linux
 
-
-
-
-Instalação e Configuração do Linux
-
-1. Pré-requisitos:
+## 1. Pré-requisitos:
 
 Baixe a ISO da distro desejada no site oficial.
 
 Use uma ferramenta como Rufus ou Etcher para criar um pendrive bootável.
 
 
-2. Passos para instalação:
+## 2. Passos para instalação:
 
 Insira o pendrive no computador e reinicie.
 
@@ -81,7 +94,7 @@ Escolha a opção de instalação no menu inicial.
 Siga as instruções para particionar o disco, configurar a rede e criar um usuário.
 
 
-3. Configuração inicial:
+## 3. Configuração inicial:
 
 Atualize o sistema:
 
@@ -96,117 +109,104 @@ Configure o firewall:
 sudo ufw enable
 
 
+## Comandos no Linux (Básicos e Avançados)
+
+## 1. Navegação no sistema de arquivos:
+
+**ls:** Lista arquivos e pastas.
+
+**cd:** Navega entre diretórios.
+
+**pwd:** Mostra o diretório atual.
 
 
+## 2. Gerenciamento de arquivos e diretórios:
 
-Comandos no Linux (Básicos e Avançados)
+**cp:** Copia arquivos.
 
-1. Navegação no sistema de arquivos:
+**mv:** Move/renomeia arquivos.
 
-ls: Lista arquivos e pastas.
+**rm:** Remove arquivos/diretórios.
 
-cd: Navega entre diretórios.
-
-pwd: Mostra o diretório atual.
-
-
-2. Gerenciamento de arquivos e diretórios:
-
-cp: Copia arquivos.
-
-mv: Move/renomeia arquivos.
-
-rm: Remove arquivos/diretórios.
-
-mkdir: Cria diretórios.
+**mkdir:** Cria diretórios.
 
 
-3. Permissões:
+## 3. Permissões:
 
-chmod: Altera permissões de arquivos.
+**chmod:** Altera permissões de arquivos.
 
-chown: Altera o proprietário de arquivos.
-
-
-4. Gerenciamento de processos:
-
-ps: Lista processos em execução.
-
-top: Monitora processos em tempo real.
-
-kill: Encerra processos.
+**chown:** Altera o proprietário de arquivos.
 
 
-5. Rede:
+## 4. Gerenciamento de processos:
 
-ping: Verifica conectividade.
+##ps:** Lista processos em execução.
 
-ifconfig/ip: Mostra configurações de rede.
+**top:** Monitora processos em tempo real.
 
-netstat: Mostra conexões de rede.
-
-
+**kill:** Encerra processos.
 
 
+## 5. Rede:
 
-Bash (Shell Script no Linux)
+**ping:** Verifica conectividade.
+
+**ifconfig/ip:** Mostra configurações de rede.
+
+**netstat:** Mostra conexões de rede.
+
+
+## Bash (Shell Script no Linux)
 
 O Bash é um interpretador de comandos usado para automatizar tarefas no Linux. Ele permite criar scripts para executar uma sequência de comandos.
 
-Exemplo de script básico:
+## Exemplo de script básico:
 
 #!/bin/bash
 echo "Atualizando o sistema..."
 sudo apt update && sudo apt upgrade -y
 echo "Atualização concluída!"
 
-Como executar:
+## Como executar:
 
-1. Salve o arquivo como meuscript.sh.
+**1.** Salve o arquivo como **meuscript.sh.**
 
 
-2. Torne-o executável:
+**2.** Torne-o executável:
 
 chmod +x meuscript.sh
 
 
-3. Execute:
+**3.** Execute:
 
 ./meuscript.sh
 
 
+## Linux e Cibersegurança
+
+## 1. Por que o Linux é usado em cibersegurança?
+
+**Flexibilidade:** Permite configurar o sistema para tarefas específicas.
+
+**Ferramentas integradas:** Oferece uma vasta gama de ferramentas para análise de segurança.
+
+**Comunidade:** Possui suporte ativo de especialistas em segurança.
 
 
+## 2. Ferramentas populares no Linux:
+
+**Wireshark:** Análise de tráfego de rede.
+
+**Metasploit:** Exploração de vulnerabilidades.
+
+**Nmap:** Escaneamento de redes.
+
+**John the Ripper:** Teste de força em senhas.
 
 
-Linux e Cibersegurança
+## Exemplo de uso no Kali Linux:
 
-1. Por que o Linux é usado em cibersegurança?
-
-Flexibilidade: Permite configurar o sistema para tarefas específicas.
-
-Ferramentas integradas: Oferece uma vasta gama de ferramentas para análise de segurança.
-
-Comunidade: Possui suporte ativo de especialistas em segurança.
-
-
-2. Ferramentas populares no Linux:
-
-Wireshark: Análise de tráfego de rede.
-
-Metasploit: Exploração de vulnerabilidades.
-
-Nmap: Escaneamento de redes.
-
-John the Ripper: Teste de força em senhas.
-
-
-
-
-
-Exemplo de uso no Kali Linux:
-
-1. Escaneamento de portas com Nmap:
+## 1. Escaneamento de portas com Nmap:
 
 nmap -sS -p 1-1000 192.168.0.1
 
@@ -215,8 +215,7 @@ nmap -sS -p 1-1000 192.168.0.1
 -p: Intervalo de portas.
 
 
-
-2. Captura de pacotes com Wireshark:
+## 2. Captura de pacotes com Wireshark:
 
 Abra o Wireshark.
 
@@ -224,288 +223,262 @@ Escolha a interface de rede.
 
 Comece a capturar e analise os pacotes.
 
-xxxxxxcccvvvvvvcvvvvvvvvvvvvvvvvvvv
+
+## Bash - Bourne Again Shell
+
+O **Bash (Bourne Again Shell)** é um interpretador de comandos amplamente utilizado em sistemas operacionais baseados em Unix, como Linux e macOS.
+
+Ele é a interface entre o usuário e o sistema operacional, permitindo a execução de comandos e a automação de tarefas por meio de scripts.
 
 
+## Principais Características do Bash
 
-O Bash (Bourne Again Shell) é um interpretador de comandos amplamente utilizado em sistemas operacionais baseados em Unix, como Linux e macOS. Ele é a interface entre o usuário e o sistema operacional, permitindo a execução de comandos e a automação de tarefas por meio de scripts.
-
-
----
-
-Principais Características do Bash
-
-1. Shell Interativo:
+## 1. Shell Interativo:
 
 Permite aos usuários executar comandos diretamente no terminal.
 
 
-
-2. Shell de Script:
+## 2. Shell de Script:
 
 Facilita a criação de scripts para automatizar tarefas, como backups, configurações e processamento de dados.
 
 
+## 3. Comandos Internos e Externos:
 
-3. Comandos Internos e Externos:
+**Internos:** Comandos integrados no Bash, como cd, echo, pwd.
 
-Internos: Comandos integrados no Bash, como cd, echo, pwd.
-
-Externos: Programas executáveis, como ls, cat, grep.
-
+**Externos:** Programas executáveis, como ls, cat, grep.
 
 
-4. Personalização:
+## 4. Personalização:
 
 Pode ser configurado com variáveis, aliases e funções personalizadas.
 
 
+## Estrutura Básica do Bash
 
-
-
-
-
-Estrutura Básica do Bash
-
-Prompt do Bash
+## Prompt do Bash
 
 O prompt é o local onde você insere comandos. Ele geralmente tem o seguinte formato:
 
 usuario@hostname:diretorio$
 
-Por exemplo:
+## Por exemplo:
 
 sergio@meu-computador:~/Documentos$
 
-Comandos Simples
+## Comandos Simples
 
-1. Navegação no sistema de arquivos:
+## 1. Navegação no sistema de arquivos:
 
-pwd (mostra o diretório atual):
+**pwd (mostra o diretório atual):**
 
 pwd
 
-cd (altera o diretório):
+**cd (altera o diretório):**
 
 cd /home/usuario/Documentos
 
-ls (lista arquivos e diretórios):
+**ls (lista arquivos e diretórios):**
 
 ls -l
 
 
+## 2. Manipulação de arquivos:
 
-2. Manipulação de arquivos:
+## Criar um arquivo:
 
-Criar um arquivo:
+**touch** arquivo.txt
 
-touch arquivo.txt
+**Exibir o conteúdo de um arquivo:**
 
-Exibir o conteúdo de um arquivo:
+**cat** arquivo.txt
 
-cat arquivo.txt
+**Copiar um arquivo:**
 
-Copiar um arquivo:
-
-cp arquivo.txt copia_arquivo.txt
-
+**cp** arquivo.txt copia_arquivo.txt
 
 
-3. Comandos combinados:
+## 3. Comandos combinados:
 
-Uso de pipes (|) para redirecionar a saída de um comando para outro:
+**Uso de pipes (|)** para redirecionar a saída de um comando para outro:
 
-ls -l | grep ".txt"
+ls -l **|** grep ".txt"
 
 
 
+## Automação com Bash Scripts
 
-
-
-
-Automação com Bash Scripts
-
-O que é um Script Bash?
+## O que é um Script Bash?
 
 Um script Bash é um arquivo de texto contendo comandos Bash que podem ser executados sequencialmente. Scripts são usados para automatizar tarefas repetitivas.
 
-Criando um Script Simples
+## Criando um Script Simples
 
-1. Crie um arquivo com extensão .sh:
+## 1. Crie um arquivo com extensão .sh:
 
-nano meu_script.sh
+*nano meu_script.sh*
 
 
-2. Adicione comandos no arquivo:
+## 2. Adicione comandos no arquivo:
 
-#!/bin/bash
+*#!/bin/bash
 echo "Olá, Sérgio! Bem-vindo ao Bash."
-echo "Hoje é $(date)."
+echo "Hoje é $(date)."*
 
 
-3. Torne o script executável:
+## 3. Torne o script executável:
 
-chmod +x meu_script.sh
-
-
-4. Execute o script:
-
-./meu_script.sh
+*chmod +x meu_script.sh*
 
 
+## 4. Execute o script:
 
-Saída esperada:
-
-Olá, Sérgio! Bem-vindo ao Bash.
-Hoje é Sex Jan 6 15:32:10 UTC 2025.
+*./meu_script.sh* 
 
 
+## Saída esperada:
+
+*Olá, Sérgio! Bem-vindo ao Bash.
+Hoje é Sex Jan 6 15:32:10 UTC 2025.* 
 
 
-Funcionalidades Avançadas
+## Funcionalidades Avançadas
 
-1. Variáveis
+## 1. Variáveis
 
-Armazena informações para uso no script.
+## Armazena informações para uso no script.
 
-#!/bin/bash
+*#!/bin/bash
 nome="Sérgio"
-echo "Bem-vindo, $nome!"
+echo "Bem-vindo, $nome!"*
 
-2. Estruturas Condicionais
+## 2. Estruturas Condicionais
 
-Permite tomar decisões com base em condições.
+## Permite tomar decisões com base em condições.
 
-#!/bin/bash
+*#!/bin/bash
 if [ -f "arquivo.txt" ]; then
     echo "O arquivo existe."
 else
     echo "O arquivo não existe."
-fi
+fi* 
 
-3. Laços de Repetição
 
-Executa comandos repetidamente.
+## 3. Laços de Repetição
 
-#!/bin/bash
+## Executa comandos repetidamente.
+
+*#!/bin/bash
 for i in {1..5}; do
     echo "Contagem: $i"
-done
+done* 
 
-4. Funções
 
-Agrupa comandos em blocos reutilizáveis.
+## 4. Funções
 
-#!/bin/bash
+## Agrupa comandos em blocos reutilizáveis.
+
+*#!/bin/bash
 saudacao() {
     echo "Olá, $1!"
 }
-saudacao "Sérgio"
+saudacao "Sérgio"* 
 
 
+## Exemplos Práticos de Uso
 
+## 1. Backup Automático:
 
-Exemplos Práticos de Uso
-
-1. Backup Automático:
-
-#!/bin/bash
+*#!/bin/bash
 tar -czf backup_$(date +%F).tar.gz /caminho/para/dados
-echo "Backup concluído!"
+echo "Backup concluído!"* 
 
 
-2. Monitoramento de Sistema:
+## 2. Monitoramento de Sistema:
 
-#!/bin/bash
+*#!/bin/bash
 echo "Uso de memória:"
 free -h
 echo "Uso de disco:"
-df -h
+df -h* 
 
 
-3. Download Automático de Arquivos:
+## 3. Download Automático de Arquivos:
 
-#!/bin/bash
+*#!/bin/bash
 url="https://exemplo.com/arquivo.txt"
 wget $url
-echo "Download concluído!"
+echo "Download concluído!"*  
+
+
+## Vantagens do Bash
+
+**Facilidade de uso:**  Simples para comandos interativos e scripts básicos.
+
+**Flexibilidade:** Integração com programas e ferramentas do sistema.
+
+**Automação:** Reduz tempo e esforço em tarefas repetitivas.
+
+**Portabilidade:** Funciona em quase todas as distribuições Linux e sistemas baseados em Unix.
+
+
+## Conclusão
+
+*O Bash é uma ferramenta poderosa e indispensável para usuários de Linux, oferecendo uma combinação de simplicidade e flexibilidade para gerenciar sistemas e criar automações. Se você deseja se aprofundar em programação para administração de sistemas, dominar o Bash é um passo essencial.* 
+
+
+***Aqui está um exemplo de um script Bash avançado que automatiza o monitoramento de recursos do sistema (CPU, memória, disco, e uso de rede) e gera um relatório detalhado em um arquivo de log.***
 
 
 
+## Script: monitoramento_sistema.sh
 
-
-
-Vantagens do Bash
-
-Facilidade de uso: Simples para comandos interativos e scripts básicos.
-
-Flexibilidade: Integração com programas e ferramentas do sistema.
-
-Automação: Reduz tempo e esforço em tarefas repetitivas.
-
-Portabilidade: Funciona em quase todas as distribuições Linux e sistemas baseados em Unix.
-
-
-Conclusão
-
-O Bash é uma ferramenta poderosa e indispensável para usuários de Linux, oferecendo uma combinação de simplicidade e flexibilidade para gerenciar sistemas e criar automações. Se você deseja se aprofundar em programação para administração de sistemas, dominar o Bash é um passo essencial.
-
-
-
-
-
-Aqui está um exemplo de um script Bash avançado que automatiza o monitoramento de recursos do sistema (CPU, memória, disco, e uso de rede) e gera um relatório detalhado em um arquivo de log.
-
-
-
-
-Script: monitoramento_sistema.sh
-
-#!/bin/bash
+*#!/bin/bash* 
 
 # Configurações
-LOG_DIR="/var/log/monitoramento"
+*LOG_DIR="/var/log/monitoramento"
 LOG_FILE="$LOG_DIR/relatorio_$(date +%F_%H-%M-%S).log"
 INTERVALO=5  # Intervalo de coleta (em segundos)
-NUMERO_DE_ITERACOES=5  # Quantidade de amostras
+NUMERO_DE_ITERACOES=5  # Quantidade de amostras*
 
 # Criar diretório de logs, se não existir
-if [ ! -d "$LOG_DIR" ]; then
+*if [ ! -d "$LOG_DIR" ]; then
     mkdir -p "$LOG_DIR"
     echo "Diretório de logs criado: $LOG_DIR"
-fi
+fi*
 
 # Função: Monitoramento de CPU
-monitorar_cpu() {
+*monitorar_cpu() {
     echo "### Monitoramento de CPU ###" >> "$LOG_FILE"
     mpstat 1 1 | grep "all" >> "$LOG_FILE"
-}
+}*
 
 # Função: Monitoramento de Memória
-monitorar_memoria() {
+*monitorar_memoria() {
     echo "### Monitoramento de Memória ###" >> "$LOG_FILE"
     free -h >> "$LOG_FILE"
-}
+}*
 
 # Função: Monitoramento de Disco
-monitorar_disco() {
+*monitorar_disco() {
     echo "### Monitoramento de Disco ###" >> "$LOG_FILE"
     df -h >> "$LOG_FILE"
-}
+}*
 
 # Função: Monitoramento de Rede
-monitorar_rede() {
+*monitorar_rede() {
     echo "### Monitoramento de Rede ###" >> "$LOG_FILE"
     echo "Uso de banda por interface (em KB/s):" >> "$LOG_FILE"
     ifstat -a -i eth0 1 1 | tail -n +3 >> "$LOG_FILE"
-}
+}*
 
 # Função: Geração de Relatório Completo
-gerar_relatorio() {
+*gerar_relatorio() {
     echo "=========================================" >> "$LOG_FILE"
     echo "Relatório de Monitoramento do Sistema" >> "$LOG_FILE"
     echo "Data: $(date)" >> "$LOG_FILE"
-    echo "=========================================" >> "$LOG_FILE"
+    echo "=========================================" >> "$LOG_FILE"*
     
     # Coletar informações por N iterações
     for ((i=1; i<=NUMERO_DE_ITERACOES; i++)); do
@@ -526,10 +499,9 @@ gerar_relatorio
 
 
 
+## Descrição do Script
 
-Descrição do Script
-
-1. Configurações Iniciais:
+## 1. Configurações Iniciais:
 
 Define onde os logs serão armazenados (LOG_DIR).
 
@@ -537,19 +509,18 @@ Define o intervalo de tempo entre cada amostra (INTERVALO) e o número total de 
 
 
 
-2. Funções de Monitoramento:
+## 2. Funções de Monitoramento:
 
-CPU: Usa o comando mpstat para monitorar a carga da CPU.
+**CPU:** Usa o comando mpstat para monitorar a carga da CPU.
 
-Memória: Usa o comando free -h para mostrar o uso de memória.
+**Memória:** Usa o comando free -h para mostrar o uso de memória.
 
-Disco: Usa df -h para exibir o espaço em disco disponível.
+**Disco:** Usa df -h para exibir o espaço em disco disponível.
 
-Rede: Usa ifstat para monitorar o uso da banda.
+**Rede:** Usa ifstat para monitorar o uso da banda.
 
 
-
-3. Relatório Completo:
+## 3. Relatório Completo:
 
 Cada iteração coleta informações de CPU, memória, disco e rede.
 
@@ -557,33 +528,25 @@ Os resultados são salvos em um arquivo de log com timestamp único.
 
 
 
+## Executando o Script
 
-
-
-
-Executando o Script
-
-1. Torne o script executável:
+## 1. Torne o script executável:
 
 chmod +x monitoramento_sistema.sh
 
 
-2. Execute como superusuário (para acesso completo aos dados):
+## 2. Execute como superusuário (para acesso completo aos dados):
 
 sudo ./monitoramento_sistema.sh
 
 
-
-
-
-
-Saída do Script
+## Saída do Script
 
 Um arquivo de log será criado no diretório /var/log/monitoramento/ com um nome como:
 
 relatorio_2025-01-06_15-32-10.log
 
-O conteúdo será algo como:
+## O conteúdo será algo como:
 
 =========================================
 Relatório de Monitoramento do Sistema
@@ -606,27 +569,20 @@ eth0          10.0      5.2
 
 
 
+## Benefícios deste Script
+
+**1. Automação:** Automatiza a coleta de dados críticos do sistema.
 
 
-Benefícios deste Script
-
-1. Automação: Automatiza a coleta de dados críticos do sistema.
+**2. Personalização:** Fácil de ajustar o intervalo e número de iterações.
 
 
-2. Personalização: Fácil de ajustar o intervalo e número de iterações.
+**3. Diagnóstico:** Útil para monitoramento proativo e identificação de gargalos de recursos.
 
 
-3. Diagnóstico: Útil para monitoramento proativo e identificação de gargalos de recursos.
+### Linux Ubuntu 
 
-
-
-
-
-
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbbbbbb
-
+![Screenshot_20250107-193330](https://github.com/user-attachments/assets/9a03391e-e1ff-4aa4-9983-c6f6ea30f440)
 
 
 Instalação e Configuração do Ubuntu em Rede com Foco em Cibersegurança
@@ -635,29 +591,27 @@ A seguir, abordarei de forma detalhada como instalar o Ubuntu, configurar para u
 
 
 
+## 1. Instalação do Ubuntu
 
-1. Instalação do Ubuntu
-
-1. Baixe a ISO do Ubuntu:
+## 1. Baixe a ISO do Ubuntu:
 
 Acesse o site oficial (ubuntu.com) e baixe a versão Desktop ou Server, dependendo do objetivo.
 
 
+## 2. Crie um dispositivo de instalação:
 
-2. Crie um dispositivo de instalação:
-
-Use ferramentas como Rufus (Windows) ou o comando dd (Linux) para criar um pen drive bootável.
-
-
-Exemplo (Linux):
-
-sudo dd if=ubuntu.iso of=/dev/sdX bs=4M
-sync
-
-(Substitua /dev/sdX pelo dispositivo do pen drive.)
+Use ferramentas como **Rufus (Windows)** ou o comando **dd (Linux)** para criar um pen drive bootável.
 
 
-3. Instale o sistema:
+## Exemplo (Linux):
+
+*sudo dd if=ubuntu.iso of=/dev/sdX bs=4M
+sync*
+
+*(Substitua /dev/sdX pelo dispositivo do pen drive.)*
+
+
+## 3. Instale o sistema:
 
 Insira o pen drive, reinicie o computador, e escolha o dispositivo USB no boot menu.
 
@@ -665,27 +619,24 @@ Siga as instruções na tela para configurar idioma, disco, e usuário.
 
 
 
-
-
-2. Configuração de Rede no Ubuntu
+## 2. Configuração de Rede no Ubuntu
 
 Ajuste da Rede (Desktop):
 
-1. Interface Gráfica:
+## 1. Interface Gráfica:
 
 Acesse Configurações > Rede.
 
 Configure o IP como estático ou dinâmico (DHCP).
 
 
+**2. Via Terminal (Server ou Desktop):** Edite o arquivo de configuração de rede:
 
-2. Via Terminal (Server ou Desktop): Edite o arquivo de configuração de rede:
+*sudo nano /etc/netplan/01-netcfg.yaml*
 
-sudo nano /etc/netplan/01-netcfg.yaml
+## Configuração de IP Estático:
 
-Configuração de IP Estático:
-
-network:
+*network:
   version: 2
   renderer: networkd
   ethernets:
@@ -695,215 +646,190 @@ network:
         - 192.168.1.100/24
       gateway4: 192.168.1.1
       nameservers:
-        addresses: [8.8.8.8, 8.8.4.4]
+        addresses: [8.8.8.8, 8.8.4.4]*
 
-Aplicar configurações:
+## Aplicar configurações:
 
-sudo netplan apply
-
-
+*sudo netplan apply* 
 
 
+## 3. Ferramentas e Configuração para Cibersegurança no Ubuntu
 
-
-3. Ferramentas e Configuração para Cibersegurança no Ubuntu
-
-Principais Ferramentas de Cibersegurança:
+## Principais Ferramentas de Cibersegurança:
 
 a. Firewalls e Controle de Tráfego
 
-1. UFW (Uncomplicated Firewall):
+## 1. UFW (Uncomplicated Firewall):
 
-Habilitar o firewall:
+# Habilitar o firewall:
 
-sudo ufw enable
+*sudo ufw enable*
 
-Permitir tráfego na porta 22 (SSH):
+## Permitir tráfego na porta 22 (SSH):
 
-sudo ufw allow 22
+*sudo ufw allow 22* 
 
-Verificar status:
+## Verificar status:
 
-sudo ufw status verbose
-
-
-
-2. iptables: Usado para configurações mais avançadas de firewall. Exemplo:
-
-sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+*sudo ufw status verbose*
 
 
 
-b. Detecção e Prevenção de Intrusões
+**2. iptables:** Usado para configurações mais avançadas de firewall. Exemplo:
 
-1. Snort:
-
-Instalação:
-
-sudo apt update
-sudo apt install snort
-
-Configuração: Edite /etc/snort/snort.conf para definir regras personalizadas.
-
-Verificar tráfego:
-
-sudo snort -A console -q -c /etc/snort/snort.conf -i eth0
+*sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT* 
 
 
 
-2. Suricata:
+## b. Detecção e Prevenção de Intrusões
 
-Instalação:
+# 1. Snort:
 
-sudo apt install suricata
+# Instalação:
 
-Teste:
+*sudo apt update
+sudo apt install snort*
 
-sudo suricata -c /etc/suricata/suricata.yaml -i eth0
+**Configuração:** Edite /etc/snort/snort.conf para definir regras personalizadas.
 
+## Verificar tráfego:
 
-
-
-c. Auditoria e Teste de Segurança
-
-1. Nmap:
-
-Verificar portas abertas em um servidor:
-
-nmap -sS -Pn 192.168.1.1
+*sudo snort -A console -q -c /etc/snort/snort.conf -i eth0*
 
 
+## 2. Suricata:
 
-2. Metasploit Framework:
+## Instalação:
 
-Instalação:
+*sudo apt install suricata*
 
-curl https://raw.githubusercontent.com/rapid7/metasploit-framework/master/msfinstall | sh
+## Teste:
 
-Uso:
-
-msfconsole
-
+*sudo suricata -c /etc/suricata/suricata.yaml -i eth0*
 
 
-3. Wireshark:
+## c. Auditoria e Teste de Segurança
+
+*1. Nmap:*
+
+# Verificar portas abertas em um servidor:
+
+*nmap -sS -Pn 192.168.1.1*
+
+
+# 2. Metasploit Framework:
+
+# Instalação:
+
+*curl https://raw.githubusercontent.com/rapid7/metasploit-framework/master/msfinstall | sh*
+
+# Uso:
+
+*msfconsole*
+
+
+# 3. Wireshark:
 
 Monitoramento de tráfego de rede:
 
-sudo apt install wireshark
+*sudo apt install wireshark*
 
 
+# d. Ferramentas para Hardening
 
-
-d. Ferramentas para Hardening
-
-1. Lynis:
+# 1. Lynis:
 
 Análise de segurança:
 
-sudo apt install lynis
-sudo lynis audit system
+*sudo apt install lynis
+sudo lynis audit system*
 
 
-
-2. Fail2Ban:
+# 2. Fail2Ban:
 
 Proteção contra ataques de força bruta:
 
-sudo apt install fail2ban
+*sudo apt install fail2ban* 
 
 
+# e. Ferramentas de Pentest
 
-
-e. Ferramentas de Pentest
-
-1. Kali Tools via Katoolin:
+# 1. Kali Tools via Katoolin:
 
 Instalar ferramentas do Kali Linux:
 
-sudo apt install git
+*sudo apt install git
 git clone https://github.com/LionSec/katoolin.git
 cd katoolin
-sudo python3 katoolin.py
+sudo python3 katoolin.py*
 
 
+# 4. Comandos Básicos e Essenciais no Ubuntu
 
+## Atualizar pacotes:
 
+*sudo apt update && sudo apt upgrade*
 
-4. Comandos Básicos e Essenciais no Ubuntu
+## Gerenciamento de usuários:
 
-Atualizar pacotes:
+*sudo adduser nome_usuario
+sudo usermod -aG sudo nome_usuario*
 
-sudo apt update && sudo apt upgrade
+# Monitoramento do sistema:
 
-Gerenciamento de usuários:
-
-sudo adduser nome_usuario
-sudo usermod -aG sudo nome_usuario
-
-Monitoramento do sistema:
-
-top
+*top
 htop
-df -h
+df -h*
 
-Diagnóstico de rede:
+# Diagnóstico de rede:
 
-ping 8.8.8.8
-traceroute 8.8.8.8
+*ping 8.8.8.8
+traceroute 8.8.8.8*
 
-Gerenciamento de serviços:
+# Gerenciamento de serviços:
 
-sudo systemctl start nome_servico
+*sudo systemctl start nome_servico
 sudo systemctl enable nome_servico
-sudo systemctl status nome_servico
+sudo systemctl status nome_servico*
 
 
+# 5. Importância da Cibersegurança no Ubuntu
+
+**1. Proteção contra ataques:** Ferramentas como firewalls e IDS/IPS ajudam a bloquear tentativas de invasão.
+
+**2. Manutenção de integridade:** Auditorias frequentes garantem a integridade do sistema e dados.
+
+**3. Cumprimento de normas:** Configurações robustas ajudam na conformidade com regulamentações como LGPD, GDPR e ISO 27001.
 
 
-5. Importância da Cibersegurança no Ubuntu
-
-1. Proteção contra ataques: Ferramentas como firewalls e IDS/IPS ajudam a bloquear tentativas de invasão.
+**4. Mitigação de riscos:** O uso combinado de ferramentas de detecção, monitoramento e prevenção reduz a probabilidade de ataques bem-sucedidos.
 
 
-2. Manutenção de integridade: Auditorias frequentes garantem a integridade do sistema e dados.
+## Kali Linux
 
-
-3. Cumprimento de normas: Configurações robustas ajudam na conformidade com regulamentações como LGPD, GDPR e ISO 27001.
-
-
-4. Mitigação de riscos: O uso combinado de ferramentas de detecção, monitoramento e prevenção reduz a probabilidade de ataques bem-sucedidos.
-
-
-
-Xxcccccxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
+![Screenshot_20250107-200055](https://github.com/user-attachments/assets/a99c469b-ccc8-4b86-b095-d73aed6d9ebc)
 
 
 A instalação e configuração do Kali Linux, uma das distribuições mais populares para Cibersegurança e testes de intrusão (pentesting), envolve várias etapas. Aqui está um guia completo com exemplos práticos.
 
 
 
-
-1. O que é o Kali Linux?
+## 1. O que é o Kali Linux?
 
 O Kali Linux é uma distribuição baseada em Debian, projetada para segurança ofensiva. Ele vem com ferramentas pré-instaladas para:
 
-Testes de penetração
+## Testes de penetração
 
-Análise de vulnerabilidades
+*Análise de vulnerabilidades*
 
-Forense digital
+*Forense digital*
 
-Engenharia reversa
-
-
+*Engenharia reversa*
 
 
-2. Instalação do Kali Linux
+## 2. Instalação do Kali Linux
 
-Requisitos do Sistema
+*Requisitos do Sistema*
 
 Processador: Dual-core (x64 ou ARM)
 
@@ -914,31 +840,28 @@ Armazenamento: 20GB de espaço em disco
 Conexão com a Internet: Necessária para baixar atualizações e ferramentas.
 
 
-Passo a Passo para Instalação
+## Passo a Passo para Instalação
 
-1. Baixar o Kali Linux:
+## 1. Baixar o Kali Linux:
 
 Faça o download do arquivo ISO do site oficial: https://www.kali.org/.
 
 
+## 2. Criar um USB Bootável:
 
-2. Criar um USB Bootável:
+Use ferramentas como **Rufus (Windows)** ou **dd (Linux)** para criar um USB bootável:
 
-Use ferramentas como Rufus (Windows) ou dd (Linux) para criar um USB bootável:
-
-sudo dd if=kali-linux.iso of=/dev/sdX bs=4M
-
+*sudo dd if=kali-linux.iso of=/dev/sdX bs=4M*
 
 
-3. Iniciar a Instalação:
+## 3. Iniciar a Instalação:
 
 Configure o BIOS/UEFI para inicializar pelo USB.
 
 Selecione a opção Graphical Install no menu inicial.
 
 
-
-4. Configuração Durante a Instalação:
+## 4. Configuração Durante a Instalação:
 
 Escolha o idioma, layout do teclado e fuso horário.
 
@@ -951,238 +874,209 @@ Configure a senha do root e/ou do usuário padrão.
 Instale o sistema e o GRUB (gerenciador de boot).
 
 
-
-5. Reinicie o Sistema:
+# 5. Reinicie o Sistema:
 
 Após a instalação, reinicie e remova o USB.
 
 
-
-
-
-
-
-3. Configuração de Rede no Kali Linux
+## 3. Configuração de Rede no Kali Linux
 
 Após a instalação, a configuração da rede é essencial para realizar testes em ambientes remotos.
 
-3.1 Configuração de IP Dinâmico (DHCP)
+# 3.1 Configuração de IP Dinâmico (DHCP)
 
 Se o roteador oferece IP automaticamente:
 
 1. Verifique as interfaces de rede disponíveis:
 
-ip link
+*ip link*
 
 
-2. Ative a interface (exemplo: eth0):
+## 2. Ative a interface (exemplo: eth0):
 
-sudo ip link set eth0 up
-
-
-3. Configure o DHCP:
-
-sudo dhclient eth0
+*sudo ip link set eth0 up*
 
 
-4. Verifique o IP atribuído:
+## 3. Configure o DHCP:
 
-ip addr show eth0
+*sudo dhclient eth0*
 
 
+## 4. Verifique o IP atribuído:
 
-3.2 Configuração de IP Estático
+*ip addr show eth0* 
+
+
+## 3.2 Configuração de IP Estático
 
 1. Edite o arquivo de configuração da interface:
 
-sudo nano /etc/network/interfaces
+*sudo nano /etc/network/interfaces* 
 
 
-2. Adicione as configurações:
+## 2. Adicione as configurações:
 
-auto eth0
+*auto eth0
 iface eth0 inet static
     address 192.168.1.100
     netmask 255.255.255.0
     gateway 192.168.1.1
-    dns-nameservers 8.8.8.8 8.8.4.4
+    dns-nameservers 8.8.8.8 8.8.4.4*
 
 
-3. Reinicie o serviço de rede:
+## 3. Reinicie o serviço de rede:
 
 sudo systemctl restart networking
 
 
 
+## 4. Comandos Principais e Úteis no Kali Linux
 
-
-4. Comandos Principais e Úteis no Kali Linux
-
-1. Gerenciamento de Pacotes:
+## 1. Gerenciamento de Pacotes:
 
 Atualizar o sistema:
 
-sudo apt update && sudo apt upgrade -y
+*sudo apt update && sudo apt upgrade -y*
 
-Instalar pacotes:
+## Instalar pacotes:
 
-sudo apt install <nome_do_pacote>
+*sudo apt install <nome_do_pacote>*
 
 
-
-2. Controle de Serviços:
+## 2. Controle de Serviços:
 
 Verificar o status de um serviço:
 
-sudo systemctl status ssh
+*sudo systemctl status ssh* 
 
-Iniciar um serviço:
+## Iniciar um serviço:
 
-sudo systemctl start ssh
+*sudo systemctl start ssh* 
 
 
-
-3. Ferramentas de Rede:
+## 3. Ferramentas de Rede:
 
 Verificar conectividade:
 
-ping 8.8.8.8
+*ping 8.8.8.8* 
 
-Escanear portas abertas:
+## Escanear portas abertas:
 
-sudo nmap -sS 192.168.1.1
+*sudo nmap -sS 192.168.1.1*
 
 
-
-4. Permissões e Usuários:
+## 4. Permissões e Usuários:
 
 Alterar permissões:
 
-chmod 755 arquivo.sh
+*chmod 755 arquivo.sh* 
 
 Adicionar um usuário:
 
-sudo adduser usuario
+*sudo adduser usuario* 
 
 
+## 5. Ferramentas de Cibersegurança no Kali Linux
+
+*O Kali Linux vem com centenas de ferramentas organizadas por categorias.* 
+
+***Aqui estão algumas das mais usadas:***
+
+## 5.1 Testes de Penetração
+
+**Metasploit Framework:** Exploração de vulnerabilidades.
+
+*msfconsole*
+
+*Nmap:* Escaneamento de rede.
+
+*nmap -A 192.168.1.1*
 
 
+## 5.2 Análise de Vulnerabilidades
+
+*OpenVAS:* Verificação de vulnerabilidades.
+
+*sudo openvas-setup*
 
 
+## 5.3 Engenharia Reversa
 
-5. Ferramentas de Cibersegurança no Kali Linux
-
-O Kali Linux vem com centenas de ferramentas organizadas por categorias. Aqui estão algumas das mais usadas:
-
-5.1 Testes de Penetração
-
-Metasploit Framework: Exploração de vulnerabilidades.
-
-msfconsole
-
-Nmap: Escaneamento de rede.
-
-nmap -A 192.168.1.1
+*Ghidra:* Análise de código binário.
 
 
-5.2 Análise de Vulnerabilidades
+## 5.4 Forense Digital
 
-OpenVAS: Verificação de vulnerabilidades.
+**Autopsy:** Análise forense de sistemas de arquivos.
 
-sudo openvas-setup
-
-
-5.3 Engenharia Reversa
-
-Ghidra: Análise de código binário.
+*autopsy*
 
 
-5.4 Forense Digital
+## 5.5 Ataques de Rede
 
-Autopsy: Análise forense de sistemas de arquivos.
+**Wireshark:** Captura de pacotes de rede.
 
-autopsy
+*wireshark*
 
+**Aircrack-ng:** Testes em redes Wi-Fi.
 
-5.5 Ataques de Rede
-
-Wireshark: Captura de pacotes de rede.
-
-wireshark
-
-Aircrack-ng: Testes em redes Wi-Fi.
-
-aircrack-ng -b <BSSID> captura.cap
+*aircrack-ng -b <BSSID> captura.cap*
 
 
+## 6. Importância do Kali Linux na Cibersegurança
 
-
-
-6. Importância do Kali Linux na Cibersegurança
-
-1. Treinamento em Segurança Ofensiva:
+***1. Treinamento em Segurança Ofensiva:***
 
 Profissionais podem aprender a identificar vulnerabilidades em sistemas reais.
 
 
-
-2. Prevenção e Defesa:
+## 2. Prevenção e Defesa:
 
 Conhecer as ferramentas de ataque ajuda a criar estratégias para mitigá-los.
 
 
-
-3. Forense Digital:
+## 3. Forense Digital:
 
 Ferramentas como o Autopsy ajudam na investigação de crimes digitais.
 
 
-
-4. Conformidade com Leis:
+## 4. Conformidade com Leis:
 
 Testes de penetração são essenciais para cumprir normas de segurança, como a LGPD.
 
 
-
-
-
-
-7. Exemplo Prático: Teste de Rede com Nmap
+**7. Exemplo Prático:** Teste de Rede com Nmap
 
 Imagine que você deseja identificar dispositivos na rede 192.168.1.0/24:
 
-nmap -sP 192.168.1.0/24
+*nmap -sP 192.168.1.0/24*
 
-Saída esperada:
+## Saída esperada:
 
-Host 192.168.1.1 is up (0.0020s latency).
+*Host 192.168.1.1 is up (0.0020s latency).
 MAC Address: XX:XX:XX:XX:XX:XX (Vendor)
 Host 192.168.1.100 is up (0.0030s latency).
-MAC Address: XX:XX:XX:XX:XX:XX (Vendor)
+MAC Address: XX:XX:XX:XX:XX:XX (Vendor)*
 
 
+## Linux Debian
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-
+![Screenshot_20250107-201456](https://github.com/user-attachments/assets/07efb9aa-ebb7-4920-a523-e1f6510e1ba9)
 
 
 Aqui está um guia detalhado para instalar, configurar e usar o Debian Linux com foco na utilização em rede, comandos principais, ferramentas de cibersegurança e sua importância no contexto de segurança da informação.
 
 
 
-
-1. O que é o Debian Linux?
+## 1. O que é o Debian Linux?
 
 O Debian Linux é uma distribuição robusta, estável e versátil, amplamente utilizada como base para outras distribuições, como Ubuntu e Kali Linux. Embora não seja voltado diretamente para cibersegurança, o Debian pode ser configurado e utilizado para esse propósito devido à sua estabilidade e suporte a ferramentas de segurança.
 
 
 
+## 2. Instalação do Debian Linux
 
-2. Instalação do Debian Linux
-
-Requisitos do Sistema
+***Requisitos do Sistema***
 
 Processador: x86 ou ARM.
 
@@ -1193,33 +1087,30 @@ Espaço em disco: 10GB (mínimo).
 Conexão com a Internet: Recomendado para baixar pacotes adicionais.
 
 
-Passo a Passo para Instalação
+## Passo a Passo para Instalação
 
-1. Baixe a ISO do Debian:
+## 1. Baixe a ISO do Debian:
 
-Acesse o site oficial: https://www.debian.org/ e baixe a versão estável.
-
-
-
-2. Crie um USB Bootável:
-
-No Linux, use o comando dd:
-
-sudo dd if=debian.iso of=/dev/sdX bs=4M
-
-No Windows, use o Rufus.
+*Acesse o site oficial: https://www.debian.org/ e baixe a versão estável.*
 
 
+## 2. Crie um USB Bootável:
 
-3. Inicie o Processo de Instalação:
+***No Linux, use o comando dd:***
+
+*sudo dd if=debian.iso of=/dev/sdX bs=4M*
+
+***No Windows, use o Rufus.***
+
+
+## 3. Inicie o Processo de Instalação:
 
 Configure o BIOS/UEFI para inicializar pelo USB.
 
 Escolha a opção Graphical Install ou Install.
 
 
-
-4. Configurações Durante a Instalação:
+## 4. Configurações Durante a Instalação:
 
 Idioma e layout do teclado.
 
@@ -1232,75 +1123,64 @@ Configure a rede, podendo usar DHCP ou definir IP estático.
 Escolha pacotes adicionais, como o ambiente de desktop (Gnome, KDE, etc.).
 
 
-
-5. Finalize a Instalação:
+## 5. Finalize a Instalação:
 
 Instale o GRUB (gerenciador de boot).
 
 Reinicie o sistema e remova o USB.
 
 
-
-
-
-
-
-3. Configuração de Rede no Debian Linux
+## 3. Configuração de Rede no Debian Linux
 
 A configuração de rede é essencial para o uso em ambientes empresariais ou domésticos.
 
 Configuração de IP Dinâmico (DHCP)
 
-1. Verifique as interfaces disponíveis:
+## 1. Verifique as interfaces disponíveis:
 
-ip link
-
-
-2. Ative a interface de rede (exemplo: eth0):
-
-sudo ip link set eth0 up
+*ip link* 
 
 
-3. Inicie o cliente DHCP:
+## 2. Ative a interface de rede (exemplo: eth0):
 
-sudo dhclient eth0
-
-
-4. Verifique o IP atribuído:
-
-ip addr show eth0
+*sudo ip link set eth0 up*
 
 
+## 3. Inicie o cliente DHCP:
 
-Configuração de IP Estático
+*sudo dhclient eth0*
+
+
+## 4. Verifique o IP atribuído:
+
+*ip addr show eth0*
+
+
+## Configuração de IP Estático
 
 1. Edite o arquivo de configuração de rede:
 
-sudo nano /etc/network/interfaces
+*sudo nano /etc/network/interfaces*
 
 
-2. Adicione a configuração estática:
+## 2. Adicione a configuração estática:
 
-auto eth0
+*auto eth0
 iface eth0 inet static
     address 192.168.1.100
     netmask 255.255.255.0
     gateway 192.168.1.1
-    dns-nameservers 8.8.8.8 8.8.4.4
+    dns-nameservers 8.8.8.8 8.8.4.4*
 
 
-3. Reinicie o serviço de rede:
+## 3. Reinicie o serviço de rede:
 
-sudo systemctl restart networking
-
-
+*sudo systemctl restart networking*
 
 
+## 4. Comandos Principais no Debian Linux
 
-
-4. Comandos Principais no Debian Linux
-
-1. Atualização e Gerenciamento de Pacotes
+***1. Atualização e Gerenciamento de Pacotes***
 
 Atualizar o sistema:
 
@@ -1308,172 +1188,148 @@ sudo apt update && sudo apt upgrade -y
 
 Instalar pacotes:
 
-sudo apt install <nome_do_pacote>
+*sudo apt install <nome_do_pacote>*
 
 
+## 2. Gerenciamento de Arquivos
 
-2. Gerenciamento de Arquivos
+***Listar arquivos:***
 
-Listar arquivos:
+*ls -l*
 
-ls -l
+## Mover arquivos:
 
-Mover arquivos:
+*mv arquivo.txt /destino/*
 
-mv arquivo.txt /destino/
+## Copiar arquivos:
 
-Copiar arquivos:
-
-cp arquivo.txt /destino/
-
+*cp arquivo.txt /destino/*
 
 
-3. Permissões e Usuários
+## 3. Permissões e Usuários
 
-Alterar permissões:
+***Alterar permissões:***
 
-chmod 755 script.sh
+*chmod 755 script.sh* 
 
-Adicionar um usuário:
+***Adicionar um usuário:***
 
-sudo adduser usuario
+*sudo adduser usuario*
 
 
-
-4. Rede
+## 4. Rede
 
 Testar conectividade:
 
-ping 8.8.8.8
+*ping 8.8.8.8*
 
 Escanear portas:
 
-sudo nmap 192.168.1.1
+*sudo nmap 192.168.1.1*
 
 
-
-
-
-
-
-5. Ferramentas de Cibersegurança no Debian
+## 5. Ferramentas de Cibersegurança no Debian
 
 Embora o Debian não venha com ferramentas específicas de cibersegurança pré-instaladas, você pode adicionar pacotes conhecidos:
 
-Instalação de Ferramentas
+## Instalação de Ferramentas
 
-1. Nmap: Escaneamento de redes.
+**1. Nmap:** Escaneamento de redes.
 
-sudo apt install nmap
+*sudo apt install nmap*
 
 
-2. Metasploit Framework: Exploração de vulnerabilidades.
+**2. Metasploit Framework:** Exploração de vulnerabilidades.
 
-curl https://raw.githubusercontent.com/rapid7/metasploit-framework/master/msfinstall > msfinstall
+*curl https://raw.githubusercontent.com/rapid7/metasploit-framework/master/msfinstall > msfinstall
 chmod +x msfinstall
-sudo ./msfinstall
+sudo ./msfinstall*
 
 
-3. Wireshark: Captura e análise de pacotes.
+*3. Wireshark:* Captura e análise de pacotes.
 
-sudo apt install wireshark
-
-
-4. Aircrack-ng: Teste de segurança Wi-Fi.
-
-sudo apt install aircrack-ng
+*sudo apt install wireshark*
 
 
-5. John the Ripper: Teste de força bruta em senhas.
+**4. Aircrack-ng:** Teste de segurança Wi-Fi.
 
-sudo apt install john
+*sudo apt install aircrack-ng*
 
 
+**5. John the Ripper:** Teste de força bruta em senhas.
 
+*sudo apt install john*
 
 
 
-6. Importância do Debian na Cibersegurança
+## 6. Importância do Debian na Cibersegurança
 
-1. Estabilidade e Segurança:
+***1. Estabilidade e Segurança:*** 
 
 O Debian é conhecido por sua estabilidade, sendo ideal para servidores e ambientes críticos.
 
 
-
-2. Customização:
+## 2. Customização:
 
 Pode ser configurado para atender às necessidades específicas de cibersegurança, desde pentesting até hardening de servidores.
 
 
-
-3. Ferramentas de Código Aberto:
+## 3. Ferramentas de Código Aberto:
 
 Oferece suporte a uma ampla gama de ferramentas gratuitas e poderosas.
 
 
-
-4. Base para Ambientes Avançados:
+## 4. Base para Ambientes Avançados:
 
 O Debian serve como base para distribuições especializadas em segurança, como o Kali Linux.
 
 
-
-
-
-
-
-7. Exemplo Prático: Escaneamento de Rede com Nmap
+**7. Exemplo Prático:** Escaneamento de Rede com Nmap
 
 Vamos realizar um escaneamento básico em uma rede local:
 
-1. Comando para escanear dispositivos ativos:
+## 1. Comando para escanear dispositivos ativos:
 
-sudo nmap -sn 192.168.1.0/24
+*sudo nmap -sn 192.168.1.0/24*
 
 
-2. Saída esperada:
+## 2. Saída esperada:
 
-Host 192.168.1.1 is up.
+*Host 192.168.1.1 is up.
 Host 192.168.1.100 is up.
-Host 192.168.1.101 is up.
+Host 192.168.1.101 is up.*
 
 
-3. Escanear portas abertas de um dispositivo:
+## 3. Escanear portas abertas de um dispositivo:
 
-sudo nmap -sT 192.168.1.1
+*sudo nmap -sT 192.168.1.1*
 
 
-4. Saída esperada:
+## 4. Saída esperada:
 
-PORT     STATE  SERVICE
+*PORT     STATE  SERVICE
 22/tcp   open   ssh
-80/tcp   open   http
+80/tcp   open   http*
 
 
 
+Linux Fedora
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-
+![Screenshot_20250107-203022](https://github.com/user-attachments/assets/cc9878e9-f78b-4eb4-a712-27214f13731e)
 
 
 Aqui está um guia detalhado sobre como instalar, configurar o Fedora para uso em rede, explorar os comandos mais utilizados, instalar ferramentas de cibersegurança e entender sua importância na segurança da informação.
 
 
 
-
-1. O que é o Fedora Linux?
+## 1. O que é o Fedora Linux?
 
 O Fedora Linux é uma distribuição moderna, patrocinada pela Red Hat, voltada para desktops, servidores e desenvolvedores. É conhecido por sua inovação, atualização rápida e segurança robusta. Embora não seja especializado em cibersegurança, ele pode ser configurado com ferramentas de segurança para auditorias e análises.
 
 
+## 2. Instalação do Fedora Linux
 
-
-2. Instalação do Fedora Linux
-
-Requisitos do Sistema
+***Requisitos do Sistema***
 
 Processador: x86_64 ou ARM.
 
@@ -1484,15 +1340,14 @@ Espaço em disco: Mínimo de 15GB.
 Conexão com a Internet: Recomendado para atualizações e pacotes adicionais.
 
 
-Passo a Passo
+## Passo a Passo
 
 1. Baixar a ISO:
 
 Acesse o site oficial: https://getfedora.org/ e baixe a versão desejada (Workstation, Server ou Spins).
 
 
-
-2. Criar um USB Bootável:
+## 2. Criar um USB Bootável:
 
 No Fedora/Linux, use o Fedora Media Writer:
 
@@ -1501,16 +1356,14 @@ sudo dnf install mediawriter
 No Windows, use ferramentas como Rufus.
 
 
-
-3. Inicializar a Instalação:
+## 3. Inicializar a Instalação:
 
 Configure o BIOS/UEFI para inicializar pelo USB.
 
 Escolha a opção Start Fedora.
 
 
-
-4. Configurações Durante a Instalação:
+## 4. Configurações Durante a Instalação:
 
 Selecione o idioma, teclado e layout.
 
@@ -1521,248 +1374,215 @@ Defina o nome do host (ex.: fedora-server) e o usuário.
 Escolha pacotes opcionais para servidor ou desktop.
 
 
-
-5. Finalize a Instalação:
+## 5. Finalize a Instalação:
 
 Reinicie o sistema e remova o USB.
 
 
-
-
-
-
-
-3. Configuração de Rede no Fedora
+## 3. Configuração de Rede no Fedora
 
 O Fedora usa o NetworkManager para gerenciamento de rede.
 
 Configuração Automática (DHCP)
 
-1. Verifique interfaces disponíveis:
+## 1. Verifique interfaces disponíveis:
 
-nmcli device status
-
-
-2. Ative a interface de rede:
-
-sudo nmcli device connect eth0
+*nmcli device status*
 
 
+## 2. Ative a interface de rede:
 
-Configuração Manual (IP Estático)
+*sudo nmcli device connect eth0*
 
-1. Configure a rede via nmcli:
 
-sudo nmcli connection modify "Conexão com fio 1" \
+## Configuração Manual (IP Estático)
+
+***1. Configure a rede via nmcli:***
+
+*sudo nmcli connection modify "Conexão com fio 1" \
 ipv4.addresses 192.168.1.100/24 \
 ipv4.gateway 192.168.1.1 \
 ipv4.dns "8.8.8.8 8.8.4.4" \
-ipv4.method manual
+ipv4.method manual*
 
 
-2. Reinicie a conexão:
+## 2. Reinicie a conexão:
 
 sudo nmcli connection up "Conexão com fio 1"
 
 
-3. Confirme o IP:
+## 3. Confirme o IP:
 
-ip addr show
-
-
+*ip addr show*
 
 
-
-
-4. Comandos Mais Utilizados no Fedora
+## 4. Comandos Mais Utilizados no Fedora
 
 Gerenciamento de Pacotes (DNF)
 
-1. Atualizar o sistema:
+## 1. Atualizar o sistema:
 
-sudo dnf update -y
-
-
-2. Instalar pacotes:
-
-sudo dnf install <nome_do_pacote>
+*sudo dnf update -y*
 
 
-3. Remover pacotes:
+## 2. Instalar pacotes:
 
-sudo dnf remove <nome_do_pacote>
+*sudo dnf install <nome_do_pacote>*
 
 
+## 3. Remover pacotes:
 
-Gerenciamento de Serviços (Systemd)
+*sudo dnf remove <nome_do_pacote>*
+
+
+## Gerenciamento de Serviços (Systemd)
 
 1. Verificar status de um serviço:
 
-systemctl status sshd
+*systemctl status sshd*
 
 
-2. Iniciar ou parar serviços:
+## 2. Iniciar ou parar serviços:
 
-sudo systemctl start sshd
-sudo systemctl stop sshd
-
-
-3. Habilitar/desabilitar na inicialização:
-
-sudo systemctl enable sshd
-sudo systemctl disable sshd
+*sudo systemctl start sshd
+sudo systemctl stop sshd*
 
 
+## 3. Habilitar/desabilitar na inicialização:
 
-Comandos de Rede
+*sudo systemctl enable sshd
+sudo systemctl disable sshd*
+
+
+## Comandos de Rede
 
 1. Testar conectividade:
 
-ping 8.8.8.8
+*ping 8.8.8.8*
 
 
-2. Escanear portas abertas:
+## 2. Escanear portas abertas:
 
-sudo nmap 192.168.1.1
-
-
+*sudo nmap 192.168.1.1*
 
 
-
-
-5. Ferramentas de Cibersegurança no Fedora
+## 5. Ferramentas de Cibersegurança no Fedora
 
 O Fedora não vem com ferramentas de segurança pré-instaladas, mas você pode configurar um ambiente completo.
 
-5.1 Ferramentas Essenciais
+## 5.1 Ferramentas Essenciais
 
-1. Nmap: Escaneamento de rede.
+**1. Nmap:** Escaneamento de rede.
 
-sudo dnf install nmap
-
-
-2. Wireshark: Captura de pacotes de rede.
-
-sudo dnf install wireshark
+*sudo dnf install nmap*
 
 
-3. Metasploit Framework: Exploração de vulnerabilidades.
+**2. Wireshark:** Captura de pacotes de rede.
 
-sudo dnf install metasploit
-
-
-4. John the Ripper: Teste de força bruta em senhas.
-
-sudo dnf install john
+*sudo dnf install wireshark*
 
 
-5. Fail2Ban: Prevenção de ataques de força bruta.
+**3. Metasploit Framework:** Exploração de vulnerabilidades.
 
-sudo dnf install fail2ban
-
-
-
-5.2 Outras Ferramentas
-
-Aircrack-ng: Testes em redes Wi-Fi.
-
-sudo dnf install aircrack-ng
-
-ClamAV: Antivírus para Linux.
-
-sudo dnf install clamav
+*sudo dnf install metasploit*
 
 
+**4. John the Ripper:** Teste de força bruta em senhas.
+
+*sudo dnf install john*
 
 
+**5. Fail2Ban:** Prevenção de ataques de força bruta.
 
-6. Exemplo Prático: Análise de Rede com Wireshark
+*sudo dnf install fail2ban*
 
-Configuração
+
+## 5.2 Outras Ferramentas
+
+**Aircrack-ng:** Testes em redes Wi-Fi.
+
+*sudo dnf install aircrack-ng*
+
+**ClamAV:** Antivírus para Linux.
+
+*sudo dnf install clamav*
+
+
+**6. Exemplo Prático:**  Análise de Rede com Wireshark
+
+## Configuração
 
 1. Instale o Wireshark:
 
-sudo dnf install wireshark
+*sudo dnf install wireshark*
 
 
 2. Permita captura para o usuário atual:
 
-sudo usermod -aG wireshark $(whoami)
+*sudo usermod -aG wireshark $(whoami)*
 
 Reinicie o terminal.
 
-
-
-Captura de Pacotes
+## Captura de Pacotes
 
 1. Inicie o Wireshark:
 
 wireshark
 
-
-2. Escolha uma interface de rede.
-
-
-3. Filtre os pacotes capturados (ex.: tráfego HTTP):
-
-http
+## 2. Escolha uma interface de rede.
 
 
-4. Analise os pacotes coletados.
+## 3. Filtre os pacotes capturados (ex.: tráfego HTTP):
+
+*http*
 
 
+## 4. Analise os pacotes coletados.
 
 
+## 7. Importância do Fedora na Cibersegurança
 
-7. Importância do Fedora na Cibersegurança
-
-1. Estabilidade e Atualizações Rápidas:
+***1. Estabilidade e Atualizações Rápidas:***
 
 O Fedora é atualizado frequentemente com pacotes recentes e patches de segurança.
 
 
-
-2. Base para Ambientes Corporativos:
+## 2. Base para Ambientes Corporativos:
 
 Como base para o Red Hat, é ideal para servidores e ambientes empresariais.
 
 
-
-3. Customização:
+## 3. Customização:
 
 É altamente configurável, permitindo a instalação de ferramentas específicas de segurança.
 
 
-
-4. Ferramentas Open Source:
+## 4. Ferramentas Open Source:
 
 Permite o uso de ferramentas de código aberto amplamente adotadas na indústria.
 
 
 
-xxxxcxxxxxxcccccccxxxxxxxxxxxxxxxxx
+## Linux CentOS/AlmaLinux
 
+![Screenshot_20250107-204219](https://github.com/user-attachments/assets/6d657b50-1b3b-4ef2-8284-389247c95f8b)
 
-Vvvv
 
 Aqui está um guia detalhado sobre como instalar, configurar para uso em rede as distribuições CentOS e AlmaLinux, que são populares em servidores corporativos. Também incluí informações sobre os comandos mais utilizados, ferramentas de cibersegurança e sua importância na segurança da informação.
 
 
 
+## 1. O que são CentOS e AlmaLinux?
 
-1. O que são CentOS e AlmaLinux?
+**CentOS (Community Enterprise Operating System):** É uma distribuição Linux baseada no Red Hat Enterprise Linux (RHEL). CentOS Stream, sua versão mais recente, atua como uma versão de desenvolvimento contínuo para o RHEL.
 
-CentOS (Community Enterprise Operating System): É uma distribuição Linux baseada no Red Hat Enterprise Linux (RHEL). CentOS Stream, sua versão mais recente, atua como uma versão de desenvolvimento contínuo para o RHEL.
-
-AlmaLinux: Surgiu como substituto para o CentOS após a mudança do foco para o CentOS Stream. É um sistema estável, 100% compatível com RHEL, e adequado para servidores e aplicações críticas.
-
+**AlmaLinux:** Surgiu como substituto para o CentOS após a mudança do foco para o CentOS Stream. ***É um sistema estável, 100% compatível com RHEL, e adequado para servidores e aplicações críticas.***
 
 
 
+## 2. Instalação do CentOS/AlmaLinux
 
-2. Instalação do CentOS/AlmaLinux
-
-Requisitos do Sistema
+***Requisitos do Sistema***
 
 Processador: x86_64.
 
@@ -1773,7 +1593,7 @@ Espaço em disco: Mínimo de 20GB.
 Conexão com a Internet: Necessária para atualizações e pacotes adicionais.
 
 
-Passo a Passo para Instalação
+## Passo a Passo para Instalação
 
 1. Baixe a ISO:
 
@@ -1782,8 +1602,7 @@ CentOS: https://www.centos.org/
 AlmaLinux: https://almalinux.org/
 
 
-
-2. Crie um USB Bootável:
+## 2. Crie um USB Bootável:
 
 No Linux:
 
@@ -1792,16 +1611,14 @@ sudo dd if=almalinux.iso of=/dev/sdX bs=4M
 No Windows, use o Rufus.
 
 
-
-3. Inicie a Instalação:
+## 3. Inicie a Instalação:
 
 Configure o BIOS/UEFI para inicializar pelo USB.
 
 Escolha a opção Install CentOS Stream ou Install AlmaLinux.
 
 
-
-4. Configurações Durante a Instalação:
+## 4. Configurações Durante a Instalação:
 
 Selecione o idioma e layout de teclado.
 
@@ -1814,844 +1631,702 @@ Crie um usuário administrativo e defina a senha do root.
 Escolha pacotes opcionais (ex.: Ambiente Desktop ou Servidor).
 
 
-
-5. Finalize a Instalação:
+## 5. Finalize a Instalação:
 
 Reinicie o sistema e remova o USB.
 
 
-
-
-
-
-
-3. Configuração de Rede no CentOS/AlmaLinux
+## 3. Configuração de Rede no CentOS/AlmaLinux
 
 Configuração de Rede Automática (DHCP)
 
 1. Identifique a interface de rede:
 
-ip link
+*ip link*
 
 
-2. Ative a interface de rede:
+## 2. Ative a interface de rede:
 
-sudo nmcli device connect eth0
-
-
-3. Verifique a conectividade:
-
-ping 8.8.8.8
+*sudo nmcli device connect eth0*
 
 
+## 3. Verifique a conectividade:
 
-Configuração de Rede Manual (IP Estático)
+*ping 8.8.8.8*
+
+
+## Configuração de Rede Manual (IP Estático)
 
 1. Edite o arquivo de configuração da interface:
 
-sudo nano /etc/sysconfig/network-scripts/ifcfg-eth0
+*sudo nano /etc/sysconfig/network-scripts/ifcfg-eth0*
 
 
-2. Insira as configurações:
+## 2. Insira as configurações:
 
-DEVICE=eth0
+*DEVICE=eth0
 BOOTPROTO=none
 ONBOOT=yes
 IPADDR=192.168.1.100
 NETMASK=255.255.255.0
 GATEWAY=192.168.1.1
 DNS1=8.8.8.8
-DNS2=8.8.4.4
+DNS2=8.8.4.4*
 
 
-3. Reinicie o serviço de rede:
+## 3. Reinicie o serviço de rede:
 
-sudo systemctl restart network
+*sudo systemctl restart network*
 
 
-4. Verifique o IP:
+## 4. Verifique o IP:
 
-ip addr show
+*ip addr show*
 
 
+## 4. Comandos Mais Utilizados no CentOS/AlmaLinux
 
+***Gerenciamento de Pacotes com YUM/DNF***
 
+*1. Atualizar o sistema:*
 
+*sudo dnf update -y*
 
-4. Comandos Mais Utilizados no CentOS/AlmaLinux
 
-Gerenciamento de Pacotes com YUM/DNF
+## 2. Instalar um pacote:
 
-1. Atualizar o sistema:
+*sudo dnf install <nome_do_pacote>*
 
-sudo dnf update -y
 
+## 3. Remover um pacote:
 
-2. Instalar um pacote:
+*sudo dnf remove <nome_do_pacote>*
 
-sudo dnf install <nome_do_pacote>
 
+## Gerenciamento de Serviços com Systemd
 
-3. Remover um pacote:
+***1. Verificar o status de um serviço:***
 
-sudo dnf remove <nome_do_pacote>
+*sudo systemctl status sshd*
 
 
+## 2. Iniciar ou parar um serviço:
 
-Gerenciamento de Serviços com Systemd
+*sudo systemctl start sshd
+sudo systemctl stop sshd*
 
-1. Verificar o status de um serviço:
 
-sudo systemctl status sshd
+## 3. Habilitar ou desabilitar na inicialização:
 
+*sudo systemctl enable sshd
+sudo systemctl disable sshd*
 
-2. Iniciar ou parar um serviço:
 
-sudo systemctl start sshd
-sudo systemctl stop sshd
+## Gerenciamento de Usuários
 
+***1. Adicionar um usuário:***
 
-3. Habilitar ou desabilitar na inicialização:
+*sudo adduser usuario*
 
-sudo systemctl enable sshd
-sudo systemctl disable sshd
 
+## 2. Definir senha para o usuário:
 
+*sudo passwd usuario* 
 
-Gerenciamento de Usuários
 
-1. Adicionar um usuário:
+## Comandos de Rede
 
-sudo adduser usuario
+***1. Testar conectividade:***
 
+*ping google.com*
 
-2. Definir senha para o usuário:
 
-sudo passwd usuario
+## 2. Mostrar interfaces de rede:
 
+*ip addr*
 
 
-Comandos de Rede
+## 3. Escanear portas abertas:
 
-1. Testar conectividade:
+*sudo nmap 192.168.1.1*
 
-ping google.com
 
+## 5. Ferramentas de Cibersegurança no CentOS/AlmaLinux
 
-2. Mostrar interfaces de rede:
+*Embora CentOS/AlmaLinux não venha com ferramentas de cibersegurança pré-instaladas, elas podem ser adicionadas facilmente.* 
 
-ip addr
+***Instalação de Ferramentas***
 
+**1. Nmap:** Escaneamento de rede.
 
-3. Escanear portas abertas:
+*sudo dnf install nmap*
 
-sudo nmap 192.168.1.1
 
+**2. Wireshark:** Análise de pacotes de rede.
 
+*sudo dnf install wireshark*
 
 
+**3. Fail2Ban:** Prevenção de ataques de força bruta.
 
+*sudo dnf install fail2ban*
 
-5. Ferramentas de Cibersegurança no CentOS/AlmaLinux
 
-Embora CentOS/AlmaLinux não venha com ferramentas de cibersegurança pré-instaladas, elas podem ser adicionadas facilmente.
+**4. ClamAV:** Antivírus de código aberto.
 
-Instalação de Ferramentas
+*sudo dnf install clamav*
 
-1. Nmap: Escaneamento de rede.
 
-sudo dnf install nmap
+**5. John the Ripper:** Teste de força bruta em senhas.
 
+*sudo dnf install john*
 
-2. Wireshark: Análise de pacotes de rede.
 
-sudo dnf install wireshark
+## Outras Ferramentas
 
+**Metasploit Framework:** Exploração de vulnerabilidades.
 
-3. Fail2Ban: Prevenção de ataques de força bruta.
+*sudo dnf install metasploit*
 
-sudo dnf install fail2ban
+*Aircrack-ng:* Teste de segurança Wi-Fi.
 
+*sudo dnf install aircrack-ng*
 
-4. ClamAV: Antivírus de código aberto.
 
-sudo dnf install clamav
+**6. Exemplo Prático:** Configuração de Firewall
 
+**O CentOS/AlmaLinux** utiliza o ***firewalld*** para gerenciamento de firewall.
 
-5. John the Ripper: Teste de força bruta em senhas.
 
-sudo dnf install john
-
-
-
-Outras Ferramentas
-
-Metasploit Framework: Exploração de vulnerabilidades.
-
-sudo dnf install metasploit
-
-Aircrack-ng: Teste de segurança Wi-Fi.
-
-sudo dnf install aircrack-ng
-
-
-
-
-
-6. Exemplo Prático: Configuração de Firewall
-
-O CentOS/AlmaLinux utiliza o firewalld para gerenciamento de firewall.
-
-Habilitar e Configurar o Firewall
+## Habilitar e Configurar o Firewall
 
 1. Verificar o status do firewall:
 
-sudo systemctl status firewalld
+*sudo systemctl status firewalld*
 
 
-2. Ativar o firewall:
+## 2. Ativar o firewall:
 
-sudo systemctl start firewalld
-sudo systemctl enable firewalld
-
-
-3. Adicionar uma regra para permitir SSH:
-
-sudo firewall-cmd --permanent --add-service=ssh
-sudo firewall-cmd --reload
+*sudo systemctl start firewalld
+sudo systemctl enable firewalld*
 
 
-4. Listar regras ativas:
+## 3. Adicionar uma regra para permitir SSH:
 
-sudo firewall-cmd --list-all
-
-
-
+*sudo firewall-cmd --permanent --add-service=ssh
+sudo firewall-cmd --reload*
 
 
+## 4. Listar regras ativas:
 
-7. Importância do CentOS/AlmaLinux na Cibersegurança
+*sudo firewall-cmd --list-all*
 
-1. Estabilidade e Longo Suporte:
+
+## 7. Importância do CentOS/AlmaLinux na Cibersegurança
+
+***1. Estabilidade e Longo Suporte:***
 
 Ideal para servidores críticos, graças à estabilidade e atualizações de segurança regulares.
 
 
-
-2. Compatibilidade com Ferramentas Empresariais:
+***2. Compatibilidade com Ferramentas Empresariais:***
 
 CentOS e AlmaLinux são compatíveis com diversas ferramentas corporativas de cibersegurança.
 
 
-
-3. Customização:
+***3. Customização:***
 
 Permite criar soluções personalizadas para auditorias e proteção.
 
 
-
-4. Cultura de Código Aberto:
+***4. Cultura de Código Aberto:***
 
 A comunidade ativa oferece suporte e ferramentas gratuitas.
 
 
 
 
+## Glossário Linux:
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-
+![Screenshot_20250107-212422](https://github.com/user-attachments/assets/ac005eb4-1f93-48f4-8cfe-613f5bc206bc)
 
 
-Segue um glossário detalhado de termos, expressões e comandos Linux, que abrange conceitos fundamentais, comandos importantes e suas explicações com exemplos práticos.
+*Segue um glossário detalhado de termos, expressões e comandos Linux, que abrange conceitos fundamentais, comandos importantes e suas explicações com exemplos práticos.*
 
 
+## Glossário de Termos e Expressões no Linux
+
+**1. Kernel**
+
+**Descrição:** Núcleo do sistema operacional Linux que gerencia os recursos do hardware e fornece serviços básicos para os softwares.
+
+**Exemplo:** O kernel controla o acesso ao processador, memória e dispositivos.
 
 
-Glossário de Termos e Expressões no Linux
+**2. Shell**
 
-1. Kernel
+**Descrição:** Interface de linha de comando que interpreta comandos e os executa. Exemplos: Bash, Zsh.
 
-Descrição: Núcleo do sistema operacional Linux que gerencia os recursos do hardware e fornece serviços básicos para os softwares.
-
-Exemplo: O kernel controla o acesso ao processador, memória e dispositivos.
+**Exemplo:** O Bash é o shell padrão em muitas distribuições Linux.
 
 
+## 3. Distribuição
+
+**Descrição:** Versão personalizada do Linux, com diferentes pacotes e gerenciadores. Exemplos: Ubuntu, Fedora, CentOS.
+
+**Exemplo:** O Debian é uma distribuição estável usada em servidores.
 
 
+## 4. Sistema de Arquivos
 
-2. Shell
+**Descrição:** Estrutura usada para organizar dados no disco. Exemplos: ext4, NTFS, FAT32.
 
-Descrição: Interface de linha de comando que interpreta comandos e os executa. Exemplos: Bash, Zsh.
+## Comando Relacionado:
 
-Exemplo: O Bash é o shell padrão em muitas distribuições Linux.
-
-
-
-
-
-3. Distribuição
-
-Descrição: Versão personalizada do Linux, com diferentes pacotes e gerenciadores. Exemplos: Ubuntu, Fedora, CentOS.
-
-Exemplo: O Debian é uma distribuição estável usada em servidores.
-
-
-
-
-
-4. Sistema de Arquivos
-
-Descrição: Estrutura usada para organizar dados no disco. Exemplos: ext4, NTFS, FAT32.
-
-Comando Relacionado:
-
-df -T
+*df -T*
 
 Exibe os sistemas de arquivos em uso.
 
 
+**5. Permissões**
 
-
-
-5. Permissões
-
-Descrição: Controle de acesso a arquivos e diretórios (leitura, escrita, execução).
+**Descrição:** Controle de acesso a arquivos e diretórios (leitura, escrita, execução).
 
 Comando Relacionado:
 
-ls -l
+*ls -l*
 
 Exibe as permissões dos arquivos.
 
 
+**6. Daemon**
+
+**Descrição:** Programa que roda em segundo plano, como serviços.
+
+**Exemplo:** O serviço sshd permite conexões SSH.
 
 
+**7. Processo**
 
-6. Daemon
-
-Descrição: Programa que roda em segundo plano, como serviços.
-
-Exemplo: O serviço sshd permite conexões SSH.
-
-
-
-
-
-7. Processo
-
-Descrição: Programa em execução.
+**Descrição:** Programa em execução.
 
 Comando Relacionado:
 
-ps aux
+*ps aux*
 
 Lista todos os processos ativos.
 
 
+**8. PID (Process ID)**
 
-
-
-8. PID (Process ID)
-
-Descrição: Identificação única atribuída a cada processo.
+**Descrição:** Identificação única atribuída a cada processo.
 
 Comando Relacionado:
 
-kill <PID>
+*kill <PID>*
 
 Encerra um processo específico.
 
 
+*#9. Pacotes**
 
-
-
-9. Pacotes
-
-Descrição: Conjunto de softwares ou bibliotecas para instalação. Gerenciadores de pacotes: apt, dnf, yum.
+**Descrição:** Conjunto de softwares ou bibliotecas para instalação. Gerenciadores de pacotes: apt, dnf, yum.
 
 Exemplo de Instalação com APT:
 
-sudo apt install nmap
+*sudo apt install nmap*
 
 
+**10. Mount/Unmount**
 
-
-
-10. Mount/Unmount
-
-Descrição: Montar ou desmontar sistemas de arquivos ou dispositivos.
+**Descrição:** Montar ou desmontar sistemas de arquivos ou dispositivos.
 
 Comando Relacionado:
 
-mount /dev/sda1 /mnt
-umount /mnt
+*mount /dev/sda1 /mnt
+umount /mnt*
 
 
+## Comandos Linux e Exemplos
 
+**1. Comandos de Navegação**
 
+**pwd:** Mostra o diretório atual.
 
-Comandos Linux e Exemplos
+*pwd*
 
-1. Comandos de Navegação
+**ls:** Lista arquivos e diretórios.
 
-pwd: Mostra o diretório atual.
+*ls -l*
 
-pwd
+**cd:** Navega entre diretórios.
 
-ls: Lista arquivos e diretórios.
+*cd /var/log*
 
-ls -l
 
-cd: Navega entre diretórios.
+## 2. Comandos de Gerenciamento de Arquivos
 
-cd /var/log
+**cp:** Copia arquivos ou diretórios.
 
+*cp arquivo.txt /backup/*
 
+*mv:* Move ou renomeia arquivos.
 
+*mv arquivo.txt novo_nome.txt*
 
+**rm:** Remove arquivos ou diretórios.
 
-2. Comandos de Gerenciamento de Arquivos
+*rm -r pasta/*
 
-cp: Copia arquivos ou diretórios.
 
-cp arquivo.txt /backup/
+**3. Comandos de Permissões**
 
-mv: Move ou renomeia arquivos.
+**chmod:** Altera permissões de arquivos.
 
-mv arquivo.txt novo_nome.txt
+*chmod 755 script.sh*
 
-rm: Remove arquivos ou diretórios.
+**chown:** Altera o dono de arquivos.
 
-rm -r pasta/
+*chown user:group arquivo.txt*
 
 
+**4. Comandos de Processos**
 
+**ps:** Lista processos ativos.
 
+*ps aux*
 
-3. Comandos de Permissões
+**top:** Monitora processos em tempo real.
 
-chmod: Altera permissões de arquivos.
+*top*
 
-chmod 755 script.sh
+**kill:** Encerra um processo.
 
-chown: Altera o dono de arquivos.
+*kill -9 <PID>*
 
-chown user:group arquivo.txt
 
+**5. Comandos de Sistema** 
 
+**uname:** Exibe informações do sistema.
 
+*uname -a*
 
+**df:** Mostra espaço em disco.
 
-4. Comandos de Processos
+*df -h*
 
-ps: Lista processos ativos.
+**free:** Exibe uso de memória.
 
-ps aux
+*free -m*
 
-top: Monitora processos em tempo real.
 
-top
+**6. Comandos de Rede**
 
-kill: Encerra um processo.
+**ping:** Testa conectividade de rede.
 
-kill -9 <PID>
+*ping google.com*
 
+**ifconfig/ip:** Mostra informações da rede.
 
+*ip addr*
 
+**netstat:** Exibe conexões de rede.
 
+*netstat -tuln*
 
-5. Comandos de Sistema
 
-uname: Exibe informações do sistema.
+**7. Comandos de Compactação**
 
-uname -a
+**tar:** Compacta e descompacta arquivos.
 
-df: Mostra espaço em disco.
+*tar -czvf arquivo.tar.gz pasta/
+tar -xzvf arquivo.tar.gz*
 
-df -h
+**gzip:** Compacta arquivos.
 
-free: Exibe uso de memória.
+*gzip arquivo.txt*
 
-free -m
 
+**8. Comandos de Gerenciamento de Pacotes**
 
+***apt (Debian/Ubuntu):***
 
+*Atualizar repositórios:*
 
+*sudo apt update*
 
-6. Comandos de Rede
+## Instalar pacotes:
 
-ping: Testa conectividade de rede.
+*sudo apt install vim*
 
-ping google.com
 
-ifconfig/ip: Mostra informações da rede.
+*dnf/yum (Fedora/CentOS):* 
 
-ip addr
+## Atualizar sistema:
 
-netstat: Exibe conexões de rede.
+*sudo dnf update* 
 
-netstat -tuln
 
+## 9. Comandos de Monitoramento
 
+**uptime:** Mostra tempo de atividade do sistema.
 
+*uptime*
 
+**who:** Exibe usuários logados.
 
-7. Comandos de Compactação
+*who* 
 
-tar: Compacta e descompacta arquivos.
+**du:** Mostra uso de espaço por diretório.
 
-tar -czvf arquivo.tar.gz pasta/
-tar -xzvf arquivo.tar.gz
+*du -sh /var/* 
 
-gzip: Compacta arquivos.
 
-gzip arquivo.txt
+**10. Comandos Avançados**
 
+**find:** Localiza arquivos/diretórios.
 
+*find / -name "arquivo.txt"*
 
+**grep:** Busca em arquivos.
 
+*grep "erro" /var/log/syslog*
 
-8. Comandos de Gerenciamento de Pacotes
+**awk:** Processa texto.
 
-apt (Debian/Ubuntu):
+*awk '{print $1}' arquivo.txt*
 
-Atualizar repositórios:
 
-sudo apt update
+**Ferramentas de Cibersegurança**
 
-Instalar pacotes:
+**Nmap:** Escaneamento de rede.
 
-sudo apt install vim
+*nmap -sS 192.168.1.1*
 
+**Wireshark:** Análise de pacotes.
 
-dnf/yum (Fedora/CentOS):
+*wireshark*
 
-Atualizar sistema:
+**Fail2Ban:** Prevenção de ataques de força bruta.
 
-sudo dnf update
+*sudo systemctl enable fail2ban*
 
 
+***Aqui estão exemplos adicionais, organizados por categorias, para enriquecer ainda mais seu conhecimento prático em Linux:***
 
 
 
+**1. Comandos de Navegação e Manipulação de Arquivos**
 
-9. Comandos de Monitoramento
+**tree:** Mostra a estrutura de diretórios em formato de árvore.
 
-uptime: Mostra tempo de atividade do sistema.
+*tree /var/www*
 
-uptime
+**stat:** Exibe informações detalhadas sobre um arquivo.
 
-who: Exibe usuários logados.
+*stat arquivo.txt*
 
-who
+**basename:** Extrai o nome do arquivo de um caminho.
 
-du: Mostra uso de espaço por diretório.
+*basename /caminho/completo/arquivo.txt*
 
-du -sh /var/
+**dirname:** Extrai o caminho do diretório de um arquivo.
 
+*dirname /caminho/completo/arquivo.txt*
 
 
+**2. Comandos de Compressão e Arquivamento**
 
+**zip e unzip:** Compacta e descompacta arquivos em formato .zip.
 
-10. Comandos Avançados
+*zip arquivo.zip pasta/
+unzip arquivo.zip*
 
-find: Localiza arquivos/diretórios.
+**bzip2 e bunzip2:** Compacta e descompacta arquivos usando o Bzip2.
 
-find / -name "arquivo.txt"
+*bzip2 arquivo.txt
+bunzip2 arquivo.txt.bz2*
 
-grep: Busca em arquivos.
+**7z (se instalado):** Compacta arquivos no formato .7z.
 
-grep "erro" /var/log/syslog
+*7z a arquivo.7z pasta/
+7z x arquivo.7z*
 
-awk: Processa texto.
 
-awk '{print $1}' arquivo.txt
+**3. Comandos de Permissões Avançadas**
 
+**setfacl:** Define ACLs (listas de controle de acesso) para arquivos e pastas.
 
+*setfacl -m u:usuario:rwx arquivo.txt
+getfacl arquivo.txt*
 
+*umask:* Define as permissões padrão para novos arquivos.
 
+*umask 022*
 
-Ferramentas de Cibersegurança
 
-Nmap: Escaneamento de rede.
+**4. Comandos de Processos Avançados** 
 
-nmap -sS 192.168.1.1
+**htop:** Monitor de processos interativo (mais amigável que top).
 
-Wireshark: Análise de pacotes.
+*htop*
 
-wireshark
+**nice e renice:** Controla a prioridade de execução de processos.
 
-Fail2Ban: Prevenção de ataques de força bruta.
+***Executar um comando com prioridade ajustada:***
 
-sudo systemctl enable fail2ban
+*nice -n 10 comando*
 
+***Alterar a prioridade de um processo em execução:***
 
+*renice -n 5 -p <PID>*
 
 
+**5. Comandos de Rede Avançados**
 
-Saiuuuuui
+**curl:** Faz requisições HTTP/HTTPS.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+*curl -O https://example.com/arquivo.txt*
 
+**wget:** Baixa arquivos da web.
 
+*wget https://example.com/arquivo.txt*
 
+**tcpdump:** Captura e analisa pacotes de rede.
 
+*sudo tcpdump -i eth0*
 
+**traceroute:** Mostra o caminho percorrido até um destino na rede.
 
-Aqui estão exemplos adicionais, organizados por categorias, para enriquecer ainda mais seu conhecimento prático em Linux:
+*traceroute google.com* 
 
 
+**6. Comandos de Gerenciamento de Dispositivos**
 
+**lsblk:** Lista dispositivos de armazenamento.
 
-1. Comandos de Navegação e Manipulação de Arquivos
+*lsblk*
 
-tree: Mostra a estrutura de diretórios em formato de árvore.
+**blkid:** Mostra informações dos sistemas de arquivos nos dispositivos.
 
-tree /var/www
+*blkid*
 
-stat: Exibe informações detalhadas sobre um arquivo.
+**parted:** Gerencia partições.
 
-stat arquivo.txt
+*sudo parted /dev/sda*
 
-basename: Extrai o nome do arquivo de um caminho.
+**mkfs:** Formata um dispositivo de armazenamento.
 
-basename /caminho/completo/arquivo.txt
+*sudo mkfs.ext4 /dev/sdb1*
 
-dirname: Extrai o caminho do diretório de um arquivo.
 
-dirname /caminho/completo/arquivo.txt
+**7. Comandos de Backup e Sincronização**
 
+**rsync:** Sincroniza arquivos e diretórios.
 
+*rsync -avz /origem/ /destino/*
 
+**dd:** Cria imagens de disco.
 
+*sudo dd if=/dev/sda of=/backup/imagem.img bs=4M*
 
-2. Comandos de Compressão e Arquivamento
 
-zip e unzip: Compacta e descompacta arquivos em formato .zip.
+**8. Comandos de Sistema e Diagnóstico**
 
-zip arquivo.zip pasta/
-unzip arquivo.zip
+**dmesg:** Mostra mensagens do kernel.
 
-bzip2 e bunzip2: Compacta e descompacta arquivos usando o Bzip2.
+*dmesg | tail*
 
-bzip2 arquivo.txt
-bunzip2 arquivo.txt.bz2
+**uptime:** Exibe há quanto tempo o sistema está em execução.
 
-7z (se instalado): Compacta arquivos no formato .7z.
+*uptime*
 
-7z a arquivo.7z pasta/
-7z x arquivo.7z
+**vmstat:** Mostra informações sobre memória, CPU e IO.
 
+*vmstat 2 5*
 
+**iostat:** Monitora IO de disco.
 
+*iostat -x*
 
 
-3. Comandos de Permissões Avançadas
+**9. Comandos de Segurança**
 
-setfacl: Define ACLs (listas de controle de acesso) para arquivos e pastas.
+**passwd:** Altera a senha de um usuário.
 
-setfacl -m u:usuario:rwx arquivo.txt
-getfacl arquivo.txt
+*sudo passwd usuario*
 
-umask: Define as permissões padrão para novos arquivos.
+**last:** Exibe os últimos logins no sistema.
 
-umask 022
+*last*
 
+**auditctl:** Configura auditoria no sistema.
 
+*sudo auditctl -w /etc/passwd -p rwxa*
 
 
+**10. Comandos para Scripts**
 
-4. Comandos de Processos Avançados
+**seq:** Gera uma sequência de números.
 
-htop: Monitor de processos interativo (mais amigável que top).
+*seq 1 10*
 
-htop
+**tee:** Redireciona saída para arquivo e para o terminal.
 
-nice e renice: Controla a prioridade de execução de processos.
+*ls | tee arquivo.txt*
 
-Executar um comando com prioridade ajustada:
+**xargs:** Passa argumentos para um comando.
 
-nice -n 10 comando
+*echo "arquivo1 arquivo2" | xargs rm*
 
-Alterar a prioridade de um processo em execução:
 
-renice -n 5 -p <PID>
+**11. Comandos Diversos**
 
+**alias:** Cria atalhos para comandos.
 
+*alias ll="ls -la"*
 
+**uname:** Exibe informações do sistema.
 
+*uname -r*
 
-5. Comandos de Rede Avançados
+**watch:** Executa um comando repetidamente.
 
-curl: Faz requisições HTTP/HTTPS.
+*watch -n 5 free -m*
 
-curl -O https://example.com/arquivo.txt
+**nc (Netcat):** Ferramenta de rede versátil.
 
-wget: Baixa arquivos da web.
+**Testar conectividade:**
 
-wget https://example.com/arquivo.txt
+*nc -zv google.com 80*
 
-tcpdump: Captura e analisa pacotes de rede.
 
-sudo tcpdump -i eth0
 
-traceroute: Mostra o caminho percorrido até um destino na rede.
+**12. Comandos de Localização e Pesquisa**
 
-traceroute google.com
+**locate:** Encontra arquivos rapidamente.
 
+*locate arquivo.txt*
 
+**whereis:** Localiza o binário, manual e fontes de um comando.
 
+*whereis ls*
 
+**which:** Exibe o caminho de um executável.
 
-6. Comandos de Gerenciamento de Dispositivos
+*which python*
 
-lsblk: Lista dispositivos de armazenamento.
+**grep:** Pesquisa padrões em arquivos.
 
-lsblk
+**grep "erro" /var/log/syslog**
 
-blkid: Mostra informações dos sistemas de arquivos nos dispositivos.
 
-blkid
-
-parted: Gerencia partições.
-
-sudo parted /dev/sda
-
-mkfs: Formata um dispositivo de armazenamento.
-
-sudo mkfs.ext4 /dev/sdb1
-
-
-
-
-
-7. Comandos de Backup e Sincronização
-
-rsync: Sincroniza arquivos e diretórios.
-
-rsync -avz /origem/ /destino/
-
-dd: Cria imagens de disco.
-
-sudo dd if=/dev/sda of=/backup/imagem.img bs=4M
-
-
-
-
-
-8. Comandos de Sistema e Diagnóstico
-
-dmesg: Mostra mensagens do kernel.
-
-dmesg | tail
-
-uptime: Exibe há quanto tempo o sistema está em execução.
-
-uptime
-
-vmstat: Mostra informações sobre memória, CPU e IO.
-
-vmstat 2 5
-
-iostat: Monitora IO de disco.
-
-iostat -x
-
-
-
-
-
-9. Comandos de Segurança
-
-passwd: Altera a senha de um usuário.
-
-sudo passwd usuario
-
-last: Exibe os últimos logins no sistema.
-
-last
-
-auditctl: Configura auditoria no sistema.
-
-sudo auditctl -w /etc/passwd -p rwxa
-
-
-
-
-
-10. Comandos para Scripts
-
-seq: Gera uma sequência de números.
-
-seq 1 10
-
-tee: Redireciona saída para arquivo e para o terminal.
-
-ls | tee arquivo.txt
-
-xargs: Passa argumentos para um comando.
-
-echo "arquivo1 arquivo2" | xargs rm
-
-
-
-
-
-11. Comandos Diversos
-
-alias: Cria atalhos para comandos.
-
-alias ll="ls -la"
-
-uname: Exibe informações do sistema.
-
-uname -r
-
-watch: Executa um comando repetidamente.
-
-watch -n 5 free -m
-
-nc (Netcat): Ferramenta de rede versátil.
-
-Testar conectividade:
-
-nc -zv google.com 80
-
-
-
-
-
-
-12. Comandos de Localização e Pesquisa
-
-locate: Encontra arquivos rapidamente.
-
-locate arquivo.txt
-
-whereis: Localiza o binário, manual e fontes de um comando.
-
-whereis ls
-
-which: Exibe o caminho de um executável.
-
-which python
-
-grep: Pesquisa padrões em arquivos.
-
-grep "erro" /var/log/syslog
-
-
-
-
-
-Esses exemplos avançados complementam os comandos básicos e permitem que você explore funcionalidades mais detalhadas do Linux.
+***Esses exemplos avançados complementam os comandos básicos e permitem que você explore funcionalidades mais detalhadas do Linux.***
 
  
-Conclusão
+## Conclusão
 
-Esse glossário cobre desde os fundamentos até comandos avançados.
+*Esse glossário cobre desde os fundamentos até comandos avançados.*
 
  
 
