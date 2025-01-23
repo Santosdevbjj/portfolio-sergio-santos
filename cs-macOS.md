@@ -1357,7 +1357,12 @@ O LibreOffice é uma alternativa gratuita e de código aberto que suporta format
 
 ![Screenshot_20250122-194627](https://github.com/user-attachments/assets/108de259-df36-4d45-ba33-1a8c4f684205)
 
-### A
+
+
+
+_____________________________
+
+ ### A
 
 # AirDrop
 
@@ -1370,6 +1375,7 @@ Loja oficial de aplicativos para macOS, onde os usuários podem baixar e instala
 # Automator
 
 Ferramenta integrada ao macOS que permite criar fluxos de trabalho automatizados para simplificar tarefas repetitivas.
+
 
 ### B
 
