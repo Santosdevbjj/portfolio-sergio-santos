@@ -1,4 +1,4 @@
-O que é Lean?
+## O que é Lean?
 
 ![Screenshot_20250208-175604](https://github.com/user-attachments/assets/12010c8d-ef62-4e3a-8828-03379935ff14)
 
@@ -826,7 +826,7 @@ A beleza do Lean está em sua simplicidade e foco nas pessoas. Não se trata ape
 **Que tal dar o primeiro passo nessa jornada de melhoria contínua? Pequenas mudanças podem levar a grandes resultados!** 
 
 
-Aplicar o Lean na vida pessoal 
+## Aplicar o Lean na vida pessoal 
 
 
 Aplicar a **melhoria contínua** do Lean na sua vida pessoal é como embarcar em uma jornada de autodescoberta, onde cada pequeno ajuste diário contribui para uma versão melhor de si mesmo. É sobre eliminar o que não agrega valor, otimizar suas rotinas e focar no que realmente importa para você.
@@ -1137,10 +1137,10 @@ Lembre-se, você tem o poder de projetar sua jornada. Que tal começar agora?
 
 Aplicar o **Lean** na vida pessoal é uma prática cada vez mais comum, e há inúmeros exemplos de pessoas que incorporaram essa filosofia para aprimorar suas rotinas, alcançar metas e melhorar a qualidade de vida. 
 
-Aqui estão alguns exemplos inspiradores:
+**Aqui estão alguns exemplos inspiradores:**
 
 
-Pessoas que aplicaram o Lean na vida pessoal 
+## Pessoas que aplicaram o Lean na vida pessoal 
 
 
 ### **1. Marie Kondo**
