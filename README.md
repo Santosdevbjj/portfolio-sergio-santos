@@ -1,7 +1,7 @@
 
 # 💼 Portfólio Técnico – Sergio Santos
 
-Desenvolvedor em transição para tecnologias modernas com foco em .NET, Cloud, DevOps e Qualidade de Software. Este portfólio reúne projetos desenvolvidos nos bootcamps patrocinados pela WEX e Avanade, além de estudos complementares em Cibersegurança, IA e Azure.
+Desenvolvedor em transição para tecnologias modernas com foco em .NET, Cloud, DevOps e Qualidade de Software. Este portfólio reúne projetos desenvolvidos nos bootcamps patrocinados pela WEX e Avanade, além de estudos complementares em Cibersegurança, IA e Azure. 
 
 ---
 
