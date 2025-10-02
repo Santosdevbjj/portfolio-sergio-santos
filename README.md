@@ -1,98 +1,82 @@
 # 💼 Portfólio Técnico – Sérgio Santos  
 
 Bem-vindo ao meu portfólio técnico.  
-Sou **Analista de Sistemas Sênior** em transição para tecnologias modernas, com experiência em **sistemas críticos bancários** e atualização contínua em **.NET, Cloud, DevOps, Cibersegurança, Inteligência Artificial e Data Analytics**.  
+Sou **Analista de Sistemas Sênior** com experiência em **desenvolvimento de sistemas críticos, infraestrutura corporativa e governança de TI**.  
+Atualmente, estou em **transição para tecnologias modernas**, com foco em **.NET, Cloud Computing, DevOps, Data Analytics, Cibersegurança e Inteligência Artificial**.  
 
-Este repositório reúne projetos práticos desenvolvidos em bootcamps e estudos independentes, com foco em aplicações reais e boas práticas de engenharia de software.  
+Este repositório reúne meus principais **projetos práticos**, desenvolvidos em bootcamps, formações e estudos independentes.  
 
 ---
 
 ## 🏷️ Competências Técnicas  
 
+### 🔹 Desenvolvimento & Backend  
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### 🔹 Cloud & DevOps  
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![DevOps](https://img.shields.io/badge/DevOps-FF6C37?style=for-the-badge&logo=azuredevops&logoColor=white)
-![QA](https://img.shields.io/badge/QA-0052CC?style=for-the-badge&logo=testing-library&logoColor=white)
-![IA](https://img.shields.io/badge/Inteligência_Artificial-FF4088?style=for-the-badge&logo=OpenAI&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### 🔹 Data Analytics & BI  
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### 🔹 Cibersegurança  
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-2E8B57?style=for-the-badge&logo=protonvpn&logoColor=white)
+![Compliance](https://img.shields.io/badge/Compliance-4682B4?style=for-the-badge&logo=datadog&logoColor=white)
+
+### 🔹 Inteligência Artificial & Machine Learning  
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=python&logoColor=yellow)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-8A2BE2?style=for-the-badge&logo=keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 ---
 
 ## 🚀 Projetos em Destaque  
 
-### Bootcamp WEX – End to End Engineering (91h)  
+### 🔹 Desenvolvimento .NET  
 - [Sistema de Estacionamento](https://github.com/Santosdevbjj/sistemaEstacionamento) – CRUD em C#, lógica de cobrança e controle de vagas.  
-- [Sistema de Hospedagem](https://github.com/Santosdevbjj/sistemaDeHospedagem) – Gerenciamento de hóspedes, reservas e tarifas.  
-- [POO: Abstração de Celular](https://github.com/Santosdevbjj/sistemaPOOcelular) – Simulação de funcionalidades de um celular em C#.  
-- [Consultas Relacionais SQL Server](https://github.com/Santosdevbjj/projetoSQLServer) – Exercícios práticos em SQL Server.  
-- [Container Web com Docker](https://github.com/Santosdevbjj/dockerContainerWeb) – Deploy de aplicação web em container.  
-
-### Bootcamp WEX – Desenvolvimento .NET e QA (101h)  
-- [Agendamento de Tarefas com Entity Framework](https://github.com/Santosdevbjj/agendaTarefasEntFram) – CRUD com EF Core.  
-- [Validações com Testes Unitários](https://github.com/Santosdevbjj/validaTesteUnitario) – Automação de testes.  
-- [Calculadora com TDD](https://github.com/Santosdevbjj/calculadoraTDDTestes) – Projeto com foco em qualidade de código.  
-
-### Bootcamp Avanade – Back-end com .NET e IA  
+- [Agendamento de Tarefas com Entity Framework](https://github.com/Santosdevbjj/agendaTarefasEntFram) – Persistência em SQL Server com EF Core.  
+- [Calculadora com TDD](https://github.com/Santosdevbjj/calculadoraTDDTestes) – Projeto com foco em testes unitários e qualidade de código.  
 - [Microserviços – Vendas & Estoque](https://github.com/Santosdevbjj/desafioAvanadeMicroservico) – Arquitetura distribuída com APIs independentes.  
-- [ASP.NET Minimal APIs](https://github.com/Santosdevbjj/MinimalsAPIs) – Endpoints RESTful em projeto enxuto.  
-- [Análise de Sentimentos com Azure AI](https://github.com/Santosdevbjj/analiseSentimet_LanStuAz.md) – IA aplicada à interpretação de texto.  
+
+### 🔹 Data Analytics & BI  
+- [Dashboard de Vendas do Xbox (Excel)](https://github.com/Santosdevbjj/dashboardVendasXbox) – Análise de vendas usando Excel.  
+- [Dashboard de Vendas (Power BI)](https://github.com/Santosdevbjj/relatoDashVendas) – Visualização de dados em Power BI.  
+- [Relatório Gerencial de Vendas (Power BI)](https://github.com/Santosdevbjj/relatoGereVendas) – Relatório interativo para decisões estratégicas.  
+
+### 🔹 Inteligência Artificial & Machine Learning  
+- [Transfer Learning](https://github.com/Santosdevbjj/Transfer-Learning-Project) – Treinamento de redes neurais com aprendizado por transferência.  
+- [Treinamento da Rede YOLO](https://github.com/Santosdevbjj/treinaRedeYolo) – Detecção de objetos em imagens.  
+- [Sistema de Reconhecimento Facial do Zero](https://github.com/Santosdevbjj/reconheceFaceZero) – Rede neural aplicada ao reconhecimento facial.  
+- [Sistema de Recomendação por Imagens](https://github.com/Santosdevbjj/sistemRecomendaImag) – Recomendação de conteúdos visuais.  
 
 ---
 
-### Bootcamp Klabin – Excel e Power BI Dashboards  
-**Matérias estudadas:**  
-- Introdução a Análise de Dados e BI  
-- SQL e Bancos Relacionais  
-- Análise de Dados com Excel e Copilot  
-- Fundamentos e Modelagem de Dados no Power BI  
-- Visualização, Storytelling e Relatórios no Power BI  
-- Gerenciamento de Workspaces e Datasets  
+## 📚 Bootcamps e Trilhas de Aprendizado  
 
-**Projetos desenvolvidos:**  
-- [Projeto Lógico de Banco de Dados](https://github.com/Santosdevbjj/firstLogicoBD)  
-- [Projeto Lógico de Banco de Dados do Zero](https://github.com/Santosdevbjj/projetoLogicoDoZeroBD)  
-- [Projeto Conceitual – E-commerce](https://github.com/Santosdevbjj/bancoDadosEcommerceDio)  
-- [Dashboard de Vendas do Xbox (Excel)](https://github.com/Santosdevbjj/dashboardVendasXbox)  
-- [Dashboard de Vendas (Power BI)](https://github.com/Santosdevbjj/relatoDashVendas)  
-- [Relatório Gerencial de Vendas (Power BI)](https://github.com/Santosdevbjj/relatoGereVendas)  
+- **WEX – End to End Engineering (91h)** → C#, .NET, SQL, Docker, AWS.  
+- **WEX – Desenvolvimento .NET e QA (101h)** → Entity Framework, TDD, Testes Automatizados.  
+- **Avanade – Back-end com .NET e IA** → APIs, Azure AI, Microserviços.  
+- **Klabin – Excel e Power BI Dashboards** → SQL, Excel, Power BI, Storytelling com dados.  
+- **BairesDev – Machine Learning Training** → ML, DL, TensorFlow, Keras, Visão Computacional.  
+- **Microsoft Azure Essentials** → Cloud, arquitetura e governança.  
+- **Santander Bootcamp – Cibersegurança** → Fundamentos, Ethical Hacking, Proteção de Dados.  
+- **IBM AI Fundamentals** → Introdução à IA, ML, Ética e Responsabilidade.  
 
 ---
 
-### Bootcamp BairesDev – Machine Learning Training  
-**Habilidades desenvolvidas:** Machine Learning, Anaconda, TensorFlow, SciPy, Scikit-learn, Keras, Python, Inteligência Artificial.  
+## 📂 Organização do Repositório
 
-**Matérias estudadas:**  
-- Introdução e Fundamentos de Machine Learning  
-- Programação aplicada a ML  
-- Algoritmos de Treinamento e Aprendizado Estatístico  
-- Fundamentos e Práticas de Deep Learning  
-- Frameworks de Deep Learning (Keras, TensorFlow)  
-- Processamento de Imagens e Visão Computacional  
 
-**Projetos desenvolvidos:**  
-- [Transfer Learning](https://github.com/Santosdevbjj/Transfer-Learning-Project)  
-- [Redução de Dimensionalidade em Imagens](https://github.com/Santosdevbjj/reduzImagensRedeNeural)  
-- [Cálculo de Métricas de Avaliação](https://github.com/Santosdevbjj/calculoMetricasML)  
-- [Treinamento da Rede YOLO](https://github.com/Santosdevbjj/treinaRedeYolo)  
-- [Sistema de Reconhecimento Facial do Zero](https://github.com/Santosdevbjj/reconheceFaceZero)  
-- [Sistema de Recomendação por Imagens](https://github.com/Santosdevbjj/sistemRecomendaImag)  
-- [Assistente Virtual com PLN](https://github.com/Santosdevbjj/assistVirtualPLN)  
-- [Agente para Detecção de Vulnerabilidades](https://github.com/Santosdevbjj/agenteDetector)  
-- [Testes Unitários com LangChain + Azure ChatGPT](https://github.com/Santosdevbjj/testUnitLcAzGpt)  
-
----
-
-## 📚 Trilhas de Aprendizado  
-
-- **Cloud Computing**: Microsoft Azure Essentials, AWS, DevOps com CI/CD  
-- **Cibersegurança**: Santander Bootcamp, FIAP Cybersecurity, Ethical Hacking, GDPR & LGPD  
-- **Inteligência Artificial**: IBM AI Fundamentals, Engenharia de Prompts, **Machine Learning** (BairesDev)  
-- **Data Analytics & BI**: Excel, Power BI (Klabin Bootcamp)  
 
 
 
