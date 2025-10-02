@@ -1,11 +1,13 @@
+# 💼 Portfólio Técnico – Sérgio Santos  
 
-# 💼 Portfólio Técnico – Sergio Santos
+Bem-vindo ao meu portfólio técnico.  
+Sou **Analista de Sistemas Sênior** em transição para tecnologias modernas, com experiência em **sistemas críticos bancários** e atualização contínua em **.NET, Cloud, DevOps, Cibersegurança e Inteligência Artificial**.  
 
-Desenvolvedor em transição para tecnologias modernas com foco em .NET, Cloud, DevOps e Qualidade de Software. Este portfólio reúne projetos desenvolvidos nos bootcamps patrocinados pela WEX e Avanade, além de estudos complementares em Cibersegurança, IA e Azure. 
+Este repositório reúne projetos práticos desenvolvidos em bootcamps e estudos independentes, com foco em aplicações reais e boas práticas de engenharia de software.  
 
 ---
 
-## 🏷️ Badges de Competências
+## 🏷️ Competências Técnicas  
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -13,93 +15,55 @@ Desenvolvedor em transição para tecnologias modernas com foco em .NET, Cloud, 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![QA](https://img.shields.io/badge/QA-0052CC?style=for-the-badge&logo=testing-library&logoColor=white)
 ![DevOps](https://img.shields.io/badge/DevOps-FF6C37?style=for-the-badge&logo=azuredevops&logoColor=white)
+![QA](https://img.shields.io/badge/QA-0052CC?style=for-the-badge&logo=testing-library&logoColor=white)
 ![IA](https://img.shields.io/badge/Inteligência_Artificial-FF4088?style=for-the-badge&logo=OpenAI&logoColor=white)
 
 ---
 
-## 🚀 Projetos em C#/.NET
+## 🚀 Projetos em Destaque  
 
-### 🧩 Bootcamp WEX – End to End Engineering (91h)
+### Bootcamp WEX – End to End Engineering (91h)  
+- [Sistema de Estacionamento](https://github.com/Santosdevbjj/sistemaEstacionamento) – CRUD em C#, lógica de cobrança e controle de vagas.  
+- [Sistema de Hospedagem](https://github.com/Santosdevbjj/sistemaDeHospedagem) – Gerenciamento de hóspedes, reservas e tarifas.  
+- [POO: Abstração de Celular](https://github.com/Santosdevbjj/sistemaPOOcelular) – Simulação de funcionalidades de um celular em C#.  
+- [Consultas Relacionais SQL Server](https://github.com/Santosdevbjj/projetoSQLServer) – Exercícios práticos em SQL Server.  
+- [Container Web com Docker](https://github.com/Santosdevbjj/dockerContainerWeb) – Deploy de aplicação web em container.  
 
-**Habilidades desenvolvidas**: C#, .NET, Git, GitHub, POO, SQL Server, MongoDB, Docker, Kubernetes, AWS
+### Bootcamp WEX – Desenvolvimento .NET e QA (101h)  
+- [Agendamento de Tarefas com Entity Framework](https://github.com/Santosdevbjj/agendaTarefasEntFram) – CRUD com EF Core.  
+- [Validações com Testes Unitários](https://github.com/Santosdevbjj/validaTesteUnitario) – Automação de testes.  
+- [Calculadora com TDD](https://github.com/Santosdevbjj/calculadoraTDDTestes) – Projeto com foco em qualidade de código.  
 
-- [Sistema de Estacionamento](https://github.com/Santosdevbjj/sistemaEstacionamento)  
-  CRUD com C#, lógica de cobrança e controle de vagas.
-
-- [Sistema de Hospedagem](https://github.com/Santosdevbjj/sistemaDeHospedagem)  
-  Gerenciamento de hóspedes, reservas e tarifas.
-
-- [POO: Abstração de Celular](https://github.com/Santosdevbjj/sistemaPOOcelular)  
-  Aplicação orientada a objetos simulando funcionalidades de um celular.
-
-- [Consultas Relacionais SQL Server](https://github.com/Santosdevbjj/projetoSQLServer)  
-  Montagem de queries SQL para manipulação de dados.
-
-- [Testes Manuais Funcionais – QA](https://github.com/Santosdevbjj/diaDiaQA)  
-  Simulação de testes funcionais em aplicações web.
-
-- [Container Web com Docker](https://github.com/Santosdevbjj/dockerContainerWeb)  
-  Criação de contêiner para aplicação web com Docker.
-
-- [Redução de Custos com AWS](https://github.com/Santosdevbjj/reduzirCustosAWS)  
-  Estudo sobre otimização de recursos em nuvem.
+### Bootcamp Avanade – Back-end com .NET e IA  
+- [Microserviços – Vendas & Estoque](https://github.com/Santosdevbjj/desafioAvanadeMicroservico) – Arquitetura distribuída com APIs independentes.  
+- [ASP.NET Minimal APIs](https://github.com/Santosdevbjj/MinimalsAPIs) – Endpoints RESTful em projeto enxuto.  
+- [Análise de Sentimentos com Azure AI](https://github.com/Santosdevbjj/analiseSentimet_LanStuAz.md) – IA aplicada à interpretação de texto.  
 
 ---
 
-### 🧪 Bootcamp WEX – Desenvolvimento .NET e QA (101h)
+## 📚 Trilhas de Aprendizado  
 
-**Habilidades desenvolvidas**: .NET, C#, QA, SQL Server, Docker
+- **Cloud Computing**: Microsoft Azure Essentials, AWS, DevOps com CI/CD  
+- **Cibersegurança**: Santander Bootcamp, FIAP Cybersecurity, Ethical Hacking, GDPR & LGPD  
+- **Inteligência Artificial**: IBM AI Fundamentals, Engenharia de Prompts (ChatGPT), Machine Learning  
 
-- [Agendamento de Tarefas com Entity Framework](https://github.com/Santosdevbjj/agendaTarefasEntFram)  
-  CRUD com persistência em SQL Server usando EF Core.
-
-- [Validações com Testes Unitários](https://github.com/Santosdevbjj/validaTesteUnitario)  
-  Aplicação com validações e testes automatizados.
-
-- [Calculadora com TDD e Testes Unitários](https://github.com/Santosdevbjj/calculadoraTDDTestes)  
-  Projeto com foco em qualidade de código e cobertura de testes.
+📂 Estrutura do repositório organizada em:  
+- `az-*` → Projetos e estudos em **Microsoft Azure**  
+- `cs-*` → Projetos e práticas em **Cybersecurity**  
+- `ia-*` → Projetos em **Inteligência Artificial**  
 
 ---
 
-### 🤖 Bootcamp Avanade – Back-end com .NET e IA
+## 📫 Contato  
 
-**Habilidades desenvolvidas**: ASP.NET, APIs, Banco de Dados, Azure AI
-
-- [Microserviços – Vendas & Estoque](https://github.com/Santosdevbjj/desafioAvanadeMicroservico)  
-  Arquitetura distribuída com APIs independentes.
-
-- [ASP.NET Minimal APIs](https://github.com/Santosdevbjj/MinimalsAPIs)  
-  Projeto enxuto com endpoints RESTful.
-
-- [Análise de Sentimentos com Azure AI](https://github.com/Santosdevbjj/analiseSentimet_LanStuAz.md)  
-  Aplicação de IA para interpretação de texto com Language Studio.
+- [LinkedIn](https://www.linkedin.com/in/santossergioluiz)  
+- [GitHub](https://github.com/Santosdevbjj)  
+- ✉️ Email: **santossergiorealbjj@outlook.com**  
 
 ---
 
-## 📚 Bootcamps
-
-- WEX – End to End Engineering (91h)
-- WEX – Desenvolvimento .NET e QA (101h)
-- Avanade – Back-end com .NET e IA
-- Microsoft Azure Essentials
-- IBM AI Fundamentals
-- Bootcamp Cibersegurança (Santander)
-- DevOps com CI/CD
-- Engenharia de Prompts com ChatGPT
-
----
-
-## 📫 Contato
-
-- [LinkedIn](https://www.linkedin.com/in/santossergioluiz)
-- [GitHub](https://github.com/Santosdevbjj)
-- Email: santossergiorealbjj@outlook.com
-
----
-
+🔹 Este portfólio reflete minha evolução contínua como profissional de tecnologia, com foco em **aprendizado aplicado, projetos práticos e boas práticas de desenvolvimento**.
 
 
 
