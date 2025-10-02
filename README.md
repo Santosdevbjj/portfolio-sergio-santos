@@ -1,7 +1,7 @@
 # 💼 Portfólio Técnico – Sérgio Santos  
 
 Bem-vindo ao meu portfólio técnico.  
-Sou **Analista de Sistemas Sênior** em transição para tecnologias modernas, com experiência em **sistemas críticos bancários** e atualização contínua em **.NET, Cloud, DevOps, Cibersegurança e Inteligência Artificial**.  
+Sou **Analista de Sistemas Sênior** em transição para tecnologias modernas, com experiência em **sistemas críticos bancários** e atualização contínua em **.NET, Cloud, DevOps, Cibersegurança, Inteligência Artificial e Data Analytics**.  
 
 Este repositório reúne projetos práticos desenvolvidos em bootcamps e estudos independentes, com foco em aplicações reais e boas práticas de engenharia de software.  
 
@@ -18,6 +18,8 @@ Este repositório reúne projetos práticos desenvolvidos em bootcamps e estudos
 ![DevOps](https://img.shields.io/badge/DevOps-FF6C37?style=for-the-badge&logo=azuredevops&logoColor=white)
 ![QA](https://img.shields.io/badge/QA-0052CC?style=for-the-badge&logo=testing-library&logoColor=white)
 ![IA](https://img.shields.io/badge/Inteligência_Artificial-FF4088?style=for-the-badge&logo=OpenAI&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 ---
 
@@ -42,16 +44,73 @@ Este repositório reúne projetos práticos desenvolvidos em bootcamps e estudos
 
 ---
 
+### Bootcamp Klabin – Excel e Power BI Dashboards  
+**Matérias estudadas:**  
+- Introdução a Análise de Dados e BI  
+- SQL e Bancos Relacionais  
+- Análise de Dados com Excel e Copilot  
+- Fundamentos e Modelagem de Dados no Power BI  
+- Visualização, Storytelling e Relatórios no Power BI  
+- Gerenciamento de Workspaces e Datasets  
+
+**Projetos desenvolvidos:**  
+- [Projeto Lógico de Banco de Dados](https://github.com/Santosdevbjj/firstLogicoBD)  
+- [Projeto Lógico de Banco de Dados do Zero](https://github.com/Santosdevbjj/projetoLogicoDoZeroBD)  
+- [Projeto Conceitual – E-commerce](https://github.com/Santosdevbjj/bancoDadosEcommerceDio)  
+- [Dashboard de Vendas do Xbox (Excel)](https://github.com/Santosdevbjj/dashboardVendasXbox)  
+- [Dashboard de Vendas (Power BI)](https://github.com/Santosdevbjj/relatoDashVendas)  
+- [Relatório Gerencial de Vendas (Power BI)](https://github.com/Santosdevbjj/relatoGereVendas)  
+
+---
+
+### Bootcamp BairesDev – Machine Learning Training  
+**Habilidades desenvolvidas:** Machine Learning, Anaconda, TensorFlow, SciPy, Scikit-learn, Keras, Python, Inteligência Artificial.  
+
+**Matérias estudadas:**  
+- Introdução e Fundamentos de Machine Learning  
+- Programação aplicada a ML  
+- Algoritmos de Treinamento e Aprendizado Estatístico  
+- Fundamentos e Práticas de Deep Learning  
+- Frameworks de Deep Learning (Keras, TensorFlow)  
+- Processamento de Imagens e Visão Computacional  
+
+**Projetos desenvolvidos:**  
+- [Transfer Learning](https://github.com/Santosdevbjj/Transfer-Learning-Project)  
+- [Redução de Dimensionalidade em Imagens](https://github.com/Santosdevbjj/reduzImagensRedeNeural)  
+- [Cálculo de Métricas de Avaliação](https://github.com/Santosdevbjj/calculoMetricasML)  
+- [Treinamento da Rede YOLO](https://github.com/Santosdevbjj/treinaRedeYolo)  
+- [Sistema de Reconhecimento Facial do Zero](https://github.com/Santosdevbjj/reconheceFaceZero)  
+- [Sistema de Recomendação por Imagens](https://github.com/Santosdevbjj/sistemRecomendaImag)  
+- [Assistente Virtual com PLN](https://github.com/Santosdevbjj/assistVirtualPLN)  
+- [Agente para Detecção de Vulnerabilidades](https://github.com/Santosdevbjj/agenteDetector)  
+- [Testes Unitários com LangChain + Azure ChatGPT](https://github.com/Santosdevbjj/testUnitLcAzGpt)  
+
+---
+
 ## 📚 Trilhas de Aprendizado  
 
 - **Cloud Computing**: Microsoft Azure Essentials, AWS, DevOps com CI/CD  
 - **Cibersegurança**: Santander Bootcamp, FIAP Cybersecurity, Ethical Hacking, GDPR & LGPD  
-- **Inteligência Artificial**: IBM AI Fundamentals, Engenharia de Prompts (ChatGPT), Machine Learning  
+- **Inteligência Artificial**: IBM AI Fundamentals, Engenharia de Prompts, Machine Learning (BairesDev)  
+- **Data Analytics & BI**: Excel, Power BI (Klabin Bootcamp)  
 
-📂 Estrutura do repositório organizada em:  
-- `az-*` → Projetos e estudos em **Microsoft Azure**  
-- `cs-*` → Projetos e práticas em **Cybersecurity**  
-- `ia-*` → Projetos em **Inteligência Artificial**  
+---
+
+## 📫 Contato  
+
+- [LinkedIn](https://www.linkedin.com/in/santossergioluiz)  
+- [GitHub](https://github.com/Santosdevbjj)  
+- ✉️ Email: **santossergiorealbjj@outlook.com**  
+
+---
+
+🔹 Este portfólio reflete minha evolução contínua como profissional de tecnologia, com foco em **aprendizado aplicado, projetos práticos e boas práticas de desenvolvimento**.
+
+
+
+
+
+
 
 ---
 
