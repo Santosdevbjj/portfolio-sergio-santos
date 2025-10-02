@@ -91,24 +91,8 @@ Este repositório reúne projetos práticos desenvolvidos em bootcamps e estudos
 
 - **Cloud Computing**: Microsoft Azure Essentials, AWS, DevOps com CI/CD  
 - **Cibersegurança**: Santander Bootcamp, FIAP Cybersecurity, Ethical Hacking, GDPR & LGPD  
-- **Inteligência Artificial**: IBM AI Fundamentals, Engenharia de Prompts, Machine Learning (BairesDev)  
+- **Inteligência Artificial**: IBM AI Fundamentals, Engenharia de Prompts, **Machine Learning** (BairesDev)  
 - **Data Analytics & BI**: Excel, Power BI (Klabin Bootcamp)  
-
----
-
-## 📫 Contato  
-
-- [LinkedIn](https://www.linkedin.com/in/santossergioluiz)  
-- [GitHub](https://github.com/Santosdevbjj)  
-- ✉️ Email: **santossergiorealbjj@outlook.com**  
-
----
-
-🔹 Este portfólio reflete minha evolução contínua como profissional de tecnologia, com foco em **aprendizado aplicado, projetos práticos e boas práticas de desenvolvimento**.
-
-
-
-
 
 
 
