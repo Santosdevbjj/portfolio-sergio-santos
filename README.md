@@ -57,7 +57,37 @@ Este repositório reúne meus principais **projetos práticos**, desenvolvidos e
 - [Transfer Learning](https://github.com/Santosdevbjj/Transfer-Learning-Project) – Treinamento de redes neurais com aprendizado por transferência.  
 - [Treinamento da Rede YOLO](https://github.com/Santosdevbjj/treinaRedeYolo) – Detecção de objetos em imagens.  
 - [Sistema de Reconhecimento Facial do Zero](https://github.com/Santosdevbjj/reconheceFaceZero) – Rede neural aplicada ao reconhecimento facial.  
-- [Sistema de Recomendação por Imagens](https://github.com/Santosdevbjj/sistemRecomendaImag) – Recomendação de conteúdos visuais.  
+- [Sistema de Recomendação por Imagens](https://github.com/Santosdevbjj/sistemRecomendaImag) – Recomendação de conteúdos visuais.
+
+
+---
+### 🔹 Python 
+
+### 2 — Otimização do Sistema Bancário com Funções e POO 
+**Bootcamp Suzano - Python Developer #2**
+
+
+**Repositório:** https://github.com/Santosdevbjj/otimizaSistemaBancario  
+**Resumo:** Evolução do sistema bancário original com refatoração voltada a modularização, funções com contratos de argumentos e modelagem por classes (`Cliente`, `Conta`). Resultado: código mais organizado, extensível e próximo de padrões profissionais.  
+**Melhorias aplicadas**
+- Modularização por módulos e pacotes
+- Funções com validações explícitas de argumentos
+- Classes para `Cliente` e `Conta` com responsabilidades separadas
+
+---
+
+### 3 — API Bancária Assíncrona com FastAPI e PostgreSQL
+**Formação Python Backend Developer.**
+
+**Repositório:** https://github.com/Santosdevbjj/apiBancaria  
+**Resumo:** API RESTful assíncrona para operações bancárias (depósito, saque, extratos), desenvolvida com FastAPI e PostgreSQL. Autenticação com JWT.  
+**Funcionalidades principais**
+- Cadastro e autenticação (JWT)
+- Endpoints para depósitos e saques
+- Validações de negócio (saldo insuficiente, valores inválidos)
+- Consulta de extrato e saldo atual  
+**Tecnologias:** Python 3, FastAPI, PostgreSQL, JWT
+
 
 ---
 
