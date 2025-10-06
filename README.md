@@ -61,7 +61,23 @@ Este repositório reúne meus principais **projetos práticos**, desenvolvidos e
 
 
 ---
+
 ### 🔹 Python 
+
+### 1 — Criando um Sistema Bancário com Python  
+**Bootcamp Suzano - Python Developer #2**
+
+**Repositório:** https://github.com/Santosdevbjj/sistemaBancario  
+**Resumo:** Projeto desenvolvido em Python 3 aplicando Programação Orientada a Objetos (POO) para simular operações bancárias básicas: depósito, saque e extrato. Código com regras de negócio claras e foco em legibilidade.  
+**Principais funcionalidades**
+- Depósito
+- Saque (com validações)
+- Emissão de extrato (histórico de transações)  
+**Observação rápida:** Ideal para estudos iniciais em POO e testes unitários.
+
+---
+
+
 
 ### 2 — Otimização do Sistema Bancário com Funções e POO 
 **Bootcamp Suzano - Python Developer #2**
