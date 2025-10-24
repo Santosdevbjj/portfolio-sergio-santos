@@ -1,5 +1,5 @@
 # 💼 Portfólio Técnico – Sérgio Santos  
-
+ 
 Bem-vindo ao meu portfólio técnico.  
 Sou **Analista de Sistemas Sênior** com experiência em **desenvolvimento de sistemas críticos, infraestrutura corporativa e governança de TI**.  
 Atualmente, estou em **transição para tecnologias modernas**, com foco em **.NET, Cloud Computing, DevOps, Data Analytics, Cibersegurança e Inteligência Artificial**.  
